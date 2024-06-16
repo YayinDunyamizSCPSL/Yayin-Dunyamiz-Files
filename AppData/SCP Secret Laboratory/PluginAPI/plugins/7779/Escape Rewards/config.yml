@@ -1,0 +1,4 @@
+# Enables the rewards for escaping with scp items
+enable_scp_rewards: true
+# Keeps status effects on escape
+keep_effects_on_escape: true

@@ -1,0 +1,44 @@
+# If objects in AppData should be automatically loaded.
+auto_load: true
+# Enables or disables automatic spawning of objects specified in the config.
+enable_auto_spawn: true
+# A list of objects to be automatically spawned specified by room names.
+auto_spawn_by_room_name:
+- asset_name: example
+  point:
+    room_name: none
+    position_offset:
+      x: 0
+      y: 0
+      z: 1
+    rotation_offset:
+      x: 10
+      y: 0
+      z: 0
+# A list of objects to be automatically spawned specified by RoomTypes.
+auto_spawn_by_room_type:
+- asset_name: example
+  point:
+    type: Unknown
+    position_offset:
+      x: 0
+      y: 1
+      z: 0
+    rotation_offset:
+      x: 0
+      y: 30
+      z: 0
+# A list of objects to be automatically spawned at specific locations.
+auto_spawn_by_location:
+- asset_name: example
+  point:
+    position:
+      x: 0
+      y: 1000
+      z: 5
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+# If set to false, teleporters will not be able to modify the positions of ragdolls. When enabled, can cause issues with networking and client-side ragdoll physics.
+enable_ragdoll_position_modification: true

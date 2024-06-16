@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >+
+  [önerilen oyuncu sayısı 30+] Işık kilitlenir ve herkes bir köpekle ışıkta ClassD olarak doğar. Köpek, ClassD'leri öldürdüğünde enfekte edebilir, hayatta kalan son ClassD kazanır
+

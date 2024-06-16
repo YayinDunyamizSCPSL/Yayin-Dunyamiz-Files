@@ -1,0 +1,86 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+round_count: 3
+# how many players per detective
+detective_ratio: 7.5
+# how many players per traitor (min 1 traitor)
+traitor_ratio: 4
+# how many players per jester (min 1 jester)
+jester_ratio: 15
+# chance the jesters will spawn for the round (0 = never, 1 = always)
+jester_chance_per_round: 0.300000012
+# amount of damage done to a player with grace to trigger auto slay
+rdm_damage_threshold: 90
+# amount of kills done to a players with grace or to players on the same team to trigger auto slay
+rdm_kill_threshold: 2
+# how much leeway is given once a player can see a body that is unided until they lose grace. higher values give more time for the player to id the body
+unided_body_leeway: 3
+description: >+
+  A few players are Traitors, Detectives and Jesters the rest are Innocents. Traitors must kill all Innocents to win while Innocents must figure out who the Traitors are and kill them. Innocents vastly outnumber Traitors, but dont know who they are. Detectives are proven innocent and must help the Innocents win. Jesters cannot kill and win when an innocent player kills them.
+
+detective_hint: '<b><size=128><color=#0000FF>Role: Detective</color></size></b>'
+innocent_hint: '<b><size=128><color=#00FF00>Role: Innocent</color></size></b>'
+traitor_hint: '<b><size=128><color=#FF0000>Role: Traitor</color></size></b>'
+jester_hint: '<b><size=128><color=#FF80FF>Role: Jester</color></size></b>'
+detective_broadcast:
+- '<b><color=#0000FF><align=left>Detective</color> - Objective: Help innocents win</b>'
+- As a detective you are proven innocent by default
+- You get access to a shop to help you find the traitors(Right click keycard in inventory)
+- you earn points for the shop by collecting evidence e.g. ID-ing bodies
+innocent_broadcast:
+- '<b><color=#00FF00><align=left>Innocent</color> - Objective: Survive</b>'
+- You must not RDM(kill with an invalid reason) otherwise you will be slain and miss out the next round
+- You get an ID-Gun(the revolver) which when pointed at a body determines if they where a traitor or not(USE IT)
+- you can kill players that do not ID bodies right away e.g. a player walks over a body without ID-ing it
+traitor_broadcast:
+- '<b><color=#FF0000><align=left>Traitor</color> - Objective: Kill all innocents</b>'
+- You can see your traitor teammates as they will apear as Class-Ds
+- You get access to a shop to help you kill all the innocents(Right click keycard in inventory)
+- You can use the vents(press E on them) to get around the map fast
+- You can sabotage by pulling certain levers around the ship e.g. turn off the lights in electrical
+jester_broadcast:
+- '<b><color=#FF80FF><align=left>Jester</color> - Objective: Die</b>'
+- You must only die to a innocent to win, traitors dont count
+- You are not able to kill anyone as the jester
+- You can use vents but traitors can see that you are the jester
+ready_up_broadcast: >-
+  <size=20><line-height=80%><color=#00FF00><b>Gamemode:</b></color> Traitor Among US (Adaptation of the CSGO mod [TTT] Trouble in Terrorist Town) - A few players are Traitors, Detectives and Jesters the rest are Innocents. Traitors must kill all Innocents to win while Innocents must figure out who the Traitors are and kill them. Innocents vastly outnumber Traitors, but dont know who they are. Detectives are proven innocent and must help the Innocents win. Jesters cannot kill and win when an innocent player kills them.<size=27><line-height=75%>
+
+  <color=#FF0000><b>Rules:</b> YOU MUST BE CERTAIN THAT A PERSON IS A TRAITOR BEFORE SHOOTING!!!.</color> All players get ID-Guns which when pointed at a body will ID it announcing to the server if the player was innocent or a traitor. If you see someone shoot and kill another person and they do not ID the body or the victim is innocent the attacker is a Traitor. You must see this happen and cant go of your "feeling" or because you heard shooting around the corner. Seeing a player use the vents is not proof they are the Traitor as Jesters can use vents too. If you understand these rules to ready up, ID the body on the table (do not tell other people how to ready up other than to say to read the rules)
+jesters_win_hint: >-
+  <b><size=92>The Jester Was Killed by {name}
+
+  <color=#FF0000>They will sit out next round as punishment</color>
+
+  <color=#FF80FF>The Jester Wins!</color></size></b>
+innocents_win_hint: >-
+  <b><size=128>All Traitors Eliminated
+
+  <color=#00FF00>Innocents Win!</color></size></b>
+traitors_win_hint: >-
+  <b><size=128>All Innocents Eliminated
+
+  <color=#FF0000>Traitors Win!</color></size></b>
+traitors_out_of_time_announcement: <b><size=128>Traitors Ran out of Time</size></b>
+rdm_slain_message: You RDM'd to much this round so you were set to spectator!
+ready_up_not_ready_hint: >-
+  <b><size=92><color=#FF0000>READ THE RULES TO READY UP</color>
+
+  <color=#87ceeb>{ready}/{total} Players Ready
+
+  Round starts in {time}</color></size></b>
+ready_up_ready_hint: >-
+  <b><size=92><color=#00FF00>YOU ARE READY</color>
+
+  <color=#87ceeb>{ready}/{total} Players Ready
+
+  Round starts in {time}</color></size></b>
+ready_up_to_slow_hint: <b><size=92><color=#FF0000>YOU DID NOT READY UP IN TIME</color></b>
+killed_jester_hint: >-
+  You killed the jester last round!
+   Read the rules to make sure this does not happen again
+rdmed_to_much_hint: >-
+  You RDM'd to much last round!
+   Read the rules to make sure this does not happen again
+staff_did_not_select_map: '[ERROR] The staff did not select a map!'
+round_starting_hint: <b><size=64><color=#87ceeb>Round {round} of {total} Starting...</color></size></b>

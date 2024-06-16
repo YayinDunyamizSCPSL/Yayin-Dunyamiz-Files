@@ -1,0 +1,11 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+# how many players per ghost buster
+ghost_buster_ratio: 5
+# how long in seconds does it take to recharge the micro
+recharge_time: 15
+# micro energy lifetime multiplier
+energy_multiplier: 2
+description: >+
+  Tüm oyuncular girişte doğar. Bazı oyuncular NTF uzmanı olarak, geri kalanlar ise 106 olarak doğar. Uzmanlar, çok az kurmayla ateş edebilen, zamanla şarj olan ve daha uzun süre dayanan bir süper mikro alırlar. Uzmanlar ayrıca bir kola, 2x medkit, ağrı kesiciler, radyo, scp500 ve şapka alırlar. Uzmanlar ayrıca cep boyutundan bağışıktır ve vurulduklarında 30 hasar alırlar. FriendlyFire bu etkinlik için devre dışı bırakılmıştır. Ayakta kalan son takım kazanır!
+

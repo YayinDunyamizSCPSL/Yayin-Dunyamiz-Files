@@ -1,0 +1,63 @@
+s_enabled: true
+debug: false
+# Hud position of try command
+try_command_position: 300
+# Hud position of me,do,ooc commands
+other_commands_position: 450
+me_command:
+# Is command enabled?
+  s_enabled: true
+  # Command output name.
+  command_output_name: 'me'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: 'green'
+  # Max length (characters) of the command text
+  max_lenght: 256
+do_command:
+# Is command enabled?
+  s_enabled: true
+  # Command output name.
+  command_output_name: 'do'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: '#fd0000'
+  # Max length (characters) of the command text
+  max_lenght: 256
+ooc_command:
+# Is command enabled?
+  s_enabled: true
+  # Command output name.
+  command_output_name: 'ooc'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: 'purple'
+  # Max length (characters) of the command text
+  max_lenght: 256
+try_command:
+# Is command enabled?
+  s_enabled: true
+  # Command output name.
+  command_output_name: 'try'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: 'yellow'
+  # Max length (characters) of the command text
+  max_lenght: 256
+title_command:
+# Is command enabled?
+  s_enabled: true
+  # Max length (characters) of the command text
+  max_lenght: 256

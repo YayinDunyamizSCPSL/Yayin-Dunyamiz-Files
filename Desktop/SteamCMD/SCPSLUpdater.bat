@@ -1,0 +1,1 @@
+steamcmd +force_install_dir "C:\Users\Administrator\Desktop\SCPSL" +login anonymous +app_update 996560 +app_update 996560 validate +quit

@@ -1,0 +1,35 @@
+s_enabled: true
+debug: false
+# Delay before the following changes are applied
+nuke_changes_delay: 5
+# Enable changing room light colors - Whether any of the changes related to room lights will apply
+room_change_colors: true
+# Blackout rooms before changing colors for smoother effect
+room_blackout: true
+# Light color for rooms, leave all values to -1 for default
+room_color:
+  r: -1
+  g: -1
+  b: -1
+  a: 1
+# Disable MTF/Chaos spawn after nuke (Respawn timer may get a bit confused!)
+disable_respawn: true
+# Whether radiation is enabled
+radiation_enabled: true
+# Delay before radiation begins after lights reset
+radiation_delay: 5
+# Radiation damage per interval
+radiation_damage: 0.5
+# Radiation damage multiplier for scps
+radiation_s_c_p_multiplier: 25
+# Should radiation only affect people on surface
+radiation_only_affect_surface: true
+# How often radiation affects are applied
+radiation_nterval: 2
+# Radiation custom death message
+radiation_death_message: 'Died from Radiation Poisioning.'
+# List of effects given from radiation
+radiation_effects: []
+# List of roles immune to radiation
+radiation_mmune_roles:
+- Tutorial

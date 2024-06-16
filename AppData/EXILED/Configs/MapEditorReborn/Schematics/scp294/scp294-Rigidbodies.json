@@ -1,0 +1,722 @@
+{
+  "-35640": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-35630": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-35624": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-35618": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-35612": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36636": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36646": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36652": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36658": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36664": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36816": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36806": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36800": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36794": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36788": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36964": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36974": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36980": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36986": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-36992": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37318": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37328": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37334": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37340": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37346": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37316": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37306": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37300": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37294": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37288": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37258": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37268": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37274": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37280": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37286": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37256": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37246": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37240": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37234": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37228": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37816": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37826": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37832": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37838": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37844": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37814": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37804": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37798": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37792": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37786": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37756": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37766": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37772": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37778": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37784": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37754": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37744": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37738": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37732": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37726": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37634": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37624": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37618": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37612": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37606": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37636": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37646": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37652": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37658": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37664": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37694": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37684": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37678": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37672": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37666": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37696": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37706": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37712": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37718": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-37724": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38438": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38448": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38454": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38460": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38466": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38436": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38426": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38420": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38414": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38408": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38378": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38388": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38394": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38400": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38406": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38376": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38366": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38360": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38354": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38348": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38256": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38246": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38240": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38234": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38228": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38258": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38268": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38274": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38280": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38286": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38316": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38306": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38300": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38294": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38288": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38318": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38328": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38334": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38340": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-38346": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  }
+}

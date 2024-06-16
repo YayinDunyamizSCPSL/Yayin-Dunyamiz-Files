@@ -1,0 +1,5 @@
+message: <size=40>[<color=#0096FF><b>⚚</b></color>]</size> <size=35><color=#70C3FF><b>Yayin Dünyamız</size></color></b> <size=40>[<color=#0096FF><b>⚚</b></color>]</size></color>\n<size=30>Discord Sunucumuza Katılmayı Unutmayın</size>\n<size=33><color=#70C3FF>discord.gg/<color=#0096FF><b>YayinDunyamız</size></b>
+# delay in minutes after round start
+delay: 10
+# duration in seconds
+duration: 15

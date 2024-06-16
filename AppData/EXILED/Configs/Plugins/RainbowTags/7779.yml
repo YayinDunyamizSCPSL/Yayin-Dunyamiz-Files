@@ -1,0 +1,47 @@
+is_enabled: true
+debug: false
+group_specific_sequences: false
+# Tags Configuration
+color_interval: 0.5
+ranks_with_r_tags:
+- 'owner'
+- 'dev'
+- 'abonsmod'
+- 'abon'
+sequences:
+- 'red'
+- 'orange'
+- 'yellow'
+- 'green'
+- 'blue_green'
+- 'magenta'
+- 'silver'
+- 'crimson'
+group_sequences:
+  owner:
+  - 'red'
+  - 'orange'
+  - 'yellow'
+  - 'green'
+  - 'blue_green'
+  - 'magenta'
+  - 'silver'
+  - 'crimson'
+  moderator:
+  - 'red'
+  - 'orange'
+  - 'yellow'
+  - 'green'
+  - 'blue_green'
+  - 'magenta'
+  - 'silver'
+  - 'crimson'
+  admin:
+  - 'red'
+  - 'orange'
+  - 'yellow'
+  - 'green'
+  - 'blue_green'
+  - 'magenta'
+  - 'silver'
+  - 'crimson'

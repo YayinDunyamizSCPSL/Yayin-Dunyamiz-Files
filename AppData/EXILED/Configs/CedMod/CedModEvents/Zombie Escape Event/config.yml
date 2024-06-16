@@ -1,0 +1,8 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+defend_time: 30
+generator_time: 45
+transition_time: 10
+description: >+
+  Everyone spawns in light. There are one or more zombies the rest are NTF. The NTF have to escape the facility but must do certain objectives first. Zombies infect players on kill but will lose their health doing so. Guns deal knock back based on the ratio of zombies to humans alive. Less humans more zombies = more knockback. The more zombies there are the less health each one has. Zombies and guns increase in strength as more objectives are completed. The path though the facility is fixed based on the objective and a there will be a light to guide you.
+

@@ -1,0 +1,11 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+mother_zombie_health: 4000
+children_health_pool: 400
+# Knockback in meters with a 1:1 ratio of zombies to humans per 100 dmg
+knock_back_multiple: 10
+auto_nuke: 15
+cure_kills_threshold: 2
+description: >+
+  The SCPs spawn as mother zombies which have a large max HP. Zombies infect players on kill creating child zombies. Child zombies respawn next to their mother zombie and take some of their mother zombies health. The more child zombies there are the less health each one has. All players have infinite ammo and deal knockback based on the ratio of humans to zombies. Class-Ds spawn with a com-15 and 10 ammo. Scientists spawn with a com-18 with infinite ammo and an upgraded keycard. Class-Ds and Scientists may team kill to stop the spread of the infection
+

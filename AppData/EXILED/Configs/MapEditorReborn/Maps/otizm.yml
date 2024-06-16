@@ -1,0 +1,174 @@
+# Whether the default player spawnpoints should be removed. Keep in mind, that given role spawnpoint will be removed only if there is at least one custom spawn point of that type.
+remove_default_spawn_points: false
+# List of possible names for ragdolls spawned by RagdollSpawnPoints.
+ragdoll_role_names:
+  ClassD:
+  - 'D-9341'
+vanilla_doors: {}
+vanilla_tesla_properties:
+  ignored_roles: []
+  ignored_items: []
+  inventory_item: true
+  damage_multiplier: 1
+doors:
+- door_type: HeavyContainmentDoor
+  is_open: false
+  is_locked: false
+  keycard_permissions: ContainmentLevelTwo
+  ignored_damage_sources: Weapon
+  door_health: 150
+  lock_on_event: None
+  position:
+    x: -5.328484
+    y: 0
+    z: -1.388123
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: Hcz939
+work_stations: []
+item_spawn_points: []
+player_spawn_points: []
+ragdoll_spawn_points: []
+shooting_targets: []
+primitives: []
+light_sources:
+- color: 'blue'
+  intensity: 1
+  range: 1
+  shadows: false
+  position:
+    x: -1.620003
+    y: 1.369995
+    z: -4.099998
+  room_type: HczHid
+- color: 'blue'
+  intensity: 1
+  range: 1.10000002
+  shadows: false
+  position:
+    x: -2.100006
+    y: 3.03
+    z: 2.384186E-07
+  room_type: LczArmory
+room_lights: []
+teleports: []
+lockers: []
+schematics:
+- schematic_name: 'DF_Surface'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 0
+    y: 1000
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: Surface
+- schematic_name: 'Checkpoint'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 0
+    y: 0
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: HczEzCheckpointA
+- schematic_name: 'Checkpoint'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 0
+    y: 0
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: HczEzCheckpointB
+- schematic_name: 'biohazard'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 1.147179
+    y: 0.9682007
+    z: -2.851192
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: HczNuke
+- schematic_name: 'RadiationHazard'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 1.147179
+    y: 1.068176
+    z: -2.75119
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: HczNuke
+- schematic_name: 'VenomCD'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 17.32
+    y: 920.8
+    z: -50.71
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: Surface
+- schematic_name: 'Hallway(049)'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: -10.91
+    y: 0
+    z: 0
+  rotation:
+    x: 0
+    y: 90
+    z: 0
+  scale:
+    x: 0.68
+    y: 0.75
+    z: 7.4
+  room_type: LczClassDSpawn

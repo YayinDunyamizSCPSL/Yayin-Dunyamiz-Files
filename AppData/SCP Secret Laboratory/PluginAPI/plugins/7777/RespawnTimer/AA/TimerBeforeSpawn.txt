@@ -1,0 +1,41 @@
+﻿<align=center><size=100%><color=#E08A5F>Round time:</color> <color=white>{round_minutes}:{round_seconds}</color>
+<size=75%><color=white>{hint}</align></color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<align=center><size=75%><color=#8D8C8F>Yeniden Doğmana:</color>
+<size=75%><color=white>{minutes} Dak. {seconds} San.</color>
+
+
+
+<align=center><size=75%><color=#8D8C8F>Warhead Durumu: {warhead_status}</color> | <size=75%><color=#8D8C8F>Jeneratorler:</color> <color=white>{generator_engaged}/{generator_count}</color></align>
+
+<align=center><size=75%><color=#808080>İzleyiciler:</color> {spectators_num} | <color=blue> NTF Yüzdesi:</color> {ntf_tickets_num}% | <color=green>CI Yüzdesi:</color> {ci_tickets_num}%
+
+
+
+
+
+
+
+
+
+

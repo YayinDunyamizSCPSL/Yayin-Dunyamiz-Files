@@ -1,0 +1,11 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+# how many players per SCP, this is the ratio for the hard round (only one escape)
+scp_ratio: 6
+# multiplier for the SCP count for the easy round (adjustment for having a two door room)
+easy_multiplier: 1.33299994
+# multiplier for the SCP count for the medium round (adjustment for having a two door room)
+medium_multiplier: 1.66600001
+description: >+
+  All the NTF get trapped by all the SCPs in a random room. The SCPs must stop all the NTF from escaping. There will be 3 rounds increasing in difficulty. The player that escapes the most difficult round wins!
+

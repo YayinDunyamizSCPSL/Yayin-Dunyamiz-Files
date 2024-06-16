@@ -1,0 +1,13 @@
+pick_up_message: You have picked up SCP-127
+# Maximum clip size
+max_ammo: 60
+# How much ammo per second to regenerate
+regen_rate: 1
+# Room which SCP127 will spawn it
+room: HczArmory
+# Offset within room to spawn RifleRack
+offset_x: 4.21999979
+offset_y: 0
+offset_z: 0
+# Rotation in degrees along the y axis of the RifleRack
+rotation: -90

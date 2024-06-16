@@ -1,0 +1,5 @@
+is_enabled: true
+debug: true
+is_items_enabled: true
+item_folder_path: 'C:\Users\Administrator\AppData\Roaming\EXILED\Configs\FunnyPills'
+item_file_path: 'Funny_Pill.yml'

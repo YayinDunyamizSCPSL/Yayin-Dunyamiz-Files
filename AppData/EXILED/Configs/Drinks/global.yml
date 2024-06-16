@@ -1,0 +1,1246 @@
+drinks:
+- name: 'drink of air'
+  aliases:
+  - 'nothing'
+  - 'drink of cup'
+  - 'drink of emptiness'
+  - 'drink of vacuum'
+  - 'HL3'
+  - 'Half Life 3'
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'There is nothing to drink in the bottle.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'scp drink'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'Disguise yourself as a random scp.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: true
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles:
+    - Scp173
+    - Scp049
+    - Scp096
+    - Scp0492
+    - Scp106
+    - Scp939
+    # Amount of time the player's appearance will be changed
+    duration: 10
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: 'You are disguised as $new_role_name. You have <color=#ff0000>$time_left</color> seconds left.'
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of scp173'
+  aliases:
+  - 'drink of 173'
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'REEEEEEEEEEEEEEEEE.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects:
+  - type: MovementBoost
+    duration: 30
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of scp106'
+  aliases:
+  - 'drink of 106'
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'Old man sludge. Yum!'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: true
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of cum'
+  aliases:
+  - 'cum'
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'It is cum. Drink up buddy.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: true
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of chorus fruit'
+  aliases:
+  - 'teleport drink'
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'Ever played minecraft? Then you know what''s about to go down.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: true
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: 'You are prevented by a magical force from being teleported out of the pocket dimension'
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of candy'
+  aliases:
+  - 'candy'
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'The smell overpowers your senses. What does it taste like?'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects:
+  - type: Vitality
+    duration: 40
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  - type: DamageReduction
+    duration: 30
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 50
+  - type: RainbowTaste
+    duration: 20
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 50
+  - type: Invigorated
+    duration: 10
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 50
+  - type: BodyshotReduction
+    duration: 0
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 50
+  - type: MovementBoost
+    duration: 20
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 50
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 20
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 90
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of rainbow candy'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'It is packed with all sorts of flavours.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects:
+  - type: Invigorated
+    duration: 10
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  - type: RainbowTaste
+    duration: 20
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  - type: BodyshotReduction
+    duration: 0
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 40
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 30
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of yellow candy'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'The overwhelming smell of lemon makes you cringe a little.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects:
+  - type: Invigorated
+    duration: 20
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  - type: MovementBoost
+    duration: 20
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of purple candy'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'It has a juicy grape smell. Your mouth begins to water.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects:
+  - type: DamageReduction
+    duration: 30
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 1.5
+      # Duration of the regeneration.
+      duration: 20
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of red candy'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'A strong scent of cherry fills the room. It’s a bit... too strong.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 9
+      # Duration of the regeneration.
+      duration: 10
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of green candy'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'A nasty herbal smell emits from the juice.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects:
+  - type: Vitality
+    duration: 45
+    intensity: 
+    # The chance of this effect to be applied, in %
+    chance: 100
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 2.25
+      # Duration of the regeneration.
+      duration: 80
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of blue candy'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'It smells soft and sweet, something akin to a marshmallow.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 60
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of pink candy'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'The strawberry scent is as gentle as it looks.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: true
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of blood'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'You feel tired as if you''ve lost some of your blood.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 30
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'drink of life'
+  aliases: []
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'You feel refreshed.'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: false
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 100
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- name: 'antimatter'
+  aliases:
+  - 'anti-matter'
+  - 'void'
+  id: 0
+  # Description of the drink, this is what appears when holding the drink
+  description: 'You feel as if you are being sucked into the drink'
+  # Whether or not the drink is enabled on your server. If this is set to false, drinks won't even register so you won't be able to have it through RA
+  is_enabled: true
+  type: AntiSCP207
+  weight: 1
+  remove_anti_cola_effect: true
+  # List of effects that will be applied to the player
+  effects: []
+  teleport_manager:
+  # Whether or not the player is teleported
+    player_teleport: false
+    # Whether or not the player can teleport out of the pocket dimension
+    can_player_escape_pocket_dimension: false
+    # Message that appears when player is prevented from leaving the pocket dimension
+    message_preventing_pocket_teleport: ''
+    # The zone to which the player will be teleported to. If this is anything but Unspecified it will teleport the player to a random room within that zone
+    zone: Unspecified
+    # Ignored if zone is anything other than Unspecified. Room that the player will teleport too. Set this to Unknown along with Zone Unspecified to teleport to a random place across the entire facility
+    room: Unknown
+  appearance_options:
+  # Whether or not the player should change appearance
+    change_player_appearance: false
+    # List of roles the player can turn to. As you can imagine scp-079 is not an option.
+    possible_roles: []
+    # Amount of time the player's appearance will be changed
+    duration: 0
+    # Hint displayed once the player changes appearance and counts the time left. Make sure to add '$new_role_name' and '$time_left', these will be replaced by the actual values
+    disguise_message: ''
+    # Hint displayed once you're no longer in disguise
+    no_longer_in_disguise: ''
+  extra_effects:
+  # Whether or not the player explodes after drinking.
+    player_explode: false
+    # Whether or not it will generate an explosion once you ask for the drink
+    explode_on_dispensing: true
+    # Whether or not the player gains Ahp. Set this to 0 if no Ahp.
+    ahp_gain: 0
+    # Whether or not the player gains/loses stamina. Value between -1 and 1. 0 for no change.
+    stamina_change: 0
+    # Whether or not tantrum is placed beneath the player.
+    place_tantrum: false
+    # Whether or not the player receives HP.
+    heal_amount: 0
+    # How much damage the player will take on consuming the drink
+    set_blind: false
+    # IDK
+    damage_amount: 0
+    # Whether or not the player receives passive regeneration.
+    regeneration:
+    # Rate of the regeneration.
+      rate: 0
+      # Duration of the regeneration.
+      duration: 0
+    # Whether or not the player gets teleported to pocket dimension.
+    teleport_to_pocket_dimension: false
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1

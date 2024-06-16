@@ -1,0 +1,355 @@
+{
+  "RootObjectId": 633040,
+  "Blocks": [
+    {
+      "Name": "Cylinder (18)",
+      "ObjectId": 585264,
+      "ParentId": 633040,
+      "Position": {
+        "x": -0.683277845,
+        "y": 0.39639017,
+        "z": -0.262800455
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0525600053,
+        "y": 0.365,
+        "z": 0.0525600053
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (17)",
+      "ObjectId": 631202,
+      "ParentId": 633040,
+      "Position": {
+        "x": -0.683277845,
+        "y": 0.39639017,
+        "z": 0.262800455
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0525600053,
+        "y": 0.365,
+        "z": 0.0525600053
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (5)",
+      "ObjectId": 606588,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.683277845,
+        "y": 0.39639017,
+        "z": -0.262800455
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0525600053,
+        "y": 0.365,
+        "z": 0.0525600053
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (4)",
+      "ObjectId": 581930,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.683277845,
+        "y": 0.39639017,
+        "z": 0.262800455
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0525600053,
+        "y": 0.365,
+        "z": 0.0525600053
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (3)",
+      "ObjectId": 569934,
+      "ParentId": 633040,
+      "Position": {
+        "x": -0.7358424,
+        "y": 0.7650399,
+        "z": -0.341638923
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.105120011,
+        "y": 0.0292000026,
+        "z": 0.105120011
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder (2)",
+      "ObjectId": 569492,
+      "ParentId": 633040,
+      "Position": {
+        "x": -0.7358424,
+        "y": 0.7650399,
+        "z": 0.341638923
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.105120011,
+        "y": 0.0292000026,
+        "z": 0.105120011
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder (1)",
+      "ObjectId": 587180,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.7358424,
+        "y": 0.7650399,
+        "z": -0.341638923
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.105120011,
+        "y": 0.0292000026,
+        "z": 0.105120011
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder",
+      "ObjectId": 622780,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.7358424,
+        "y": 0.7650399,
+        "z": 0.341638923
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.105120011,
+        "y": 0.0292000026,
+        "z": 0.105120011
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (7)",
+      "ObjectId": 578948,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.0,
+        "y": 0.7650399,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.57680011,
+        "y": 0.0584000051,
+        "z": 0.68328
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (6)",
+      "ObjectId": 571798,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.0,
+        "y": 0.7650399,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.47168,
+        "y": 0.0584000051,
+        "z": 0.788400054
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (8)",
+      "ObjectId": 627398,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.5037,
+        "y": 0.651890039,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 330.0
+      },
+      "Scale": {
+        "x": 0.401500016,
+        "y": 0.0292,
+        "z": 0.109500006
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (6)",
+      "ObjectId": 598788,
+      "ParentId": 633040,
+      "Position": {
+        "x": 0.683277845,
+        "y": 0.5475,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.04745,
+        "y": 0.2555,
+        "z": 0.04745
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (7)",
+      "ObjectId": 580590,
+      "ParentId": 633040,
+      "Position": {
+        "x": -0.683277845,
+        "y": 0.5475,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.04745,
+        "y": 0.2555,
+        "z": 0.04745
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (9)",
+      "ObjectId": 574418,
+      "ParentId": 633040,
+      "Position": {
+        "x": -0.5037,
+        "y": 0.651890039,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 30.0000076
+      },
+      "Scale": {
+        "x": 0.401500016,
+        "y": 0.0292,
+        "z": 0.109500006
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >
+  Class-D, NTF'ye karşı özel bir Jailbird arenasında. Hapishane Kuşları 3 saniyeye kadar uzatılmış şarj süresine sahiptir ve asla tükenmezler. Herkes 1000 HP ile başlar. Herkesin bir Parçacık Bozucu veya bir MicroHID alması için rastgele şans. 50 ihtimalle ışıklar çok loş olacak. Hayatta kalan son takım kazanır!
+spawn_health: 1000
+dim_light_chance: 0.5
+dim_light_intensity: 1
+# weighted chance to only get the Jailbird
+none_weight: 1
+# weighted chance to get the Particle Disruptor
+particle_disruptor_weight: 1
+# weighted chance to get the Micro Hid
+micro_hid_weight: 1

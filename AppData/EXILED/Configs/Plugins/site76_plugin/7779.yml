@@ -1,0 +1,48 @@
+s_enabled: true
+debug: false
+high_level_property_folder_name: 'C:\Users\Administrator\AppData\Roaming/EXILED\Configs\Site-76 Properties'
+high_level_property_file_name: 'global.yml'
+use_custom_respawn_method: true
+airlock_close_time: 6.5
+airlock_reworking_cool_time: 1
+heart_beat_scanner_cool_time: 1
+# It'll not detect cardiac arrested players, SCP-939, SCP-049-2.
+heart_beat_scanner_advanced: true
+heart_beat_scanner_color_high_priority:
+  ClassD: orange
+  Scientist: yellow
+  FacilityGuard: grey
+heart_beat_scanner_color_low_priority:
+  FoundationStaff: blue
+  SCP: red
+  FoundationEnemy: red
+count_tracker_color:
+  D: orange
+  G: grey
+  S: yellow
+  M: blue
+  O: red
+heart_beat_tracker_error_when2176: true
+# This Message will be converted through 'Player List' convertor. Also there're additionally {year/month/day/hour/minute/second/ms} for real time.
+console_message_formats:
+- content: |-
+    SITE-76 ONLINE.
+    {year}-{month}-{day}-{hour}.{minute}.{second}.{ms}
+    PERSONNEL {player_count}/{max_players}
+    REPORTED DAMAGE {scp_kills}
+    NEXT REINFORCE {next_respawn}
+    REINFORCE TIME {respawn_time_m}.{respawn_time_s}
+  duration: 10
+  color_per_line:
+  - 'green'
+  - 'red'
+  - 'blue'
+scp_max_health_pow_value_per_person: 0.349999994
+custom_spawn_queue: '403441344413443413443143441443143413443143431434314343144341434314343144341434314343144341434314343144341434314343144341434314343144341434314343144341'
+# Below Values are for lights. If values is high, it will self glowing.
+normal_light_reflection_amount: 5
+console_letter_reflection_amount: 5
+count_tracker_reflection_amount: 5
+minimap_element_reflection_amount: 5
+# Light of heli and car.
+high_beam_reflection_amount: 50

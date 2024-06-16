@@ -1,0 +1,28 @@
+s_enabled: true
+debug: false
+# The path of the folder where the drinks will be stored.
+drinks_folder: 'C:\Users\Administrator\AppData\Roaming\/EXILED\Configs/Drinks'
+# The name of the file to load the drinks configs from
+drinks_file: '7780.yml'
+# Whether or not random mode is enabled. Random Mode makes it so that every drink is random. This is false by default
+random_mode: false
+# Range to be able to use the machine
+range: 2
+# Schematic Name. If you want to use a custom schematic, either change its name to scp294 or change this to the schematic's name
+schematic_name: 'scp294'
+# Message that appears once you approach Scp-294
+approach_message: 'You have approached SCP-294. Use .scp294 to get a drink'
+# Message that appears once you approach Scp-294 with random mode enabled
+approach_message_random_mode: 'You have approached SCP-294. However the keyboard is broken, use ''.scp294'' to get a random drink'
+# Message that appears after you get a drink
+enjoy_drink_message: '<color=#00ff00>Enjoy your drink</color>'
+# Message that appears if asked drink is not available
+out_of_range: '<color=#ff0000>Out of range</color>'
+# Message that appears if player is asked
+player_out_of_range: '<color=#ff0000>you are not close enough to the machine</color>'
+# Message that appears if player is not holding a coin
+player_not_holding_coin: '<color=#ff0000>you need to be holding coin</color>'
+# Message that appears when an error occurs
+error_message: '<color=#ff0000>error occurred</color>'
+# Message that appears if a player mistypes or uses the command incorrectly
+usage_message: '<color=#ff0000>Incorrect Usage. Try .scp294 [drink you want]. You can also use .scp294 list to print every drink currently available. If random mode is enabled you should type only ''.scp294'' to get your random drink</color>'

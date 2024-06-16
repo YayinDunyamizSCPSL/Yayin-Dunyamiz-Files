@@ -1,0 +1,170 @@
+# 
+
+
+# ====================== [Plugin Configs] ======================
+# Determines whether the plugin is enabled or not.
+ıs_enabled: true
+# Should debug logs be shown.
+debug: false
+# If true, players will be notified of gameplay mechanics with hints. If false, broadcasts will be used.
+use_hints_instead_of_broadcasts: true
+# Where the player preference file should be located.# Recommended Location: '~plugins/global/Scp3114Mods/Scp3114PlayerPreferences.txt'
+player_preference_file_location: C:\Users\Administrator\AppData\Roaming/SCP Secret Laboratory\pluginAPI\plugins/global/Scp3114Mods/Scp3114PlayerPreferences.txt
+# 
+
+
+# ====================== [Spawning System] ======================
+# Percent of Scp3114 spawning in general.
+spawn_chance: 100
+# 
+
+# [Player Preference System]
+# The default player preference for users who haven't opted in, or have DNT enabled.
+# Note: The scale is from 0 - 10, and 5 is the game default.
+default_player_preference: 5
+# Allows players with DNT to opt in to having thier scp 3114 preference stored.
+# Note: Player with DNT will have their userid hashed then stored.
+allow_explicit_dnt_opt_in: true
+# 
+
+
+# ====================== [Attack Mechanics] ======================
+# [Strangling Mechanics] 
+# Can Scp3114 strangle innocents / Class D or Scientists without a weapon.
+allow_strangling_innocents: false
+# Should 049 be able to resurrect players who have had their skin stolen. It may remove immersion, and expose Scp 3114.
+allow049_resurrect_stolen_skin_player: true
+# Can tutorials be strangled.
+disable_tutorials_strangling: true
+# Does candy cause a player to lose innocence.
+candy_loses_innocence: true
+# 
+
+
+# ====================== [Disguise Mechanics] ======================
+# [Disguising]
+# Should players spawn in a disguise of their character.
+start_in_disguise_of_self: true
+# 
+
+
+# ===== [Fake Interactions] =====
+# [Usable Items]
+# Plays a fake sound and visual effect to all players when scp3114 "uses" an item.
+fake_usable_interactions: false
+# After an item's fake "use" is done, should the item automatically be hidden.
+autohide_item_after_fake_use: false
+# 
+
+# [Weapon Firing]
+# Should fake firing be allowed.
+fake_firing_allowed: false
+# Should fake firing use ammo. Prevents reloading unless the gun has used ammo.
+fake_firing_uses_ammo: false
+# 
+
+# [Radio Usage]
+# Are disguised players allowed to talk on the radio when holding a powered on radio.
+disguised_players_can_use_radio: true
+# 
+
+
+# ====================== [Ability Cooldown's] ======================
+# [Disguising]
+# How long the cooldown between new disguises lasts. 0 disabled.
+disguise_cooldown: -1
+# How long the cooldown after a failed disguise lasts. 
+# Note: -1 is game default.
+disguise_failed_cooldown: -1
+# 
+
+# [Disguise Duration]
+# How long shoud disguises last before being destroyed. 
+# Note: -1 is infinite, and 0 is game default.
+disguise_duration: 0
+# 
+
+# [Strangling]
+# How long the cooldown is for scp3114 "grab" attack when the attack kills a player.
+# Note: 0 is disabled.
+strangle_cooldown: 15
+# How long the cooldown is for scp3114 "grab" attack when the attack doesn't kill a player.
+# Note: 0 is disabled
+strangle_partial_cooldown: 10
+# Does the target of the strangle have to have an empty hand.
+require_empty_hand_to_strangle_all: false
+# Does the target of the strangle have to have an empty hand if non innocent.
+require_empty_hand_to_strangle_innocents: false
+# 
+
+
+# ====================== [Lists] ======================
+# [AHP / Damage System]
+# Each role, and how much ahp to give 3114 when they slap the role.
+# Note: Roles not mentioned will give default ahp. (25)
+ahp_to_give_on_slap:
+  ClassD: 5
+  Scientist: 5
+  ChaosRepressor: 35
+  ChaosMarauder: 30
+  ChaosConscript: 25
+  ChaosRifleman: 25
+  NtfCaptain: 35
+  NtfSergeant: 30
+  NtfSpecialist: 30
+  NtfPrivate: 25
+  FacilityGuard: 15
+# The damage that the slap deals to different roles. 
+# Note: Roles not mentioned will deal default damage. (10)
+damage_slap_deals:
+  ClassD: 10
+  Scientist: 10
+  ChaosRepressor: 30
+  ChaosMarauder: 25
+  ChaosConscript: 20
+  ChaosRifleman: 20
+  NtfCaptain: 25
+  NtfSergeant: 20
+  NtfSpecialist: 20
+  NtfPrivate: 15
+  FacilityGuard: 15
+# 
+
+# [Strangling System]
+# Items that will mark a player as "Non-Innocent".
+strangle_non_innocent_items:
+- GrenadeFlash
+- GrenadeHE
+- SCP018
+- GunA7
+- GunCom45
+- GunCrossvec
+- GunLogicer
+- GunRevolver
+- GunShotgun
+- GunAK
+- GunCom45
+- GunCOM15
+- GunCOM18
+- GunE11SR
+- GunFSP9
+- GunFRMG0
+- ParticleDisruptor
+- MicroHID
+- SCP330
+# A list of items that will be considered "empty hands" for the empty hand strangle config.
+ıtems_that_wont_block_strangle:
+- KeycardO5
+- KeycardContainmentEngineer
+- KeycardChaosInsurgency
+- KeycardMTFCaptain
+- KeycardMTFOperative
+- KeycardMTFPrivate
+- KeycardFacilityManager
+- KeycardGuard
+- KeycardZoneManager
+- KeycardResearchCoordinator
+- KeycardScientist
+- KeycardJanitor
+- Coin
+- Radio

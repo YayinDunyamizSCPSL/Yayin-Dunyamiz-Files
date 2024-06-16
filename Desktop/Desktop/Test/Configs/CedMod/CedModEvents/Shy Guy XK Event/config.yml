@@ -1,0 +1,16 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+health_scaling: 200
+# disabled effect slows shyguy down for the entier round allowing him to be not so overpowered at the start of the round
+disabled_effect: true
+# maximum Movement Boost effect applied once hp hits the MaxSpeedBoostAtHp target. Speed scales linearly with health between StartSpeedBoostAtHp and MaxSpeedBoostAtHp
+max_speed_boost: 255
+# At what percentage of health should shy guy get the maximum speed boost. 0.0 = 0% health, 0.5 = 50% health
+max_speed_boost_at_hp: 0.25
+# At what percentage of health should shy guy start getting a speed boost. 1.0 = 100% health, 0.5 = 50% health
+start_speed_boost_at_hp: 1
+# Damage reduction to explosion type damage(to prevent elevator grenade cheese)
+grenade_damage_reduction: 0.666000009
+description: >+
+  A Shy Guy spawns outside the facility and is triggered by everyone. His rage never runs out and his speed increase the lower his health gets. His health scales with the number of players on the server. NTF are dispatched to stop him at all costs.
+

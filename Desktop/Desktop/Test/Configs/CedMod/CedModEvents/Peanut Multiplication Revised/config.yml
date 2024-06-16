@@ -1,0 +1,7 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+health: 500
+shield: 0
+description: >+
+  Two people spawn as 173 the rest are Class-D. 173 has less health/sheild. 173s multiply on kill. Class-D must escape and kill all the 173s to win. 173s win if they kill all the Chaos/Class-Ds.
+

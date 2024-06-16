@@ -1,0 +1,188 @@
+# The item that the tagged player should get. Do not do Scp018 or Grenades for now. - They will break the event. (working on it - redforce)
+tagger_weapon: Jailbird
+# Enables the marshmello effect instead.
+halloween_melee: true
+# Players who are not the tagger will have the breach scanner effect applied to them, when there are less than or equal to this many non-taggers alive.
+players_required_for_breach_scanner_effect: 2
+# The range of the weapon. 0 to disable. [Default: 5]
+range: 5
+# How long should the tagger get immunity.
+no_tag_back_duration: 3
+# How long players have to tag someone else.
+tag_duration: 30
+# How long players have to rest before the next tagger group is selected.
+break_duration: 15
+# The amount of taggers that should spawn.
+tagger_count:
+  # The minimum number of players on a team. 0 to ignore.
+  minimum_players: 1
+  # The maximum number of players on a team. -1 to ignore.
+  maximum_players: 6
+  # The percentage of players that will be on the team. -1 to ignore.
+  player_percentage: 35
+# A list of loadouts players can get.
+player_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 100
+  # A list of roles, and the chance of getting the role.
+  roles:
+    ClassD: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # A list of effects the player will spawn with.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: MovementBoost
+    # The intensity of the effect.
+    intensity: 50
+    # The duration of the effect. 0 is infinite.
+    duration: 0
+    # Should the effect add duration if the effect already is applied.
+    add_duration: false
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  infinite_ammo: InfiniteAmmo
+tagger_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 100
+  # A list of roles, and the chance of getting the role.
+  roles:
+    Scientist: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # A list of effects the player will spawn with.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: MovementBoost
+    # The intensity of the effect.
+    intensity: 70
+    # The duration of the effect. 0 is infinite.
+    duration: 0
+    # Should the effect add duration if the effect already is applied.
+    add_duration: false
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  infinite_ammo: InfiniteAmmo
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'HideAndSeek'
+    # The position to spawn the map.
+    position:
+      x: 5.5
+      y: 1026.5
+      z: -45
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: None
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'HideAndSeek_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 5.5
+      y: 1026.5
+      z: -45
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: Christmas
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'HideAndSeek_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 5.5
+      y: 1026.5
+      z: -45
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: NewYear
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.2'

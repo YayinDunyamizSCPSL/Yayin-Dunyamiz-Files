@@ -1,0 +1,52 @@
+npc_bracket_name: '[Tournament Bracket]'
+out_of_bounds: <b><color=#FF0000>You are out of bounds!</b></color>
+vote_ban_format: >-
+  <size=29><color=#ff8a62>Bans - </color><color=#b6ff61>Your votes: {your_votes}
+
+  </color><color=#ffb84c>Team votes: <color=#ffb84c>{team_votes}</color>
+
+  </color><color=#ff6565>Item Bans: <color=#ff6565>{team_bans}</color>
+
+  </color><color=#f5ff5b>Zones: <color=#b6ff61>[{your_zone_vote}]</color> <color=#ffb84c>Votes: {team_zone_votes}</color> <color=#ff6565>Ban: {zone_bans}
+bracket_glitch_warning: If this appears midgame type .ch in your game console or press p to disable your HUD
+loadout_format: >-
+  <color=#b7eb8f>Loadout
+
+  <color=#87e8de>Weapon:</color> {weapon} <color=#87e8de>Medical:</color> {medical}
+
+  <color=#87e8de> Candy:</color> {candy} <color=#87e8de> SCP:</color> {scp} <color=#87e8de> Other:</color> {other}{extra}
+extra_string_zone: >2-
+
+  <color=#87e8de>Zone: </color><color=#b7eb8f>{zone}</color>
+extra_string_team_item_limit_hit: >2-
+
+  Your team has reached the limit for {type} of {limit}
+waiting_for_zone: Waiting for Zone {zone}
+draw: >
+  <b>Draw</b>
+won: >
+  <b>You Won!</b>
+lost: >
+  <b>You Lost</b>
+you_are_ready: <color=#00FF00>YOU ARE READY</color>
+you_are_not_ready: <color=#FF0000>YOU ARE NOT READY</color>
+time_left_format: >2-
+
+  <color=#87ceeb>{time}</color>
+# Translation for Role Sync Teams
+team_assigned: <color=#00bbff>Team:</color> <b>{team}</color></b>
+team_missing_out: '<b><color=#FF0000>Your team: {local_group} is not apart of the predefined bracket for this tournament if you believe this is an error speak to a tournament organiser'
+local_group_error: Error could not get UserGroup from local_group try rejoining server and contact a tournament organiser
+player_failure_to_link_cedmod: >-
+  <b><color=#FF0000>Could not assign a team because you have either
+
+  1. Not linked your dicord to steam
+
+  2. Not logged into Cedmod
+# #
+scrimmage_assigned_team_format: 'Scrimmage Mode - You have been assigned to: <b>{team}</b>'
+team_surrendered: >2-
+
+  <b>{team}</b></color> Surrendered
+match_won: <b>{winner_team}</b></color> Defeated <b>{loser_team}</b></color> {winner_score} - {loser_score}{reason}
+tournament_won: <size=64><b>{team} Won!</color></b></size>

@@ -1,0 +1,172 @@
+# Whether the default player spawnpoints should be removed. Keep in mind, that given role spawnpoint will be removed only if there is at least one custom spawn point of that type.
+remove_default_spawn_points: false
+# List of possible names for ragdolls spawned by RagdollSpawnPoints.
+ragdoll_role_names:
+  ClassD:
+  - 'D-9341'
+vanilla_doors: {}
+vanilla_tesla_properties:
+  ignored_roles: []
+  ignored_items: []
+  inventory_item: true
+  damage_multiplier: 1
+doors: []
+work_stations: []
+item_spawn_points: []
+player_spawn_points: []
+ragdoll_spawn_points: []
+shooting_targets: []
+primitives: []
+light_sources: []
+room_lights: []
+teleports: 
+- target_teleporters:
+  - id: 24
+    chance: 100
+  allowed_roles: []
+  cooldown: 4
+  teleport_flags: Player
+  lock_on_event: None
+  teleport_sound_id: -1
+  player_rotation_x: 
+  player_rotation_y: 
+  room_type: HczTestRoom
+  object_id: 25
+  position:
+    x: 2.384186E-07
+    y: 19.5
+    z: -2
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 0.1
+    z: 1
+- target_teleporters:
+  - id: 25
+    chance: 100
+  allowed_roles:
+  - 'Scp0492'
+  - 'Scp049'
+  - 'Scp096'
+  - 'Scp106'
+  - 'Scp173'
+  - 'Scp939'
+  - 'ClassD'
+  - 'Scientist'
+  - 'FacilityGuard'
+  - 'NtfPrivate'
+  - 'NtfSergeant'
+  - 'NtfSpecialist'
+  - 'NtfCaptain'
+  - 'ChaosConscript'
+  - 'ChaosRifleman'
+  - 'ChaosRepressor'
+  - 'ChaosMarauder'
+  - 'Tutorial'
+  cooldown: 0
+  teleport_flags: Player
+  lock_on_event: None
+  teleport_sound_id: -1
+  player_rotation_x: 
+  player_rotation_y: 
+  room_type: HczTestRoom
+  object_id: 26
+  position:
+    x: 2.384186E-07
+    y: 7.200012
+    z: -1.800003
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 3
+    y: 1
+    z: 3
+- target_teleporters:
+  - id: 26
+    chance: 100
+  allowed_roles: []
+  cooldown: 10
+  teleport_flags: Player
+  lock_on_event: None
+  teleport_sound_id: -1
+  player_rotation_x: 
+  player_rotation_y: 
+  room_type: HczTestRoom
+  object_id: 27
+  position:
+    x: 2.384186E-07
+    y: 6
+    z: -1.800003
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- target_teleporters:
+  - id: 27
+    chance: 100
+  allowed_roles:
+  - 'Scp0492'
+  - 'Scp049'
+  - 'Scp096'
+  - 'Scp106'
+  - 'Scp173'
+  - 'Scp939'
+  - 'ClassD'
+  - 'Scientist'
+  - 'FacilityGuard'
+  - 'NtfPrivate'
+  - 'NtfSergeant'
+  - 'NtfSpecialist'
+  - 'NtfCaptain'
+  - 'ChaosConscript'
+  - 'ChaosRifleman'
+  - 'ChaosRepressor'
+  - 'ChaosMarauder'
+  - 'Tutorial'
+  cooldown: 0
+  teleport_flags: Player
+  lock_on_event: None
+  teleport_sound_id: -1
+  player_rotation_x: 
+  player_rotation_y: 
+  room_type: HczTestRoom
+  object_id: 28
+  position:
+    x: 2.384186E-07
+    y: 17.5
+    z: -1.800003
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+lockers: []
+schematics: 
+- schematic_name: '2176Rroom'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: -1.849998
+    y: 6.150024
+    z: -2
+  rotation:
+    x: 0
+    y: 180
+    z: 0
+  scale:
+    x: 3
+    y: 3
+    z: 3
+  room_type: HczTestRoom

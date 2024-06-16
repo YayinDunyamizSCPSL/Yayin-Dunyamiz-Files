@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >+
+  Normal tur ancak SCP'ler rastgele boyutlara sahip
+

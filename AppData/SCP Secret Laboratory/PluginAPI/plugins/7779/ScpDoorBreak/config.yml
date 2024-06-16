@@ -1,0 +1,22 @@
+enable939_lunge: true
+scp939_damage_per_tick: 0.5
+# If stamina is at 0 it will do no damage to the door
+scp939_stamina_per_tick: 0.00300000003
+scp939_damage_type: Scp096
+enable173_breakneck: true
+scp173_damage_per_tick: 15
+scp173_damage_type: Grenade
+# time reduction to breakneck ability on break
+scp173_breakneck_break_penalty: 7
+enable173_teleport_breakneck: true
+scp173_damage_on_teleport: 1000
+scp173_teleport_damage_type: ServerCommand
+# time reduction to breakneck ability on teleport hit
+scp173_teleport_penalty: 3
+# All door damage types (do not edit)
+door_damage_types:
+- None
+- ServerCommand
+- Grenade
+- Weapon
+- Scp096

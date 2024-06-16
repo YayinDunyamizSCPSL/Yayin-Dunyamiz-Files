@@ -1,0 +1,37 @@
+is_enabled: false
+debug: false
+customitem:
+- id: 73
+  name: 'Ender Pearl'
+  description: 'Attığın Yere Seni Teleport eder!'
+  weight: 1.5
+  spawn_properties:
+    limit: 15
+    dynamic_spawn_points:
+    - location: Inside096
+      chance: 100
+    - location: Inside914
+      chance: 30
+    - location: InsideGr18
+      chance: 69
+    - location: Inside330
+      chance: 69
+    - location: InsideNukeArmory
+      chance: 39
+    - location: InsideGateA
+      chance: 80
+    - location: Inside173Armory
+      chance: 80
+    - location: InsideLczCafe
+      chance: 80
+    - location: InsideLczWc
+      chance: 80
+    - location: Inside173Armory
+      chance: 80
+    static_spawn_points: []
+    role_spawn_points: []
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  type: None

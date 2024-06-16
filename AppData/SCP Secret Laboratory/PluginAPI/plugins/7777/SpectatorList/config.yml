@@ -1,0 +1,16 @@
+# Whether or not the plugin is enabled on this server.
+is_enabled: true
+# Whether or not Debug mode is enabled.
+debug: false
+# Whether or not people with Overwatch enable should be Ignored.
+ignore_overwatch: true
+# Whether or not Northwood Staff should be Ignored. (Global Moderators will ALWAYS be Ignored)
+ignore_northwood: false
+# List of Server Roles that should be Ignored.
+ignored_roles: []
+# Set the Spectator List Title - Use (COUNT) to get number of Spectators.
+spectator_list_title: "<b>\U0001F465 İzleyiciler ((COUNT)):</b>"
+# How names should be displayed - Use (NAME) to get player name, Type (NONE) if you don't want to show their names.
+spectator_names: (NAME)
+# The refresh rate of the hint
+refresh_rate: 1

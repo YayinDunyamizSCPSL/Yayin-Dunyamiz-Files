@@ -1,0 +1,8 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+defend_time: 45
+generator_time: 60
+transition_time: 15
+description: >+
+  Herkes ışıkta ortaya çıkıyor. Bir veya daha fazla zombi vardır, geri kalanı NTF'dir. NTF tesisten kaçmak zorundadır ancak önce belirli hedefleri gerçekleştirmelidir. Zombiler oyuncuları öldürdüklerinde enfekte olurlar ancak bunu yaparken sağlıklarını kaybederler. Silahlar, zombilerin yaşayan insanlara oranına göre geri tepme yapar. Daha az insan daha fazla zombi = daha fazla geri tepme. Ne kadar çok zombi varsa, her birinin sağlığı o kadar az olur. Daha fazla hedef tamamlandıkça zombilerin ve silahların gücü artar. Tesisteki yol, hedefe göre sabittir ve sizi yönlendirmek için bir ışık olacaktır.
+

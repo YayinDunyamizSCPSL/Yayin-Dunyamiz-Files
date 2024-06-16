@@ -1,0 +1,112 @@
+# Duration of broadcast, might need to be increased if round end time set in config is longer
+duration: 11
+# Set text format shared between stats with tags and display text you want to appear at the top
+start: <size=31><line-height=0.9em>
+# Format used for each stat, if set to no text/empty the stat will not be displayed
+most_kills_as_scp: <color=#0096FF>{name}</color>, <color=#70C3FF>{kills}</color> öldürmeleriyle <color=#70C3FF>{role}</color> olarak en çok öldürmeye sahipti\n
+first_to_kill_scp: <color=#0096FF>{name}</color> bir <color=#70C3FF>SCP</color>'yi ilk öldüren oldu\n
+# Replaces first_to_kill_scp if player has more than one kill
+most_scps_killed: <color=#0096FF>{name}</color> {scps} öldürmüştü\n
+most_scps_killed_list_item: <color=#0096FF>{scp}</color>\n
+most_kills_as_human: <color=#0096FF>{name}</color>, <color=#70C3FF>{kills}</color> öldürmeleriyle bir insan olarak en çok öldürmeye sahipti\n
+first_to_escape: <color=#0096FF>{name}</color>, <color=#70C3FF>{time}</color>'da {role} olarak kaçan ilk kişiydi\n
+best_achievement: <color=#78e2ff><b>{name}</b></color> achieved <color=#45ff7a><b>{achievement}</b></color> - {description}
+# Close out tags from the Start and display text you want to appear at the bottom
+end: </line-height></size>
+# Achievements to be tracked during the round. Order of achievements determine priority, ones closer to the top override lower ones. contains all valid achievements by default(christmas, halloween and They Are Just Resources... are missing due to techinal reasons)
+achievements:
+- BePoliteBeEfficient
+- ChangeInCommand
+- Overcurrent
+- Escape207
+- TurnThemAll
+- AccessGranted
+- CrisisAverted
+- DidntEvenFeelThat
+- MicrowaveMeal
+- EscapeArtist
+- Pacified
+- IllPassThanks
+- ForScience
+- FireInTheHole
+- ItsAlwaysLeft
+- SecureContainProtect
+- IsThisThingOn
+- WalkItOff
+- Friendship
+- HeWillBeBack
+- ExecutiveAccess
+- AnomalouslyEfficient
+- MelancholyOfDecay
+- ThatCanBeUseful
+- TMinus
+- ProceedWithCaution
+- DontBlink
+- DeltaCommand
+- LightsOut
+achievement_descriptions:
+  LightsOut: Respawned as Nine-Tailed Fox
+  DeltaCommand: Respawned as Chaos Insurgency
+  DontBlink: Successfully evaded <color=#ff0000>SCP-173</color>
+  ProceedWithCaution: Successfully passed through a Tesla gate that <color=#ff0000>SCP-079</color> was watching
+  TMinus: Survived a successful Alpha Warhead Detonation
+  ThatCanBeUseful: Find any gun as a <color=#FF8000>Class-D</color>
+  MelancholyOfDecay: Captured a player within five seconds of emerging from the ground as <color=#ff0000>SCP-106</color>
+  AnomalouslyEfficient: Killed a player in the first minute of the game as an <color=#ff0000>SCP</color>
+  ExecutiveAccess: Obtained a max-level keycard
+  HeWillBeBack: Successfully escaped from the Pocket Dimension
+  Friendship: As a <color=#FFFF7C>Scientist</color>, successfully upgraded their keycard alongside <color=#FF8000>Class-D's</color>
+  WalkItOff: Survived a fall with less than half of their health remaining
+  IsThisThingOn: Broadcasted a 'helpful' message via the Intercom
+  SecureContainProtect: killed the final <color=#ff0000>SCP</color> in the round as a MTF
+  ItsAlwaysLeft: Escaped as <color=#FF8000>Class-D</color> personnel
+  FireInTheHole: Killed an enemy using a grenade
+  ForScience: Escaped as a <color=#FFFF7C>Scientist</color>
+  IllPassThanks: Killed someone who was actively using the Micro H.I.D as an <color=#ff0000>SCP</color>
+  Pacified: Killed <color=#ff0000>SCP-096</color> while it was entering its rage
+  EscapeArtist: Was the first to escape the Facility
+  MicrowaveMeal: Killed an <color=#ff0000>SCP</color> with the Micro H.I.D
+  DidntEvenFeelThat: Used adrenaline to survive a hit that would otherwise killed them
+  CrisisAverted: Used SCP-500 when they were about to die
+  AccessGranted: Killed a <color=#FFFF7C>Scientist</color> holding a keycard as a <color=#FF8000>Class-D</color>
+  TurnThemAll: Cured ten people as <color=#ff0000>SCP-049</color>
+  Escape207: Escaped while under the effects of SCP-207
+  SomethingDoneRight: Killed an SCP as a <color=#FFFF7C>Scientist</color>
+  PropertyOfChaos: Escaped with more than two SCP objects, as a <color=#FF8000>Class-D</color>
+  ThatWasClose: Canceled the Alpha Warhead detonation in the last 15 seconds
+  Overcurrent: Tried to recharge the Micro H.I.D
+  ChangeInCommand: Disarmed an MTF operative
+  BePoliteBeEfficient: Killed five enemies in less than 30 seconds
+achievement_names:
+  LightsOut: Lights Out
+  DeltaCommand: We of Delta Command...
+  DontBlink: Don’t Blink
+  ProceedWithCaution: Proceed With Caution
+  TMinus: T-Minus 90 seconds...
+  ThatCanBeUseful: "... You Thinking What I'm Thinking?"
+  MelancholyOfDecay: Melancholy of Decay
+  AnomalouslyEfficient: Anomalously Efficient
+  ExecutiveAccess: Executive Access
+  HeWillBeBack: He’ll Be Back...
+  Friendship: Friendship
+  WalkItOff: Walk It Off
+  IsThisThingOn: Is This Thing On?
+  SecureContainProtect: Secure. Contain. Protect.
+  ItsAlwaysLeft: It's Always Left, Brothers!
+  FireInTheHole: Fire In The Hole!
+  ForScience: For Science!
+  IllPassThanks: I'll Pass, Thanks
+  Pacified: Pacified
+  EscapeArtist: Escape Artist
+  MicrowaveMeal: Microwave Meal
+  DidntEvenFeelThat: Ha! I didn't even feel that!
+  CrisisAverted: Crisis Averted
+  AccessGranted: Access Granted
+  TurnThemAll: My Cure Is Most Effective...
+  Escape207: High on the Wings of Caffeine
+  SomethingDoneRight: If you want something done right...
+  PropertyOfChaos: Property of the Chaos Insurgency
+  ThatWasClose: That was... close.
+  Overcurrent: Overcurrent
+  ChangeInCommand: Change in Command
+  BePoliteBeEfficient: Be Polite. Be Efficient.

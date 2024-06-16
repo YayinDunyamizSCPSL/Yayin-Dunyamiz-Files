@@ -1,0 +1,38 @@
+﻿<b>Kurallar</b>
+<b>1 - Takım</b>
+<b>Kaos ve SCP'ler Birbirine Tarafsızdır İster Takım İster Düşman Olurlar.</b>
+<b>MTF Bilim Adamlarını Tesisten Güvenli Çıkışını Sağlamalıdır.</b>
+<b>Bilim İnsanları Sadece MTF İle Takım Olabilir.</b>
+<b>Herhangi Bir Sınıf SCP İle Odada Kilitli Kalırsa Takım Olabilirler SCP-079 Varsa Takım Olamazlar.</b>
+<b>D-Class'ları ve Bilim Adamlarını Gereksiz Vurmak Yasaktır.</b>
+<b>Light Üzerinde Silahsız D-Class ve Bilim Adamlarını Vurmak Yasaktır Tutuklamak Serbesttir.</b>
+<b>2 - Fiziki-Troll</b>
+<b>Takım Arkadaşının Yüzüne Kapı Asansör kapamak Yasaktır SCP'den Kaçarken Serbesttir.</b>
+<b>Oyunu Bilerek Uzatmak Yasaktır.</b>
+<b>Duvarlara Mermi İzi İle +18 Şeyler Yapmak Veya Çizmek Yasaktır.</b>
+<b>SCP-079 SCP'leri Teslaya Çarptıramaz Veya Onları Odaya Kilitleyemez.</b>
+<b>SCP-914 Troll Yasaktır Karşı Takım İse Trolleyebiliriniz.</b>
+<b>Tutuklu Herhangi Bir Personeli Vurmak, Kelepçesini Çözmek Yasaktır Bunları Sadece Tutuklayan Kişi Yapabilir.</b>
+<b>3 - Mikrofon</b>
+<b>İzleyici İken Earrape Ve Soundpad Açmak Yasaktır.</b>
+<b>Telsizden, İnterkomdan Earrape Veya Soundpad Açmak Yasaktır (Soundpad Kısık Sesle Açılabilir).</b>
+<b>Dini, Siyasi, Ailevi, Şahsi Küfürler Yasaktır.</b>
+<b>Aşırıya Veya Abartıya Kaçan Argo, Küfürler Yasaktır.</b>
+<b>Irkçılık Yapmak Yasaktır.</b>
+<b>Siyaset Yapmak Yasaktır.</b>
+<b>+18 Konu Konuşmak, Garip Sesler Çıkarmak Yasak (Ah Sesi Çıkarmak Gibi).</b>
+<b>Bir Kişi Size Küfür Ederse Karşılık Vermeden Yetkiliye Bildirin.</b>
+<b>Bass'lı Veya Earrape'li Soundpad Yasaktır!</b>
+<b>4 - Diğer</b>
+<b>Oyun İçi Tartışmaları Discord'a Taşımayın.</b>
+<b>Spawnkill Yasaktır (Oyun Başında Spawnlanan Birliklere Yapılan Herhangi Bir Toplu Katliam da Sayılır).</b>
+<b>Takımınıza İhanet Edemezsiniz.</b>
+<b>Admin Abuse Yapan Bir Yetkili Gördüğünüzde Hemen Şikayet Edin.</b>
+<b>Oyun İçi Buglardan Yararlanmak Veya Exploit Kullanmak Yasaktır.</b>
+<b>Hile Kullanmak Kesinlikle Yasaktır Tolerans Gösterilmez!</b>
+<b>SCP'lerin Bir Bölgede Camplemesi Yasaktır!</b>
+<b>Zombilerin İntihar Etmesi Yasaktır.</b>
+<b>Banlanan Kişiler Farklı Hesaplarla Gelirse Kalıcı Olarak Yasaklanacaktır.</b>
+<b>Küfürlü Kullanıcı Adı Yasaktır.</b>
+<b>Tutuklu Birini Vurmak Yasaktır.</b>
+<b>SCP-96 İle SCP-79 Aynı Takımda Olamaz.</b>

@@ -1,0 +1,12 @@
+ıs_enabled: true
+toggle_chat: true
+proximity_chat_enabled_message: <i><b>Insanlarla Konuşma <color=#42f57b>Aktif</color></b></i>
+proximity_chat_disabled_message: <i><b>Insanlarla Konuşma <color=red>Deaktif</color></b></i>
+max_proximity_distance: 7
+allowed_roles:
+- Scp049
+- Scp096
+- Scp106
+- Scp173
+- Scp0492
+- Scp939

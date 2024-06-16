@@ -1,0 +1,86 @@
+# Whether or not the plugin is enabled
+s_enabled: true
+# Whether or not debug messages will be shown
+debug: false
+# How many seconds before a spawnwave occurs should it calculate the spawn chance
+spawn_wave_calculation: 10
+# If SCPs and Chaos win together
+scps_win_with_chaos: false
+serpents_hand:
+  d: 1
+  role: Tutorial
+  max_health: 100
+  name: 'Serpents Hand'
+  description: 'Help the SCPs by killing all other classes'
+  custom_nfo: 'Serpents Hand'
+  spawn_chance: 75
+  # The maximum size of a Serpents Hand squad.
+  max_squad: 8
+  # How many respawn waves must occur before considering Serpents Hand to spawn.
+  respawn_delay: 1
+  # The maximum number of times Serpents can spawn per game.
+  max_spawns: 1
+  # Should Tutorial automaticly be converted to Serpends Hand?
+  auto_convert_tutorial: false
+  # Determines if Serpents Hand should be able to spawn when there is no SCPs.
+  can_spawn_without_scps: false
+  # Set this to false if Chaos and SCPs CANNOT win together on your server
+  scps_win_with_chaos: true
+  # The message annouced by CASSIE when Serpents hand spawn. (Empty = Disabled)
+  entry_annoucement: 'SERPENTS HAND HASENTERED'
+  # Should the Cassie Message use subtitles
+  subtitles: false
+  # The broadcast shown to SCPs when the Serpents Hand respawns.
+  entry_broadcast:
+  # The broadcast content
+    content: '<color=orange>Serpents Hand has entered the facility!</color>'
+    # The broadcast duration
+    duration: 10
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  nventory:
+  - 'GunCrossvec'
+  - 'KeycardChaosInsurgency'
+  - 'GrenadeFlash'
+  - 'Radio'
+  - 'Medkit'
+  - 'ArmorCombat'
+  spawn_properties:
+    limit: 0
+    dynamic_spawn_points: []
+    static_spawn_points:
+    - name: 'Spawn Point'
+      chance: 100
+      position:
+        x: 63
+        y: 992
+        z: -50
+    role_spawn_points: []
+  ammo:
+    Nato9: 120
+  custom_abilities: []
+  keep_position_on_spawn: false
+  keep_nventory_on_spawn: false
+  removal_kills_player: true
+  keep_role_on_death: false
+  gnore_spawn_system: false
+  keep_role_on_changing_role: false
+  broadcast:
+  # The broadcast content
+    content: ''
+    # The broadcast duration
+    duration: 10
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  display_custom_tem_messages: true
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  custom_role_f_f_multiplier: {}
+  console_message: 'You have spawned as a custom role!'
+  ability_usage: 'Enter ".special" in the console to use your ability. If you have multiple abilities, you can use this command to cycle through them, or specify the one to use with ".special ROLENAME AbilityNum"'

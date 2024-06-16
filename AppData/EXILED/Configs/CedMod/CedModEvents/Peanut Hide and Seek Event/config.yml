@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  All lights are out and light is locked down. Everyone spawns in light and are given flashlights and have 30 seconds to hide from peanut. Flashlight do not work on peanut.
+

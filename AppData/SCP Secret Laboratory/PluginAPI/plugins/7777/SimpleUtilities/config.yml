@@ -1,0 +1,30 @@
+# Whether or not the plugin is enabled.
+is_enabled: true
+# Whether or not to show debug messages.
+debug: false
+# Welcome message which is displayed for the player. (Leave it empty to disable.)
+welcome_message: <size=37>[<color=#0096FF><b>⚚</b></color>]</size> <size=35><color=#70C3FF><b>Yayin Dünyamız</size></color></b> <size=37>[<color=#0096FF><b>⚚</b></color>]</size></color>\n<size=30>Modlu Sunucumuza Hoşgeldin! Discord Sunucumuza Katilmayi Unutma!</size>\n<size=30><color=#70C3FF>discord.gg/<color=#0096FF><b>YayinDunyamız</size></b>
+# Welcome message duration.
+welcome_message_time: 7
+# CASSIE announcement when Chaos Insurgency spawns. Leave it empty to disable. (Please note that you can only use CASSIE approved words.)
+cassie_message: pitch_.2 .g4 .g4 pitch_.9 [<color=#ff0000>!</color>] Danger .g3 Danger [<color=#ff0000>!</color>] | <color=#ff6104>Unauthorized military team hasentered </color>- <color=#0ac000>CHAOSINSURGENCY</color>
+# Whether or not to play the announcement's sound effect.
+cassie_noise: true
+# Whether or not CASSIE should display the text of the announcement.
+cassie_text: true
+# Chance (1-100) for Chaos Insurgency to spawn at round start instead of Facility Guards.
+chaos_chance: 0
+# Whether or not to enable friendly fire when the round ends. (You can change the friendly_fire_multiplier in your config_gameplay.txt)
+ff_on_end: true
+# Whether or not disarmed NTF / CI should change teams when escaping.
+cuffed_change_teams: true
+# Message sent for the player who looked at / shot SCP-096. (Leave it empty to disable.)
+target_message: SCP-096'nin hedefi oldunuz!
+# Message sent when coin lands on tails. (Leave it empty to disable.)
+coin_tails: Yazi Geldi
+# Message sent when coin lands on heads. (Leave it empty to disable.)
+coin_heads: Tura Geldi
+# Whether or not to show players' HP when looking at them.
+show_hp: true
+# Format of displayed HP. Keep everything between ' '.
+hp_display_format: 'HP: %current%/%max%'

@@ -1,0 +1,27 @@
+# Whether or not this plugin is enabled.
+s_enabled: true
+# Whether or not to display debug messages in the server console.
+debug: false
+# Whether or not to restore player's active effect. Player will respawn with same effect strengh and remain time.
+recovery_effect: true
+# Whether or not to restore player's inventory. Player will respawn with same inventory.
+recovery_nventory: true
+# Whether or not to restore player's ammo. Player will respawn with same ammo.
+recovery_ammo: true
+# Whether or not to spawn disconnected player's ragdoll.
+spawn_ragdoll: false
+# Text that will be shown to the player at reconnect.
+reconnect_text: 'Yeniden bağlandiniz. Sakli duruma geri döneceksiniz.'
+# Text that will be shown to the player who enabled DNT.
+joined_broadcast:
+# The broadcast content
+  content: |-
+    Eklenti, verileri depolamak için yetkilendirmenizi gerektirir. Bunu kabul etmek istiyor musunuz?
+    Kabul ederseniz, yeniden bağlanma yeniden doğma özelliklerinden yararlanabilirsiniz.
+    Kabul etmek için konsolda .accept, reddetmek için .deny yazin.
+  # The broadcast duration
+  duration: 15
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown or not
+  show: true

@@ -1,0 +1,44 @@
+# The loadouts that players can get.
+player_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    ClassD: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # The items that this class spawns with.
+  items:
+  - SCP207
+  - SCP500
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+# A list of maps that can be used for this event.
+available_maps: []
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.0'

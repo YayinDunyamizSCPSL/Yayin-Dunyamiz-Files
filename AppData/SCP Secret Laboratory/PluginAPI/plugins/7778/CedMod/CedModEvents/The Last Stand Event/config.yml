@@ -1,0 +1,11 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+# how many players per SCP, this is the ratio for the hard round (only one escape)
+scp_ratio: 6
+# multiplier for the SCP count for the easy round (adjustment for having a two door room)
+easy_multiplier: 1.33299994
+# multiplier for the SCP count for the medium round (adjustment for having a two door room)
+medium_multiplier: 1.66600001
+description: >+
+  Tüm NTF'ler tüm SCP'ler tarafından rastgele bir odada tuzağa düşürülür. SCP'ler tüm NTF'nin kaçmasını engellemelidir. Zorluk derecesi artan 3 tur olacak. En zor turdan kaçan oyuncu kazanır!
+

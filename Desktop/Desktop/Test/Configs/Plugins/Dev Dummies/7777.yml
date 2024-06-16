@@ -1,0 +1,14 @@
+# Gets or sets if the plugin is enabled.
+is_enabled: true
+# Gets or sets if the plugins debug is enabled.
+debug: false
+# Gives and shows a badge on the AI
+n_p_c_badge_enabled: true
+# If NPCBadge is enabled, sets the color
+n_p_c_badge_color: 'aqua'
+# If NPCBadge is enabled, sets the name
+n_p_c_badge_name: 'NPC'
+# Gives spawned NPCs AFK Immunity (HIGHLY RECOMMENED TO KEEP TRUE AS NPCS ARE CONSTANTLY AFK)
+n_p_c_a_f_k_immunity: true
+# Gets or sets if using DevDummy commands require the 'devdummies' permission.
+require_permission: false

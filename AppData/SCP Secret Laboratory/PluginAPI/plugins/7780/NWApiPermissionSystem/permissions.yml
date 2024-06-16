@@ -1,0 +1,11 @@
+groups:
+  dev:
+    ıs_default: false
+    ınherited_groups: []
+    permissions:
+    - .*
+  anhtr:
+    ıs_default: false
+    ınherited_groups: []
+    permissions:
+    - .*

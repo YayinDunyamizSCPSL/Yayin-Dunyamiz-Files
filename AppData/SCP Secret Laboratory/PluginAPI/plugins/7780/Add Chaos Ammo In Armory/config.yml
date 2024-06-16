@@ -1,0 +1,8 @@
+# pickup ammount
+hcz_762x39_pickups: 8
+# ammo per pickup
+hcz_762x39_ammo: 60
+hcz_12_gauge_pickups: 4
+hcz_12_gauge_ammo: 24
+hcz_44_mag_pickups: 4
+hcz_44_mag_ammo: 24

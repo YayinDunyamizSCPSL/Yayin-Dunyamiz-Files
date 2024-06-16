@@ -1,0 +1,64 @@
+# Random percent from 40 - 60 will be chosen (ex: 50 percent). 50% of the platforms will be on one side. 50% on the other. This is the Lower Value.
+minimum_side_offset: 40
+# Random percent from 40 - 60 will be chosen (ex: 50 percent). 50% of the platforms will be on one side. 50% on the other. This is the Higher Value.
+maximum_side_offset: 60
+# The method used to randomly scramble the list of platforms.
+platform_scramble_method: UnityRandom
+# The salt to use for the cryptographic seed generator.
+seed_salt: 'salty hasbrown'
+# How many seconds until the platforms regenerate. Prevents players from sitting around. -1 to disable.
+broken_platform_regenerate_delay_n_seconds: 20
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Glass'
+    # The position to spawn the map.
+    position:
+      x: 76
+      y: 1026.5
+      z: -43.68
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Glass_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 76
+      y: 1026.5
+      z: -43.68
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.1'

@@ -1,0 +1,11 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+# min time between random cassie noises
+cassie_min_time: 0
+# max time between random cassie noises
+cassie_max_time: 150
+# how many rooms in the facility every second will have their lights flicker on
+room_light_flickers_per_second: 2.0
+description: >+
+  Tüm tesis ışıkları devre dışı. Tüm SCP'ler SCP939 olacak. Herkes bir El Feneri ile ortaya çıkacak
+

@@ -1,0 +1,23 @@
+is_enabled: true
+debug: false
+replacement_mode: true
+dummy_door_installing_maps:
+- 'ExampleMap'
+# Below index means the door numbering that do not require dummy door installing. Caution: It's double List. - (Above Map Index) - (Door Index)
+black_list_of_dummy_door:
+- - 101
+- - 15
+gates:
+  ExampleMapName:
+  - keycard_permissions: None
+    require_all_permission: false
+    is_locked: false
+    is_opened: false
+  - keycard_permissions: None
+    require_all_permission: false
+    is_locked: false
+    is_opened: false
+# If turned on, it will autowork with every MER's door spawning event.
+auto_run: false
+custom_spawn_point_enable: true
+use_experimental_feature: false

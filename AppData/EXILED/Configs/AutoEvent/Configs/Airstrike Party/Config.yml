@@ -1,0 +1,95 @@
+# Should grenades spawn on top of randomly chosen players. This will not apply on the last round.
+target_players: false
+# If true, players will respawn as chaos, and get to lob grenades at people who are still alive.
+respawn_players_with_grenades: false
+# The amount of rounds that this gamemode lasts. The last round is always a super big grenade.
+rounds: 5
+# If enabled the minigame will end when there is only one player left. Otherwise it will end when everyone dies, or the rounds (configurable) are over.
+last_player_alive_wins: true
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'DeathParty'
+    # The position to spawn the map.
+    position:
+      x: 10
+      y: 1012
+      z: -40
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: None
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'DeathParty_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 10
+      y: 1012
+      z: -40
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: Christmas
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'DeathParty_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 10
+      y: 1012
+      z: -40
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: NewYear
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.3'

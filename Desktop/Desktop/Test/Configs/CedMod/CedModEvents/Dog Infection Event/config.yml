@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  [recommended player count 30+] Light is locked down and everyone spawns as ClassD in light with one dog. Dog can infect Class-Ds on kill, the last ClassD alive wins
+

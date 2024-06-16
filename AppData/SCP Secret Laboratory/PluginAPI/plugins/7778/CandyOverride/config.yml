@@ -1,0 +1,9 @@
+max_candies: 2
+candy_weights:
+  Green: 1
+  Purple: 1
+  Rainbow: 1
+  Red: 1
+  Yellow: 1
+  Blue: 1
+  Pink: 1

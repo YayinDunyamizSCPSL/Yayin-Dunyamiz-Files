@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  Everyone spawns as a ClassD and are given 2 colas. The nuke is activated and the first person to escape wins!
+

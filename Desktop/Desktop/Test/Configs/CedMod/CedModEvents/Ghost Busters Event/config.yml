@@ -1,0 +1,11 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+# how many players per ghost buster
+ghost_buster_ratio: 5
+# how long in seconds does it take to recharge the micro
+recharge_time: 15
+# micro energy lifetime multiplier
+energy_multiplier: 2
+description: >+
+  All players spawn in entrance. Some players spawn as NTF specialists and the rest as 106. The specialists get a super micro which can fire with very little wind-up, recharges over time and has a longer duration. The specialists also get a coke, 2x medkit, painkillers, radio, scp500 and the hat. The specialists are also immune from the pocket dimention and will take 30 damage on hit. FriendlyFire is disabled for this event. The last team standing wins!
+

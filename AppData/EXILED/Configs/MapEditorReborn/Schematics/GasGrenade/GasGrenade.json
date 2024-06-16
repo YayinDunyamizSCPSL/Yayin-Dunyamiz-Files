@@ -1,0 +1,130 @@
+{
+  "RootObjectId": 621086,
+  "Blocks": [
+    {
+      "Name": "Capsule",
+      "ObjectId": 628128,
+      "ParentId": 621086,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": -0.146000043,
+        "y": -0.219000071,
+        "z": -0.146000013
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "005E12FF"
+      }
+    },
+    {
+      "Name": "Cylinder",
+      "ObjectId": 570246,
+      "ParentId": 621086,
+      "Position": {
+        "x": 0.07300186,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": -0.160600036,
+        "y": -0.0292000063,
+        "z": -0.1606
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "EAFF00FF"
+      }
+    },
+    {
+      "Name": "Cylinder (1)",
+      "ObjectId": 636732,
+      "ParentId": 621086,
+      "Position": {
+        "x": -0.07300186,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": -0.160600036,
+        "y": -0.0292000063,
+        "z": -0.1606
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "EAFF00FF"
+      }
+    },
+    {
+      "Name": "Cylinder (2)",
+      "ObjectId": 633648,
+      "ParentId": 621086,
+      "Position": {
+        "x": 0.205860138,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": -0.07300002,
+        "y": -0.07300002,
+        "z": -0.07300001
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "353535FF"
+      }
+    },
+    {
+      "Name": "Cylinder (3)",
+      "ObjectId": 580396,
+      "ParentId": 621086,
+      "Position": {
+        "x": 0.27009964,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": -0.109500036,
+        "y": -0.0219000038,
+        "z": -0.109500006
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "525252FF"
+      }
+    }
+  ]
+}

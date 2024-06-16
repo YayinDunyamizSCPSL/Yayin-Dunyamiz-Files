@@ -1,0 +1,47 @@
+# Whether or not this _056Plugin is enabled.
+s_enabled: true
+# Whether or not to display debug messages in the server console.
+debug: false
+# Configs for the SCP-056 role players turn into.
+scp056_role_config:
+  d: 56
+  visible_role: FacilityGuard
+  max_health: 225
+  name: 'SCP-056'
+  description: 'Normal bir insan gibi görünen ama aslında bir scp olan bir oyuncu'
+  custom_nfo: ''
+  keep_nventory_on_spawn: false
+  movement_multiplier: 1
+  nventory:
+  - 'KeycardGuard'
+  - 'GunFSP9'
+  - 'Medkit'
+  - 'Radio'
+  - 'GrenadeFlash'
+  - 'ArmorCombat'
+  ammo:
+    Nato556: 100
+    Nato9: 200
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  keep_position_on_spawn: false
+  removal_kills_player: true
+  keep_role_on_death: false
+  spawn_chance: 25
+  gnore_spawn_system: false
+  keep_role_on_changing_role: false
+  broadcast:
+  # The broadcast content
+    content: ''
+    # The broadcast duration
+    duration: 10
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  display_custom_tem_messages: true
+  custom_role_f_f_multiplier: {}
+  console_message: 'You have spawned as a custom role!'
+  ability_usage: 'Enter ".special" in the console to use your ability. If you have multiple abilities, you can use this command to cycle through them, or specify the one to use with ".special ROLENAME AbilityNum"'

@@ -1,0 +1,195 @@
+# How long the round should last in seconds.
+round_duration_in_seconds: 300
+# A list of lodaouts players can get.
+player_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    NtfSergeant: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # The items that this class spawns with.
+  items:
+  - GunAK
+  - GunCOM18
+  - ArmorCombat
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  infinite_ammo: InfiniteAmmo
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    NtfSergeant: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # The items that this class spawns with.
+  items:
+  - GunE11SR
+  - GunCOM18
+  - ArmorCombat
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  infinite_ammo: InfiniteAmmo
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    NtfSergeant: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # The items that this class spawns with.
+  items:
+  - GunShotgun
+  - GunCOM18
+  - ArmorCombat
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  infinite_ammo: InfiniteAmmo
+# A list of loadouts zombies can get.
+zombie_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    Scp0492: 100
+  # The health that this class has. 0 is default role health. -1 is godmode.
+  health: 5000
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # A list of effects the player will spawn with.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Disabled
+    # The intensity of the effect.
+    intensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0
+    # Should the effect add duration if the effect already is applied.
+    add_duration: false
+  - # The type of effect the player can have.
+    effect_type: Scp1853
+    # The intensity of the effect.
+    intensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0
+    # Should the effect add duration if the effect already is applied.
+    add_duration: false
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+# The amount of Zombies that can spawn.
+zombies:
+  # The minimum number of players on a team. 0 to ignore.
+  minimum_players: 1
+  # The maximum number of players on a team. -1 to ignore.
+  maximum_players: 3
+  # The percentage of players that will be on the team. -1 to ignore.
+  player_percentage: 10
+# The effect that guns should have.
+weapon_effect:
+  # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: None
+  # The damage that guns do.
+  damage: 3
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: SinkHole
+    # The intensity of the effect.
+    intensity: 255
+    # The duration of the effect. 0 is infinite.
+    duration: 0.5
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+  - # The type of effect the player can have.
+    effect_type: Stained
+    # The intensity of the effect.
+    intensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.5
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+# A list of maps that can be used for this event.
+available_maps: []
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.0'

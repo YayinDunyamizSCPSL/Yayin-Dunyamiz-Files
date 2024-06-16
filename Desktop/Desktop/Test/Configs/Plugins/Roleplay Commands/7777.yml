@@ -1,0 +1,101 @@
+s_enabled: true
+debug: false
+# If .push is enabled
+push_enabled: false
+# Range at which the pusher can push someone
+push_range: 1.25
+# Cooldown in seconds between each push
+push_cooldown: 2
+# Push Force, how much they get pushed
+push_force: 1.70000005
+# More iterations = more smoother push at cost of performance
+terations: 15
+# Message showed to victim when pushed.
+push_hint_victim: 'You have been pushed by <color={rolecolor}>{player}</color>!'
+# Message showed to instigator when victim is pushed.
+push_hint_nstigator: 'You pushed <color={rolecolor}>{player}</color>!'
+# If .pat is enabled
+pat_enabled: false
+# Range at which the patter can pat someone
+pat_range: 2.5
+# Cooldown in seconds between each pat
+pat_cooldown: 10
+# Can SCPS use .pat
+pat_can_s_c_p_s_pat: false
+# Can you .pat any role
+pat_anyone: false
+# Allowed roles to be patted if the above is false
+patable_roles:
+- Scp939
+# Amount of health given to patted player
+pat_health_grant: 2
+# Whether the health granted can bypass maxhealth
+pat_health_exceed_max: false
+# Message showed to victim when patted.
+pat_hint_victim: |-
+  You have been patted by <color={rolecolor}>{player}</color>!
+  Gained <color=green>{hp}</color> health!
+# Message showed to instigator when victim is patted.
+pat_hint_nstigator: 'You patted <color={rolecolor}>{player}</color> and gave them <color=green>{hp}</color> health!'
+# Message shown when scps cannot use the pat command
+pat_hint_s_c_p_cant_use: '<color=red>SCPS cannot use this command</color>'
+# Message shown when you can't pat that role
+pat_hint_cant_pat_role: '<color=red>Can''t pat this role!</color>'
+# If .punch is enabled
+punch_enabled: false
+# Range at which the attacker can punch someone
+punch_range: 1.25
+# Damage taken from the punch
+punch_damage: 2
+# Cooldown in seconds between each punch
+punch_cooldown: 2
+# Push Force, how much they get pushed
+punch_force: 1.70000005
+# More iterations = more smoother push at cost of performance
+punch_terations: 15
+# Message showed to victim when pushed.
+punch_hint_victim: 'You have been punched by <color={rolecolor}>{player}</color>!'
+# Message showed to instigator when victim is pushed.
+punch_hint_nstigator: 'You punched <color={rolecolor}>{player}</color>!'
+# Death message when death from punching occurs
+punch_death_message: 'Punched by {attacker}'
+# Steal enabled
+steal_enabled: false
+# Cooldown for stealing
+steal_cooldown: 20
+# Stealing chance
+steal_chance: 0.25
+# Stealing range
+steal_range: 1.25
+# Steal Hint duration
+steal_hint_duration: 5
+# Hint shown to instigator when there is nothing in the victim's inventory
+steal_empty_nventory_hint: '<color={rolecolor}>{player}</color> has no items in their inventory!'
+# Hint shown to victim when stealing fails
+steal_fail_hint_victim: '<color={rolecolor}>{player}</color> attempted to steal from you!'
+# Hint shown to Instigator when stealing fails
+steal_fail_hint_nstigator: 'You failed to steal from <color={rolecolor}>{player}</color> they know. Run!'
+# Hint shown to victim when stealing succeeds (LEAVE BLANK IF YOU DONT WANT THEM TO KNOW)
+steal_success_hint_victim: '<color={rolecolor}>{player}</color> <color=red>stole</color> <color=green>{item}</color> from you!'
+# Hint shown to Instigator when stealing succeeds
+steal_success_hint_nstigator: '<color=red>Stole</color>  <color=green>{item}</color> from <color={rolecolor}>{player}</color>!'
+# Is Cuff enabled (Cuffing teammates)
+cuff_enabled: false
+# Cuffed hint duration
+cuff_hint_duration: 5
+# Can you only use .cuff on teammates
+cuff_same_team_only: true
+# Error hint shown when they are on different teams
+cuff_same_team_only_hint: '<color=red>You can only use .cuff on the same team!</color>'
+# Do you have to be holding a firearm in order to cuff
+cuff_require_firearm: true
+# Error hint shown when they need to be holding a firearm
+cuff_require_firearm_hint: '<color=red>You need to be holding a firearm to do this!</color>'
+# Cuffing cooldown
+cuff_cooldown: 10
+# Range at which you can cuff at
+cuff_range: 1.25
+# Hint shown to Instigator at instance of cuffing
+cuff_hint_nstigator: 'You have cuffed <color={rolecolor}>{player}</color>!'
+# Hint shown to Instigator when they are already cuffed
+cuff_hint_already_cuffed: '<color={rolecolor}>{player}</color> is already cuffed!'

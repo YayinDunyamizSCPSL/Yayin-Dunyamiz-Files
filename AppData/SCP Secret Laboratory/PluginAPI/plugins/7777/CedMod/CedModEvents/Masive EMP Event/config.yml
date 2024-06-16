@@ -1,0 +1,26 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+# light malfunctions
+min_light_time: 5
+max_light_time: 30
+# chance lights will malfunction every second
+light_chance: 17.5
+# item malfunctions i.e. gun attachment flashlights, radios, flashlights
+min_item_time: 0
+max_item_time: 15
+# chance items will malfunction every second
+ıtem_chance: 20
+# door malfunctions
+min_door_time: 1
+max_door_time: 7.5
+# chance doors will malfunction every second
+door_chance: 4
+# min time between random cassie malfunctions
+cassie_min_time: 0
+# max time between random cassie malfunctions
+cassie_max_time: 300
+# max single random cassie malfunction
+cassie_max_length: 7
+description: >+
+  Tüm elektronik cihazlar arızalı. Tesis ışıkları rastgele yanıp sönecek, el fenerleri ve silah fenerleri arızalanacaktır, bu nedenle her zaman ışığa sahip olmak istiyorsanız, birbirinizden ayrılmamalısınız. Kapılar rastgele açılacak, kapanacak ve kilitlenecektir. Tüm bilim insanlarına ve D sınıfına el feneri verilir ve SCP'lerin hızları azaltılır
+

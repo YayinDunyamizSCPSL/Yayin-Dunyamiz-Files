@@ -1,0 +1,255 @@
+player_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    ClassD: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+zombie_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    Scp0492: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+zombie_screams:
+- 'human_death_01.ogg'
+- 'human_death_02.ogg'
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Zombie'
+    # The position to spawn the map.
+    position:
+      x: 115.5
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: None
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'ZombieRework'
+    # The position to spawn the map.
+    position:
+      x: 115.5
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: None
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Zombie_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 115.5
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: Christmas
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'ZombieRework_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 115.5
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: Christmas
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Zombie_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 115.5
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: NewYear
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'ZombieRework_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 115.5
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: true
+  # Style of this map.
+  season_flag: NewYear
+# A list of sounds that can be used for this event.
+available_sounds:
+- # The chance of getting this sound.
+  chance: 33
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Zombie.ogg'
+    # The volume that the sound should play at.
+    volume: 7
+    # Should the sound loop or not.
+    loop: true
+    # The object that plays music.
+    audio_player_base: 
+- # The chance of getting this sound.
+  chance: 33
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Zombie2.ogg'
+    # The volume that the sound should play at.
+    volume: 7
+    # Should the sound loop or not.
+    loop: true
+    # The object that plays music.
+    audio_player_base: 
+- # The chance of getting this sound.
+  chance: 33
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Zombie_Run.ogg'
+    # The volume that the sound should play at.
+    volume: 7
+    # Should the sound loop or not.
+    loop: true
+    # The object that plays music.
+    audio_player_base: 
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.2'

@@ -1,0 +1,6 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+health_scaling: 200
+description: >+
+  Tesisin dışında bir Utangaç Adam ortaya çıkar ve herkes tarafından tetiklenir. Öfkesi asla bitmez ve canı azaldıkça hızı artar. Sağlığı sunucudaki oyuncu sayısı ile ölçeklenir. NTF her ne pahasına olursa olsun onu durdurmak için gönderilir.
+

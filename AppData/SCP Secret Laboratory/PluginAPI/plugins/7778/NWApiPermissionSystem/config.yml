@@ -1,0 +1,4 @@
+# Suppresses the warning about a missing RemoteAdmin group when loading permissions.
+suppress_missing_remote_admin_group_warning: false
+# If debug logs should be shown
+log_debug: false

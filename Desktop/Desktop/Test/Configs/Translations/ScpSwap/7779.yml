@@ -1,0 +1,82 @@
+# A collection of custom names with their correlating RoleType.
+translatable_swaps:
+  173: Scp173
+  peanut: Scp173
+  939: Scp939
+  079: Scp079
+  79: Scp079
+  computer: Scp079
+  106: Scp106
+  larry: Scp106
+  096: Scp096
+  96: Scp096
+  shyguy: Scp096
+  049: Scp049
+  49: Scp049
+  doctor: Scp049
+  0492: Scp0492
+  492: Scp0492
+  zombie: Scp0492
+  3114: Scp3114
+# The message to be displayed to all Scp subjects at the start of the round.
+start_message:
+# The broadcast content
+  content: '<color=yellow><b>Did you know you can swap classes with other SCP''s?</b></color> Simply type <color=orange>.scpswap (role number)</color> in your in-game console (not RA) to swap!'
+  # The broadcast duration
+  duration: 15
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown or not
+  show: true
+# The broadcast to display to the receiver of a swap request.
+request_broadcast:
+# The broadcast content
+  content: |-
+    <i>You have an SCP Swap request!
+    Check your console by pressing [`] or [~]</i>
+  # The broadcast duration
+  duration: 5
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown or not
+  show: true
+# The console message to send to the receiver of a swap request.
+request_console_message:
+  message: 'You have received a swap request from $SenderName who is $RoleName. Would you like to swap with them? Type ".scpswap accept" to accept or ".scpswap decline" to decline.'
+  color: 'yellow'
+# The console message to send to players when the swap succeeds.
+swap_successful:
+  message: 'Swap successful!'
+  color: 'green'
+# The console message to send to the receiver of a swap request that has timed out.
+timeout_receiver:
+  message: 'Your swap request has timed out.'
+  color: 'red'
+# The console message to send to the sender of a swap request that has timed out.
+timeout_sender:
+  message: 'The player did not respond to your request.'
+  color: 'red'
+# The various command instances to be translated.
+command_translations:
+  accept:
+    command: accept
+    aliases:
+    - 'yes'
+    - 'y'
+    description: 'Accepts an active swap request.'
+  cancel:
+    command: cancel
+    aliases:
+    - 'c'
+    description: 'Cancels an active swap request.'
+  decline:
+    command: decline
+    aliases:
+    - 'no'
+    - 'd'
+    description: 'Rejects an active swap request.'
+  list:
+    command: list
+    aliases:
+    - 'l'
+    description: 'Lists all valid swappable roles.'

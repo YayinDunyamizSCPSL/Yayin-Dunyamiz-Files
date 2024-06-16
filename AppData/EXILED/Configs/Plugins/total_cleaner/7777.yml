@@ -1,0 +1,61 @@
+is_enabled: true
+debug: false
+# Enable TotalCleanerUI command?
+total_cleaner_u_i: true
+# Should the TotalCleanerUI Command require the permission (totalcleaner.ui)?
+u_i_needs_permission: false
+# How long should the game wait (in seconds) between checks for loading and unloading items and ragdolls
+load_check_interval: 1.25
+# Enable Ammo Clumping? (Ammo Pickups will Combine when Close to Each Other)
+enable_ammo_clumping: true
+# How Close should Two Ammo Pickups be before they combine?
+ammo_clump_range: 4
+# Enable Item Loading? (Despawns items far away from players and deletes them after enough time of being left alone)
+enable_item_loading: true
+# How Close Should Items be to the Player in order to be Loaded?
+render_distance_item: 15
+# How many seconds until an unloaded item gets deleted from lack of players loading it?
+destroy_item_after: 60
+# What items should not be deleted when unloaded?
+preserved_items_list:
+- SCP018
+- SCP1576
+- SCP1853
+- SCP207
+- SCP2176
+- SCP244a
+- SCP244b
+- SCP268
+- SCP330
+- SCP500
+- AntiSCP207
+- Jailbird
+- MicroHID
+- ParticleDisruptor
+- GrenadeHE
+- GunCom45
+- KeycardFacilityManager
+- KeycardO5
+# Enable Ragdoll Despawning? (Despawns items far away from players and deletes them after enough time of being left alone)
+enable_ragdoll_cleanup: true
+# How Close Should Ragdolls be to the Player in order to be Preserved? Set to 0 to Delete Regardless of players nearby
+render_distance_ragdoll: 10
+# How many seconds until an unloaded ragdoll gets deleted?
+destroy_ragdoll_after: 45
+# How many ragdolls can be loaded at once? (Is independent of EnableRagdollDespawning)
+max_ragdolls: 7
+# What roles should not have Ragdolls be deleted?
+preserved_roles_list:
+- Scp0492
+- 24
+- 25
+# Should bodies taken by SCP-3114 be kept?
+keep_skeleton_ragdolls: true
+# Modify/Disable the Broadcast Messages from Large-Scale Cleanings here.
+broadcast_conf:
+# How should Cleanup Information be shared? (Broadcast, Hint, None)
+  cleanup_info_channel: Broadcast
+  # What will the cleanup broadcast's prefix be? Defaults to Plugin Name. Leave blank for No Prefix
+  cleanup_info_prefix: '<size=37>[<color=#0096FF><b>⚚</b></color>]</size> <size=35><color=#70C3FF><b>Yayin Dünyamiz</size></color></b> <size=37>[<color=#0096FF><b>⚚</b></color>]</size></color>'
+  # What will the cleaner message show when cleaning large amounts of items? Variables: {items} {ragdolls}
+  cleanup_message: '<size=30>Temizleyici   |   {items} Item Kaldirildi   |   {ragdolls} Ceset Kaldirildi</size>'

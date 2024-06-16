@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  All players will spawn in heavy containment zone and both the elevator systems and the entrance zone will be locked down. Everyone will be spawned as a scientist and will have to find some guns to kill the SCP939s that will be trying to find and kill everyone. If a generator is turned on the SCP079 doors will open allowing players access to its armor and pressing the overcharge which will turn the lights back on if they are turned off. The SCP939s will have only 1 hp while having 700 shield
+

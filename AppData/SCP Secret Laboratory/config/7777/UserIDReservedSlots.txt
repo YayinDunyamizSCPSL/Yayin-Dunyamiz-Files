@@ -1,0 +1,4 @@
+#Put one UserID (eg. 76561198071934271@steam or 274613382353518592@discord) per line. Lines prefixed with "#" are ignored.
+76561199224936223@steam
+76561199084602889@steam
+76561198847364647@steam

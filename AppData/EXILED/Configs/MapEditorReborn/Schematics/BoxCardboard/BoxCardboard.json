@@ -1,0 +1,55 @@
+{
+  "RootObjectId": 613042,
+  "Blocks": [
+    {
+      "Name": "Cube (22)",
+      "ObjectId": 625950,
+      "ParentId": 613042,
+      "Position": {
+        "x": 0.0,
+        "y": 0.4,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.8,
+        "y": 0.8,
+        "z": 0.8
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A4215FF"
+      }
+    },
+    {
+      "Name": "Cube (23)",
+      "ObjectId": 602008,
+      "ParentId": 613042,
+      "Position": {
+        "x": 0.0,
+        "y": 0.7116,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.801000059,
+        "y": 0.178765669,
+        "z": 0.1
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "939393FF"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+s_enabled: true
+debug: true
+# Skeleton % Chance of spawning in a game of 11 players, Default is 0.10 (10%)
+scp_chance_low_players: 0.10000000000000001
+# Skeleton % Chance of spawning in a game of 16 players, Default is 0.15 (15%)
+scp_chance_high_players: 0.14999999999999999

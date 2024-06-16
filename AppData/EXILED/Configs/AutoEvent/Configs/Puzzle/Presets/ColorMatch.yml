@@ -1,0 +1,126 @@
+# The number of rounds in the match.
+rounds: 10
+# The Random Number Generator Method to use with the seeding algorithim.
+seed_method: UnityRandom
+# Salt for the RNG.
+salt: 'salty hashbrown'
+# Adds more difficulty towards the end of the game.
+use_custom_round_system: true
+# How fast before the fall delay occurs.
+fall_delay:
+  # The value at the start of the game.
+  starting_value: 5
+  # The value at the end of the game.
+  ending_value: 1
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# How much time before a selection occurs.
+selection_time:
+  # The value at the start of the game.
+  starting_value: 5
+  # The value at the end of the game.
+  ending_value: 1
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# The number of platforms that will not fall.
+non_falling_platforms:
+  # The value at the start of the game.
+  starting_value: 3
+  # The value at the end of the game.
+  ending_value: 1
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# How many platforms the x and y axis will have. 5 results in 25 platforms.
+platforms_on_each_axis: 5
+# Uses random platform colors instead of green and magenta.
+use_random_platform_colors: true
+# How far the platforms are spread out.
+platform_spread:
+  # The value at the start of the game.
+  starting_value: 5
+  # The value at the end of the game.
+  ending_value: 30
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# Used for color selection. This will be reworked in the future.
+hue_difficulty:
+  # The value at the start of the game.
+  starting_value: 1
+  # The value at the end of the game.
+  ending_value: 0.6
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# Used for color selection. This will be reworked in the future.
+saturation_difficulty:
+  # The value at the start of the game.
+  starting_value: 1
+  # The value at the end of the game.
+  ending_value: 0.6
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# Used for color selection. This will be reworked in the future.
+v_difficulty:
+  # The value at the start of the game.
+  starting_value: 1
+  # The value at the end of the game.
+  ending_value: 0.6
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Puzzle'
+    # The position to spawn the map.
+    position:
+      x: 76
+      y: 1026.5
+      z: -43.68
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: false
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Puzzle_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 76
+      y: 1026.5
+      z: -43.68
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: false
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: ""

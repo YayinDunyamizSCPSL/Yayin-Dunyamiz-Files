@@ -1,0 +1,121 @@
+# Whether or not the plugin is active.
+is_enabled: true
+# Whether or not to show debug logs.
+debug: false
+# Your Paste.ee key. Get this from https://paste.ee/account/api after creating a paste.ee account. The plugin cannot function without a valid Pastee key!
+paste_key: 'atLZ8xUlMaoQNfEUW6EHjOkbkTfXD2sH1hxBNaprx'
+# Time until reports expire. Valid values: Never, 1H, 12H, 1D, 3D, 7D, 14D, 1M, 2M, 3M, 6M, 1Y, 2Y
+expiry_time: '2Y'
+# Provide one or more Discord webhooks to send reports to.
+discord_webhooks:
+- 'https://discord.com/api/webhooks/1208165103556632576/42uq2w8HrCCbYlVFM_Z2_MJLeHBN8J-K5iA-_G7sVa4E5DRlAAONMlqJjZC890pnI88y'
+# Send report links in server console when compiled?
+send_in_console: false
+# If set to true, users with Do Not Track enabled will be excluded from all stats entirely. If set to false, they will be included with a removed name (including in round remarks). See the plugin's GitHub page for more information.
+exclude_d_n_t_users: false
+# If set to true, stats from tutorial users will be entirely ignored. Does not affect plugin-based roles such as Serpent's Hand.
+exclude_tutorials: true
+# If set to true, certain integer stats will include a percentage next to them (eg. player doors opened).
+include_percents: false
+# Broadcast(s) to show at the end of the round. A full list of arguments are available on the plugin's GitHub page. Set to [] (or set broadcast's show value to false) to disable. Additional broadcasts can be added and removed.
+ending_broadcasts: []
+# Name of the server, without any formatting tags, as it will be shown in the report.
+server_name: 'Yayin Dünyamiz'
+# Determines the format of timestamps.
+full_time_format: 'MMMM dd, yyyy hh:mm:ss tt'
+short_time_format: 'HH:mm:ss'
+# Determine which statistics are NOT included in the report. Some stats will only be shown if applicable (eg. Serpent's Hand kills will only show if the server has Serpent's Hand installed).
+ignored_stats: []
+# A list of players (by user id) who will be ignored from stats, regardless of their do not track setting. For single-player stats (eg. warhead button opener) and kill logs, they will be shown as a do not track player.
+ignored_users:
+- '12345@steam'
+# Settings for the Discord message.
+discord_settings:
+# The username of the webhook posting the round reports.
+  username: 'Round Reports'
+  # The avatar url of the webhook posting the round report.
+  avatar_url: ''
+  # The content text of the round report. Roles can be pinged here.
+  content: ''
+  # Settings for the Discord embed.
+  embed:
+  # Set to false to disable sending an embed.
+    enabled: true
+    # The title of the embed.
+    title: 'Round Report'
+    # The description of the embed.
+    description: |-
+      {WINNINGTEAM} Win
+      [View Round Report]({REPORTLINK})
+    # A list of fields in the embed.
+    fields:
+    - name: 'Post Date'
+      value: '{POSTDATE}'
+      inline: true
+    - name: 'Expiration Date'
+      value: '{EXPIREDATE}'
+      inline: true
+    # The footer text of the embed.
+    footer: '{PLAYERCOUNT} players connected'
+    # Whether or not to use the winning team's color, or a custom color. Valid options: WinningTeam, Custom.
+    embed_color_type: WinningTeam
+    # Custom color to use for embeds, if EmbedColorType is Custom. Takes an integer.
+    custom_color: -1
+    # Whether or not to include timestamp in the embed footer.
+    include_timestamp: true
+# Settings for the MVP system.
+mvp_settings:
+# Whether or not the MVP system is enabled.
+  mvp_enabled: false
+  # Roles that cannot gain or lose points. Any RoleType as well as SerpentsHand and UIU are supported.
+  role_blacklist:
+  - Tutorial
+  # Minimum amount of points per round that a user can have.
+  min_points: -500
+  # Maximum amount of points per round that a user can have.
+  max_points: 500
+  # Hint to show to a player when they gain points.
+  add_hint:
+  # The hint content
+    content: |-
+      +{POINTS} points
+      Reason: {REASON}
+    # The hint duration
+    duration: 3
+    # Indicates whether the hint should be shown or not
+    show: true
+  # Hint to show to a player when they lose points.
+  remove_hint:
+  # The hint content
+    content: |-
+      {POINTS} points
+      Reason: {REASON}
+    # The hint duration
+    duration: 3
+    # Indicates whether the hint should be shown or not
+    show: true
+  # Determines the amount of points that are gained/lost for a certain interaction.
+  points:
+  # The amount of damage required to be dealt to an SCP before the 'hurt_scp' points are added.
+    hurt_scp_required: 600
+    # Stats to add points.
+    hurt_scp: 5
+    kill_enemy: 2
+    kill_scientist: 3
+    open_warhead_panel: 2
+    unlock_generator: 1
+    recontain_scp079: 3
+    escaped: 5
+    scp079_leveled_up: 5
+    scp079_tesla_kill: 5
+    scp079_assist_kill: 1
+    scp079_open_gate: 2
+    scp079_open_keycard_door: 1
+    scp106_grab_player: 1
+    # Stats to remove points.
+    kill_teammate: -10
+    took3_candies: -10
+    died: -1
+    died_dumb: -2
+    scp_died: -5
+    scp_died_dumb: -10

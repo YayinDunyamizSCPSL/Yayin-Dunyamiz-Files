@@ -1,0 +1,18 @@
+# How many points a team needs to get to win. [Default: 3]
+points_to_win: 3
+# How long the match should take in seconds. [Default: 180]
+match_duration_n_seconds: 180
+# How much power should the ball kick with from 0.25 to 2. [Default: 1]
+ball_speed_boost: 1
+# A list of maps that can be used for this event.
+available_maps: []
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.0'

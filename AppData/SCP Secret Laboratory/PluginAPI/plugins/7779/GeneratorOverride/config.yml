@@ -1,0 +1,12 @@
+# Amount of generators requiered to be engaged to recontain computer. If this value is larger than the amount spawned it will use the spawn count instead. Default = 3
+recontain_threshold: 2
+# Minimum amount of generators to spawn. For larger values above 8 there is a chance not all the generators will spawn due to spots being taken by pedestals. Default = 3
+min_generators: 2
+# Maximum amount of generators to spawn. Default = 3
+max_generators: 4
+# Amount of time it takes to engage a generator. Default = 125
+activation_time: 75
+# Amount of time it takes to reset a generators engage time after deactivation from 0. Default = 125
+deactivation_time: 75
+# If enabled only one generator per room can spawn. Default = false
+one_per_room: true

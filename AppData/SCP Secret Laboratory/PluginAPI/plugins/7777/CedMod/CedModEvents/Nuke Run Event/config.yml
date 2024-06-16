@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >+
+  Herkes SınıfD olarak doğar ve 2 kola verilir. Nükleer bomba etkinleştirilir ve kaçan ilk kişi kazanır!
+

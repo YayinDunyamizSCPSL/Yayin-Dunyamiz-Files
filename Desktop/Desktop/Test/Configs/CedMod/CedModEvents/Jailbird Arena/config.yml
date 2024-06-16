@@ -1,0 +1,14 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  Class-D vs NTF in a special Jailbird arena. Jailbirds get an extended charge duration, up to 3 seconds and never wearout. Everyone starts with {hp} HP. Random chance for everyone to get a Particle Disruptor or a MicroHID. Theres a chance the lights will be very dim. Last team alive wins!
+
+spawn_health: 1000
+dim_light_chance: 0.5
+dim_light_intensity: 1
+# weighted chance to only get the Jailbird
+none_weight: 1
+# weighted chance to get the Particle Disruptor
+particle_disruptor_weight: 1
+# weighted chance to get the Micro Hid
+micro_hid_weight: 1

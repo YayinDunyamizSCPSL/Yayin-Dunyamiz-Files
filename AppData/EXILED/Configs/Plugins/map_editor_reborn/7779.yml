@@ -1,0 +1,25 @@
+# Is the plugin enabled.
+is_enabled: true
+# Is the debug mode enabled.
+debug: false
+# Should object indicator be shown when you spawn an object.
+show_indicator_on_spawn: true
+# Enables FileSystemWatcher in this plugin. What it does is when you manually change values in a currently loaded map file, after saving the file the plugin will automatically reload the map in-game with the new changes so you won't need to do it yourself.
+enable_file_system_watcher: false
+# Whether the schematic .zip files should be automatically extracted when the server starts.
+auto_extract_schematics: false
+# The delay (in seconds) between spawning each block of a custom schematic. Setting this to -1 will disable it.
+schematic_block_spawn_delay: -1
+# Whether the plugin tracking is enabled. This is used to count how many servers are using the plugin.
+plugin_tracking: true
+# Whether the object will be auto selected when spawning it.
+auto_select: true
+# Option to load maps, when the specific event is called. If there are multiple maps, the random one will be choosen. Use UNLOAD to unload the map.
+load_map_on_event:
+  on_generated:
+  - 'RPV4'
+  on_round_started: []
+  on_decontaminating: []
+  on_warhead_detonated: []
+# The mode used for selecting maps when using the LoadMapOnEvent. Setting this to Random will pick a random map from the available maps. Setting this to Merge will automatically merge multiple maps into one and load all of them.
+load_map_on_event_mode: Random

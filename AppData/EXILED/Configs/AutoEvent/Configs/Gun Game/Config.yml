@@ -1,0 +1,122 @@
+# A list of guns a player can get.
+guns:
+- # The weapon that the player will recieve once they get to this role.
+  item: GunCOM15
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 0
+- # The weapon that the player will recieve once they get to this role.
+  item: GunCOM18
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 2
+- # The weapon that the player will recieve once they get to this role.
+  item: GunRevolver
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 4
+- # The weapon that the player will recieve once they get to this role.
+  item: GunCom45
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 6
+- # The weapon that the player will recieve once they get to this role.
+  item: GunFSP9
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 8
+- # The weapon that the player will recieve once they get to this role.
+  item: GunCrossvec
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 10
+- # The weapon that the player will recieve once they get to this role.
+  item: GunAK
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 12
+- # The weapon that the player will recieve once they get to this role.
+  item: GunShotgun
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 14
+- # The weapon that the player will recieve once they get to this role.
+  item: GunE11SR
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 16
+- # The weapon that the player will recieve once they get to this role.
+  item: GunRevolver
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 18
+- # The weapon that the player will recieve once they get to this role.
+  item: GunA7
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 20
+- # The weapon that the player will recieve once they get to this role.
+  item: ParticleDisruptor
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 22
+- # The weapon that the player will recieve once they get to this role.
+  item: GunAK
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 24
+- # The weapon that the player will recieve once they get to this role.
+  item: GunE11SR
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 26
+- # The weapon that the player will recieve once they get to this role.
+  item: GunLogicer
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 28
+- # The weapon that the player will recieve once they get to this role.
+  item: GunFRMG0
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 30
+- # The weapon that the player will recieve once they get to this role.
+  item: Jailbird
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 32
+- # The weapon that the player will recieve once they get to this role.
+  item: None
+  # Total kills needed to get this gun. [Default: 1]
+  kills_required: 34
+# The loadouts a player can get.
+loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    ClassD: 20
+    Scientist: 20
+    NtfSergeant: 20
+    ChaosRifleman: 20
+    FacilityGuard: 20
+  # The health that this class has. 0 is default role health. -1 is godmode.
+  health: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    initial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_instances: true
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  infinite_ammo: InfiniteAmmo
+# A list of maps that can be used for this event.
+available_maps: []
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.0'

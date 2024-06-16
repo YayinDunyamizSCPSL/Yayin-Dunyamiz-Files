@@ -1,0 +1,28 @@
+is_enabled: true
+debug: false
+# The path of the folder where the drinks will be stored.
+drinks_folder: 'C:\Users\Administrator\AppData\Roaming\EXILED\Configs\Drinks'
+# The name of the file to load the drinks configs from
+drinks_file: 'global.yml'
+# Whether or not random mode is enabled. Random Mode makes it so that every drink is random. This is false by default
+random_mode: false
+# Range to be able to use the machine
+range: 2
+# Schematic Name. If you want to use a custom schematic, either change its name to scp294 or change this to the schematic's name
+schematic_name: 'scp294'
+# Message that appears once you approach Scp-294
+approach_message: 'SCP-294''e yaklaştınız. Maalesef klavye bozuk olduğu için içecek almak için konsola ''.scp294'' yazın'
+# Message that appears once you approach Scp-294 with random mode enabled
+approach_message_random_mode: 'SCP-294''e yaklaştınız. Maalesef klavye bozuk olduğu için rastgele bir içecek almak için konsola ''.scp294'' yazın'
+# Message that appears after you get a drink
+enjoy_drink_message: '<color=#00ff00>Afiyet olsun</color>'
+# Message that appears if asked drink is not available
+out_of_range: '<color=#ff0000>İstenilen içecek mevcut değil</color>'
+# Message that appears if player is asked
+player_out_of_range: '<color=#ff0000>Makineye yeterince yakin degilsin</color>'
+# Message that appears if player is not holding a coin
+player_not_holding_coin: '<color=#ff0000>elinde para tutman gerek</color>'
+# Message that appears when an error occurs
+error_message: '<color=#ff0000>hata olustu</color>'
+# Message that appears if a player mistypes or uses the command incorrectly
+usage_message: '<color=#ff0000>Hatali kullanim. .scp294 [istedigin icecek] yazmayi dene. Su anda mevcut olan her icecegi yazdırmak için .scp294 listesini de kullanabilirsin. Rastgele mod acik ise sadece .scp294 yazman yeterli.</color>'

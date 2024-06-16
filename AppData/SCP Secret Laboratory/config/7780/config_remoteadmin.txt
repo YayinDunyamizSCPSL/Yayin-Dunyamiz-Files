@@ -1,0 +1,304 @@
+#Let's assign roles (you can modify them and create custom roles below)
+#UserID format is SteamId64Here@steam, DiscordUserIDHere@discord, etc...
+Members:
+#madamkokkoda
+ - 76561199224936223@steam: owner
+#aet
+ - 76561199084602889@steam: dev
+#rasul
+ - 76561199443081186@steam: moderator
+#testenecmi
+ - 76561199072394298@steam: moderator
+#softcrown
+ - 76561198847364647@steam: msorumlu
+#bayf
+ - 76561199125858547@steam: admin
+#zenciberk
+ - 76561199427223812@steam: moderator
+#ink
+ - 76561198219232193@steam: admin
+#efsanevi
+ - 76561199185106041@steam: moderator
+#sighvius
+ - 76561199130303369@steam: moderator
+#tunwya
+ - 76561198112158882@steam: admin
+#buglir
+ - 76561199217418760@steam: moderator
+#miracoffical
+ - 76561199016761544@steam: moderator
+#mythstorake
+ - 76561199236329927@steam: moderator
+#ananmet
+ - 76561199187888505@steam: moderator
+#flopa
+ - 76561198286945061@steam: moderator
+#Should Secret Lab development staff be able to use the Remote Admin?
+enable_staff_access: false
+
+#Should Secret Lab CEO and managers be able to use Remote Admin? (We do not abuse our powers) 
+enable_manager_access: true
+
+#Allow remote admin access for the banning team, to allow them searching and fightung cheaters globally
+enable_banteam_access: true
+
+#Enable reserved slots for the banning team (they are restricted by reserved slots limit set in the gameplay config)
+enable_banteam_reserved_slots: true
+
+#Allow the banning team to bypass georestrictions on the server
+enable_banteam_bypass_geoblocking: true
+
+#Let's define roles
+#use color "none" to disable badge
+#you can add own roles too
+#cover means that this local badge is more important than a global badge and will cover it
+#hidden means that this local badge is hiddeny by default (always you can use "hidetag" and "showtag" commands in game console or text-based remote admin)
+#kick_power is the power for kicking and banning that the member of this group has (can be from 0 to 255)
+#required_kick_power is the required kick power to kick or ban a member of this group (can be from 0 to 255)
+
+owner_badge: owner
+owner_color: red
+owner_cover: true
+owner_hidden: false
+owner_kick_power: 255
+owner_required_kick_power: 255
+
+dev_badge: dev
+dev_color: red
+dev_cover: true
+dev_hidden: false
+dev_kick_power: 255
+dev_required_kick_power: 255
+
+msorumlu_badge: msorumlu
+msorumlu_color: red
+msorumlu_cover: true
+msorumlu_hidden: false
+msorumlu_kick_power: 255
+msorumlu_required_kick_power: 255
+
+anhtr_badge: anhtr
+anhtr_color: red
+anhtr_cover: false
+anhtr_hidden: true
+anhtr_kick_power: 255
+anhtr_required_kick_power: 255
+
+#And add them to the roles list
+Roles:
+ - owner
+ - dmoderator
+ - amoderator
+ - dymoderator
+ - umoderator
+ - smoderator
+ - cadmin
+ - msorumlu
+ - dyadmin
+ - uadmin
+ - adminp
+ - bmod
+ - badmin
+ - abon
+ - mod
+ - luck
+ - adm
+ - basyon
+ - staj
+ - koord
+ - vp
+ - yone
+ - dev
+ - rpbas
+ - rpmod
+ - anhtr
+
+#Let's setup permissions for roles
+#More info can be found on our wiki: https://en.scpslgame.com/index.php/Docs:Permissions
+Permissions:
+ - KickingAndShortTermBanning: [owner, dev, admin, moderator]
+ - BanningUpToDay: [owner, dev, admin, moderator]
+ - LongTermBanning: [owner, dev, admin]
+ - ForceclassSelf: [owner, dev, admin, moderator]
+ - ForceclassToSpectator: [owner, dev, admin, moderator]
+ - ForceclassWithoutRestrictions: [owner, dev, admin]
+ - GivingItems: [owner, dev, admin]
+ - WarheadEvents: [owner, dev, admin, moderator]
+ - RespawnEvents: [owner, dev, admin]
+ - RoundEvents: [owner, dev, admin, moderator]
+ - SetGroup: [owner, dev]
+ - GameplayData: [owner, dev, admin]
+ - Overwatch: [owner, dev, admin, moderator]
+ - FacilityManagement: [owner, dev, admin, moderator]
+ - PlayersManagement: [owner, dev, admin]
+ - PermissionsManagement: [owner, dev]
+ - ServerConsoleCommands: [owner, dev]
+ - ViewHiddenBadges: [owner, dev, admin, moderator]
+ - ServerConfigs: [owner, dev]
+ - Broadcasting: [owner, dev, admin, moderator]
+ - PlayerSensitiveDataAccess: [owner, dev, admin, moderator]
+ - Noclip: [owner, dev, admin]
+ - AFKImmunity: [owner, dev, admin]
+ - AdminChat: [owner, dev, admin, moderator]
+ - ViewHiddenGlobalBadges: [owner, dev, admin, moderator]
+ - Announcer: [owner, dev, admin]
+ - Effects: [owner, dev, admin]
+ - FriendlyFireDetectorImmunity: [owner, dev, admin, moderator]
+ - FriendlyFireDetectorTempDisable: [owner, dev, admin]
+
+#Set to "none" in order to disable password.
+#WE DON'T RECOMMEND USING PASSWORD!!!
+#SETUP STEAMID AUTHENTICATION INSTEAD (of the top of this config file)!
+override_password: none
+override_password_role: owner
+
+#Allows running central server commands (they are prefixed with "!") using "sudo"/"cron" command in RA (requires ServerConsoleCommands permission).
+#Don't turn on unless you fully trust all people with this permission, they needs to run that commands from RA and you know what are you doing
+allow_central_server_commands_as_ServerConsoleCommands: false
+
+# Should the GUI-Based RA use the predefined ban templates below?
+enable_predefined_ban_templates: true
+
+# Here you can define ban templates for your staff members to use in-game. This can always be overriden by choosing the "Custom" ban tab
+# FORMAT: - [Duration in seconds, Reason]
+# **Note** The reason cannot contain any commas or it will break the parsing!
+PredefinedBanTemplates:
+ - [0, Consider this a warning!]
+ - [3600, Mic Spamming]
+ - [86400, Team Killing (Minor Offence)]
+ - [604800, Team Killing (Major Offence)]
+ - [1577000000, Abusing Exploits]
+
+#ADDED BY CONFIG VALIDATOR - 2023/08/30 13:11:49 Game version: 13.1.1
+dmoderator_color: default
+dmoderator_badge: default
+dmoderator_cover: default
+dmoderator_hidden: default
+dmoderator_kick_power: default
+dmoderator_required_kick_power: default
+amoderator_color: default
+amoderator_badge: default
+amoderator_cover: default
+amoderator_hidden: default
+amoderator_kick_power: default
+amoderator_required_kick_power: default
+dymoderator_color: default
+dymoderator_badge: default
+dymoderator_cover: default
+dymoderator_hidden: default
+dymoderator_kick_power: default
+dymoderator_required_kick_power: default
+umoderator_color: default
+umoderator_badge: default
+umoderator_cover: default
+umoderator_hidden: default
+umoderator_kick_power: default
+umoderator_required_kick_power: default
+smoderator_color: default
+smoderator_badge: default
+smoderator_cover: default
+smoderator_hidden: default
+smoderator_kick_power: default
+smoderator_required_kick_power: default
+cadmin_color: default
+cadmin_badge: default
+cadmin_cover: default
+cadmin_hidden: default
+cadmin_kick_power: default
+cadmin_required_kick_power: default
+dyadmin_color: default
+dyadmin_badge: default
+dyadmin_cover: default
+dyadmin_hidden: default
+dyadmin_kick_power: default
+dyadmin_required_kick_power: default
+uadmin_color: default
+uadmin_badge: default
+uadmin_cover: default
+uadmin_hidden: default
+uadmin_kick_power: default
+uadmin_required_kick_power: default
+adminp_color: default
+adminp_badge: default
+adminp_cover: default
+adminp_hidden: default
+adminp_kick_power: default
+adminp_required_kick_power: default
+bmod_color: default
+bmod_badge: default
+bmod_cover: default
+bmod_hidden: default
+bmod_kick_power: default
+bmod_required_kick_power: default
+badmin_color: default
+badmin_badge: default
+badmin_cover: default
+badmin_hidden: default
+badmin_kick_power: default
+badmin_required_kick_power: default
+abon_color: default
+abon_badge: default
+abon_cover: default
+abon_hidden: default
+abon_kick_power: default
+abon_required_kick_power: default
+mod_color: default
+mod_badge: default
+mod_cover: default
+mod_hidden: default
+mod_kick_power: default
+mod_required_kick_power: default
+luck_color: default
+luck_badge: default
+luck_cover: default
+luck_hidden: default
+luck_kick_power: default
+luck_required_kick_power: default
+adm_color: default
+adm_badge: default
+adm_cover: default
+adm_hidden: default
+adm_kick_power: default
+adm_required_kick_power: default
+basyon_color: default
+basyon_badge: default
+basyon_cover: default
+basyon_hidden: default
+basyon_kick_power: default
+basyon_required_kick_power: default
+staj_color: default
+staj_badge: default
+staj_cover: default
+staj_hidden: default
+staj_kick_power: default
+staj_required_kick_power: default
+koord_color: default
+koord_badge: default
+koord_cover: default
+koord_hidden: default
+koord_kick_power: default
+koord_required_kick_power: default
+vp_color: default
+vp_badge: default
+vp_cover: default
+vp_hidden: default
+vp_kick_power: default
+vp_required_kick_power: default
+yone_color: default
+yone_badge: default
+yone_cover: default
+yone_hidden: default
+yone_kick_power: default
+yone_required_kick_power: default
+rpbas_color: default
+rpbas_badge: default
+rpbas_cover: default
+rpbas_hidden: default
+rpbas_kick_power: default
+rpbas_required_kick_power: default
+rpmod_color: default
+rpmod_badge: default
+rpmod_cover: default
+rpmod_hidden: default
+rpmod_kick_power: default
+rpmod_required_kick_power: default

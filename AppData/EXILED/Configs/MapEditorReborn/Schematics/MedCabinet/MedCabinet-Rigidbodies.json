@@ -1,0 +1,74 @@
+{
+  "595760": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "578978": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "621152": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "620662": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "637142": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "587664": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "639664": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "612088": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "586746": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "569584": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "617614": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "575342": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 0,
+    "Mass": 1.0
+  }
+}

@@ -1,0 +1,12 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+# scales with the ratio of humans to zombies. this is the value for a 1:1 ratio
+zombie_health: 400
+knock_back_multiple: 2
+speed_ramping_delay: 2
+speed_ramping_rate: 10
+health_ramping_delay: 4
+health_ramping_rate: 50
+description: >+
+  Light is locked down and all players spawn in light as Class-D with one zombie. Zombies infect players on kill. Guns deal knock back based on the ratio of zombies to humans alive. Less humans more zombies = more knockback. The more zombies there are the less health each one has. After a certain amount of time zombies speed will start to ramp(increase) and after more time their health aswell. Last one alive wins!
+

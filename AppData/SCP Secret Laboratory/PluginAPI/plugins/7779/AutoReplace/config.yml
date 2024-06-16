@@ -1,0 +1,12 @@
+debug: false
+# Stops SCPs from being replaced after a certain amount of seconds pass.
+stop_after_seconds: 30
+# The message that is broadcasted to everyone when an SCP is replaced. Variables: %scp% %newplayer% %oldplayer%
+broadcast_message: '%scp% has been replaced by %newplayer%'
+# Players within these teams can be chosen to replace the SCP.
+available_teams:
+- Dead
+- Scientists
+- ChaosInsurgency
+- ClassD
+- FoundationForces

@@ -1,0 +1,230 @@
+{
+  "RootObjectId": 633590,
+  "Blocks": [
+    {
+      "Name": "Cube (1)",
+      "ObjectId": 583200,
+      "ParentId": 633590,
+      "Position": {
+        "x": -0.15,
+        "y": 1.2,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.9,
+        "y": 2.4,
+        "z": 0.640000045
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "333333FF"
+      }
+    },
+    {
+      "Name": "Cylinder",
+      "ObjectId": 569642,
+      "ParentId": 633590,
+      "Position": {
+        "x": 0.0,
+        "y": 1.2,
+        "z": 0.320000023
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.6,
+        "y": 1.20800006,
+        "z": 0.320000023
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FF5F5FFF"
+      }
+    },
+    {
+      "Name": "Cylinder",
+      "ObjectId": 573570,
+      "ParentId": 633590,
+      "Position": {
+        "x": -0.96,
+        "y": 0.66,
+        "z": 0.3
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.160000011,
+        "y": 0.128000021,
+        "z": 0.064
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder (1)",
+      "ObjectId": 589168,
+      "ParentId": 633590,
+      "Position": {
+        "x": -0.96,
+        "y": 0.82,
+        "z": 0.3
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.160000011,
+        "y": 0.128000021,
+        "z": 0.064
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder (2)",
+      "ObjectId": 637040,
+      "ParentId": 633590,
+      "Position": {
+        "x": -0.96,
+        "y": 0.979999959,
+        "z": 0.3
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.160000011,
+        "y": 0.128000021,
+        "z": 0.064
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder (3)",
+      "ObjectId": 598156,
+      "ParentId": 633590,
+      "Position": {
+        "x": -0.96,
+        "y": 1.13999987,
+        "z": 0.3
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.160000011,
+        "y": 0.128000021,
+        "z": 0.064
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (5)",
+      "ObjectId": 592962,
+      "ParentId": 633590,
+      "Position": {
+        "x": 0.0,
+        "y": 0.5632,
+        "z": 0.1912
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.640000045,
+        "y": 0.4,
+        "z": 0.640000045
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "333333FF"
+      }
+    },
+    {
+      "Name": "Cube (2)",
+      "ObjectId": 606380,
+      "ParentId": 633590,
+      "Position": {
+        "x": -0.15,
+        "y": 1.2,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": -1.901,
+        "y": -2.39,
+        "z": -0.63
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "FF5F5FFF"
+      }
+    },
+    {
+      "Name": "Cube (3)",
+      "ObjectId": 606364,
+      "ParentId": 633590,
+      "Position": {
+        "x": -0.948,
+        "y": 1.486,
+        "z": 0.24
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.24,
+        "y": 0.2,
+        "z": 0.2
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "8C8C8CFF"
+      }
+    }
+  ]
+}

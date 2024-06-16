@@ -1,0 +1,4 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >
+  Tüm ışıklar kapatılır ve ışık kilitlenir. Herkes ışıkta ortaya çıkar ve el fenerleri verilir ve yer fıstığından saklanmak için 30 saniyeleri vardır. El feneri fıstık üzerinde çalışmaz.

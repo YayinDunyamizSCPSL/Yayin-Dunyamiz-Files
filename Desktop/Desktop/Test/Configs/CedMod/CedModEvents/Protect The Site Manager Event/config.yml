@@ -1,0 +1,8 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  A random player is the site manager. They will be spawned in as a Scientist with a pistol, combat armor, a facility manager card and SCP 268. They will have a number of NTF private body guards (Manager and guards will be given {reduction}% damage reduction). The Site manager’s goal is to make it from light containment all the way to surface to turn on the nuke. To turn on the nuke the generators must be done. If the nuke goes off before the Site manager dies then the Site manager and guards win. Chaos will be spawned in and their goal is to simply kill the Site manager before the nuke is detonated.
+
+# Damage reduction as a percentage
+damage_reduction: 70
+player_to_guard_ratio: 3.5

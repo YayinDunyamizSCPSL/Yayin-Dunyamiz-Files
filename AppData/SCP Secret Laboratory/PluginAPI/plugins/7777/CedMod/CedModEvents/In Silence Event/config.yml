@@ -1,0 +1,4 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >
+  Tüm oyuncular ağır muhafaza bölgesinde ortaya çıkacak ve hem asansör sistemleri hem de giriş bölgesi kilitlenecektir. Herkes bir bilim adamı olarak ortaya çıkacak ve herkesi bulmaya ve öldürmeye çalışan SCP939'ları öldürmek için bazı silahlar bulmak zorunda kalacak. Bir jeneratör açılırsa SCP079 kapıları açılacak ve oyuncuların zırhına erişmesine ve kapatılmışsa ışıkları tekrar açacak olan aşırı şarja basmasına izin verecektir. SCP939'lar 700 kalkana sahipken sadece 1 hp'ye sahip olacak

@@ -1,0 +1,85 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+# Chance to enable speedy mode (all players spawn with 6 colas and 6 yellow candy) 0.0 = 0%, 1.0 = 100%
+speedy_chance: 0.25
+# Chance to enable spooky mode (players are given ghost lights at random). will override lights out mode. 0.0 = 0%, 1.0 = 100%
+spooky_chance: 0.300000012
+# Chance to enable invis mode (all players given SCP268) 0.0 = 0%, 1.0 = 100%
+invis_chance: 0.25
+# Chance to enable lights out mode (facility light out and all players are given a flashlight). will override spooky mode. 0.0 = 0%, 1.0 = 100%
+lights_out_chance: 0.200000003
+# Chance to enable replication mode (peanuts replicate on kill) 0.0 = 0%, 1.0 = 100%
+replication_chance: 0.0500000007
+# Chance to enable double nut mode (start with two peanuts) 0.0 = 0%, 1.0 = 100%
+double_nut_chance: 0
+# Chance to enable child mode (all humans are small) 0.0 = 0%, 1.0 = 100%
+child_chance: 0.100000001
+# Chance to enable baby173 mode (scp173 is very small) 0.0 = 0%, 1.0 = 100%
+baby173_chance: 0.100000001
+# chance a player will be given a ghost light every minute when in spooky mode. 0.0 = 0%, 1.0 = 100%
+spooky_mode_chance_per_minute: 0.5
+child_size: 0.5
+baby173_size: 0.25
+# Chance an unnamed room will be used e.g. Zone: Lcz, Shape: Curve. 0.0 = 0%, 1.0 = 100%
+unnamed_room_chance: 0.075000003
+# Forces replication mode on harder rooms
+force_replication:
+- Outside
+- Hcz049
+# Forces double nut mode on harder rooms(disabled if replication is enabled)
+force_double_nut:
+- EzOfficeSmall
+- HczTestroom
+- Hcz079
+- Hcz106
+- Lcz173
+- LczClassDSpawn
+# Room blacklist
+room_blacklist:
+- Unnamed
+- Pocket
+- EzCollapsedTunnel
+- EzEvacShelter
+description: >+
+  Everyone spawns in a random room with 173. Round may be modified with many random gamemodes. The last one alive wins!
+
+# Rooms (do not edit)
+rooms:
+- Unnamed
+- LczClassDSpawn
+- LczComputerRoom
+- LczCheckpointA
+- LczCheckpointB
+- LczToilets
+- LczArmory
+- Lcz173
+- LczGlassroom
+- Lcz330
+- Lcz914
+- LczGreenhouse
+- LczAirlock
+- HczCheckpointToEntranceZone
+- HczCheckpointA
+- HczCheckpointB
+- HczWarhead
+- Hcz049
+- Hcz079
+- Hcz096
+- Hcz106
+- Hcz939
+- HczMicroHID
+- HczArmory
+- HczServers
+- HczTesla
+- EzCollapsedTunnel
+- EzGateA
+- EzGateB
+- EzRedroom
+- EzEvacShelter
+- EzIntercom
+- EzOfficeStoried
+- EzOfficeLarge
+- EzOfficeSmall
+- Outside
+- Pocket
+- HczTestroom

@@ -1,0 +1,10 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+disable_ced_mod_hint: true
+disable_warning: true
+event_name: Insanity
+allow_moving: true
+cooldown_per_player: 60
+item_pd_delay: 60
+elevator_tp_chance: 0.100000001
+lag_comp_multiplier: 5

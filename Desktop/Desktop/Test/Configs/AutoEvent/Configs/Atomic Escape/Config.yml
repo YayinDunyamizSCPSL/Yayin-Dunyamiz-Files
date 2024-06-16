@@ -1,0 +1,116 @@
+# How long players have to escape in seconds. [Default: 70]
+escape_duration_time: 70
+# The time of the start and resume of the warhead in seconds. [Default: 100]
+escape_resume_time: 100
+# A list of maps that can be used for this event.
+available_maps: []
+# A list of sounds that can be used for this event.
+available_sounds:
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Escape.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_NightOfFire.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_ComeOnBaby.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_Dejavu.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_GasGasGas.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_SpeedCar.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_Dancing.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_DancingQueen.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 10
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'Initial_D_RunninginThe90s.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+- # The chance of getting this sound.
+  chance: 5
+  # The sound and sound information.
+  sound:
+    # The name of the sound.
+    sound_name: 'SomeTajikMusic.ogg'
+    # The volume that the sound should play at.
+    volume: 25
+    # Should the sound loop or not.
+    loop: true
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.1'

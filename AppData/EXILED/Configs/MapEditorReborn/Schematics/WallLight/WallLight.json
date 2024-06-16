@@ -1,0 +1,197 @@
+{
+  "RootObjectId": 635456,
+  "Blocks": [
+    {
+      "Name": "Cylinder",
+      "ObjectId": 600256,
+      "ParentId": 635456,
+      "Position": {
+        "x": -0.210000023,
+        "y": 0.0,
+        "z": -0.055
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.420000136,
+        "y": 0.0550000221,
+        "z": 0.4200002
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (1)",
+      "ObjectId": 574176,
+      "ParentId": 635456,
+      "Position": {
+        "x": 0.210000023,
+        "y": 0.0,
+        "z": -0.055
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 90.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.420000136,
+        "y": 0.0550000221,
+        "z": 0.4200002
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube",
+      "ObjectId": 627144,
+      "ParentId": 635456,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.055
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.420000136,
+        "y": 0.420000136,
+        "z": 0.11
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Capsule",
+      "ObjectId": 582328,
+      "ParentId": 635456,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.0400000066,
+        "y": 0.410000026,
+        "z": 0.22
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder",
+      "ObjectId": 622940,
+      "ParentId": 635456,
+      "Position": {
+        "x": -0.132000029,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.420000136,
+        "y": 0.008000002,
+        "z": 0.220000014
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (1)",
+      "ObjectId": 639262,
+      "ParentId": 635456,
+      "Position": {
+        "x": 0.132000029,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.420000136,
+        "y": 0.008000002,
+        "z": 0.220000014
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Capsule",
+      "ObjectId": 574618,
+      "ParentId": 635456,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.400000036,
+        "y": 0.400000036,
+        "z": 0.2
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "LightSource",
+      "ObjectId": 591532,
+      "ParentId": 635456,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.159
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFFFFF",
+        "Intensity": 1.0,
+        "Range": 10.0,
+        "Shadows": false
+      }
+    }
+  ]
+}

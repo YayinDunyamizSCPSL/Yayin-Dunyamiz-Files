@@ -1,0 +1,12 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+mother_zombie_health: 4000
+children_health_pool: 400
+# Knockback in meters with a 1:1 ratio of zombies to humans per 100 dmg
+knock_back_multiple: 10
+auto_nuke: 15
+cure_kills_threshold: 2
+description: >+
+  SCP'ler büyük bir maksimum HP'ye sahip ana zombiler olarak ortaya çıkar. Zombiler öldürüldüklerinde oyunculara bulaşır ve çocuk zombiler oluşturur. Çocuk zombiler anne zombilerinin yanında yeniden doğar ve anne zombilerinin sağlığının bir kısmını alır. Ne kadar çok çocuk zombi varsa, her birinin sağlığı o kadar az olur. Tüm oyuncular sonsuz cephaneye sahiptir ve insanların zombilere oranına göre geri tepme uygular. Sınıf D'ler bir com-15 ve 10 cephane ile ortaya çıkar. Bilim adamları sonsuz cephaneli bir com-18 ve yükseltilmiş bir anahtar kart ile doğarlar. D Sınıfı ve Bilim İnsanları enfeksiyonun yayılmasını durdurmak için takım halinde öldürebilir
+
+

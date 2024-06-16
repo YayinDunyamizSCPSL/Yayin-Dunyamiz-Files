@@ -1,0 +1,204 @@
+# How many lives each prisoner gets.
+prisoner_lives: 3
+# A list of lockdown settings available.
+lockdown_settings:
+  # How long before prisoners are released automatically. -1 to disable.
+  auto_release_delay_n_seconds: 20
+  # How long the "Jail Lockdown Button" will lock the prisoner doors. O5 and containment engineer will double the duration. Bypass mode will permanently lockdown.
+  lockdown_duration_n_seconds: 15
+  # How long the cooldown is for the jail lockdown. Bypass mode will skip this cooldown.
+  lockdown_cooldown_duration_n_seconds: 15
+  # Should lockdowns lock the gates as well. Anyone with a keycard that has checkpoint access can still go through gates.
+  lockdown_locks_gates_as_well: true
+# How many players will spawn as the jailors.
+jailor_role_count:
+  # The minimum number of players on a team. 0 to ignore.
+  minimum_players: 1
+  # The maximum number of players on a team. -1 to ignore.
+  maximum_players: 4
+  # The percentage of players that will be on the team. -1 to ignore.
+  player_percentage: 15
+# A list of loadouts for the jailors.
+jailor_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    NtfCaptain: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The items that this class spawns with.
+  tems:
+  - GunE11SR
+  - GunCOM18
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+# A list of loadouts for the prisoners.
+prisoner_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    ClassD: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  nfinite_ammo: InfiniteAmmo
+# What loadouts each locker can give.
+weapon_locker_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The items that this class spawns with.
+  tems:
+  - GunE11SR
+  - GunCOM15
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  nfinite_ammo: InfiniteAmmo
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The items that this class spawns with.
+  tems:
+  - GunCrossvec
+  - GunRevolver
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+  # Should the player have infinite ammo.
+  nfinite_ammo: InfiniteAmmo
+medical_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # The health that this class has. 0 is default role health. -1 is godmode.
+  health: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+adrenaline_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 100
+    # The max amount the player will be able to get.
+    max_amount: 100
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 70
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: false
+    # How long to wait before regenerating.
+    duration: 0
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+# A list of maps that can be used for this event.
+available_maps: []
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.0'

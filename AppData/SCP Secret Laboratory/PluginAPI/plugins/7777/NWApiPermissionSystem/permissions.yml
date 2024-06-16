@@ -1,0 +1,21 @@
+groups:
+  dev:
+    is_default: false
+    inherited_groups: []
+    permissions:
+    - .*
+  anhtr:
+    is_default: false
+    inherited_groups: []
+    permissions:
+    - .*
+  abon:
+    is_default: false
+    inherited_groups: []
+    permissions:
+    - random.plugin
+  dev2:
+    is_default: false
+    inherited_groups: []
+    permissions:
+    - .*

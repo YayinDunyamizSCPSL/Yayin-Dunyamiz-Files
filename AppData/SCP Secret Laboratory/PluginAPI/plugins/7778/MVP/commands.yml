@@ -1,0 +1,42 @@
+# Will log all commands when enabled
+debug: true
+# ____________________________________________________________________________________________________________________________________________________________
+# A system to execute commands based on the players that were an MVP, Stat represents the MVP message you want to execute the commands for and Event is when you want it to execute
+# Each EventCommand must specify the Stat, Event, Delay and a list of Commands to execute
+# Valid Stats are MostKillsAsScp, FirstToKillScp, MostScpsKilled, MostKillsAsHuman, FirstToEscape and BestAchievement
+# Valid Events are RoundEnd, NextJoin and NextRoundStart
+# Delay might be necessary in certain cases when variables are not set yet. Setting the delay to -1 will execute the command with no delay, for a 1 frame delay use 0 for the delay
+# Commands are executed in the Server Console by default to execute it as a Remote Admin command you must start your command with a '/'
+# Commands support Command Interpolation https://en.scpslgame.com/index.php?title=Command_Interpolation which can be used to perform logic(see example below)
+# Additional MVP specific interpolation is provided
+#   %name% - get the name of the player. this is the only variable to bypass the Command Interpolation for safety reasons i.e. you cannot perform any logic with the %name% variable unlike all the others. dynamic value which changes when the player leaves/rejoins should always point to the same user.
+#   {id} - the player_id of the player. if used in the command the command will not be executed if the player is not in the server. dynamic value which changes when the player leaves/rejoins garunteed to always point to the same user.
+#   {user_id} - the user_id of the player. unlike {id}, it will not prevent the command from executing as user_ids are expected to work for offline players
+#   {dnt} - true/false value indicating if the player has Do Not Track enabled or not. use this with command interpolation to stay within the VSR. dynamic value which changes when the player leaves/rejoins garunteed to always be up to date.
+#   Stat related variables {stat_kills_as_scp} {stat_scp_role} {stat_scps_killed} {stat_scp_killed_time} {stat_kills_as_human} {stat_escape_time} {stat_escape_role} {stat_best_achievement}
+#   Player related variables {ip} {role} {team} {faction} {hp} {stamina} {ahp} {alive} {human} {scp}
+# You can test commands by using the mvp_event_command in the Remote Admin(requires server console permission) aliases - mec. e.g. "mec /pbc {id} 5 %name% used command to make a private broadcast"
+#
+# Example List
+# 1. sends a broadcast to everyone doxing the player that had the most kills as a human last round only if they had more than 5 total kills(Dont use this unless you want your server to be delisted, you shouldnt need me to tell you this)
+# 2. sends a private broadcast to the player when they join if they had the most kills as an scp last round
+# 3. sends a private broadcast and gives scp207 if they spawn as a human and had the most kills as an scp last round
+#event_commands:
+#- stat: MostKillsAsHuman
+#  event: NextRoundStart
+#  delay: 10
+#  commands:
+#  - '{if,{greater,{stat_kills_as_human},5},/bc 1 haha get doxed idiot. <color=#00FF00>%name%</color>: <color=#FF0000>{ip}</color>}'
+#- stat: MostKillsAsScp
+#  event: NextJoin
+#  delay: 1
+#  commands:
+#  - /pbc {id} 5 You had most kills as SCP last match so will spawn with an item this game if you spawn as a human role
+#- stat: MostKillsAsScp
+#  event: NextRoundStart
+#  delay: 1
+#  commands:
+#  - '{if,{human},/give {id} 18}'
+#  - '{if,{human},/pbc {id} 5 you spawned with scp207!}'
+# ____________________________________________________________________________________________________________________________________________________________
+event_commands: []

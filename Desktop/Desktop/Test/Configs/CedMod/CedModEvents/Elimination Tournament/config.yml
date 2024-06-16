@@ -1,0 +1,39 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  Team v Team Tournament
+
+score_threshold: 2
+ban_selection_time: 90
+loadout_selection_time: 45
+# percentage that the zone decreases by per minute 0.20 = 5 mins to collapse fully
+zone_size_shrink_rate: 0.200000003
+min_zone_size_surface: 3
+min_zone_size_facility: 7.5
+zone_shrink_delay: 60
+role_a: ClassD
+role_b: Scientist
+global_item_bans: []
+team_item_limit:
+  SCP268: 1
+  SCP018: 1
+  SCP1576: 1
+  SCP244a: 1
+  SCP244b: 1
+team_zone_ban_limit: 1
+team_category_bans_limit:
+  Weapon: 4
+  Medical: 1
+  SCP: 1
+  Other: 1
+team_candy_ban_limit: 1
+ban_threshold: 2
+predefined_bracket:
+- team_a: team_1
+  team_b: team_2
+- team_a: team_5
+  team_b: ''
+- team_a: team_3
+  team_b: team_4
+- team_a: team_6
+  team_b: ''

@@ -1,0 +1,16 @@
+# Determines if Loader is enabled or not.
+loader_enabled: true
+# Determines if the Events should be patched or not (Disabling this will cause the events to be unfunctional).
+patch_events: true
+# Determines if Loader's debug logs show or not.
+show_debug_logs: false
+# If true, allows the server to be tracked and counted with the total number of Nebuli servers via server name.
+server_name_tracking: true
+# Determines if the Loader should load plugins where their major required version of Nebuli dosent match Nebulis current major version.
+load_out_dated_plugins: false
+# Determines if the Nebuli should load plugins based on the current port folder its running on.
+seperate_plugins_by_port: true
+# If Nebuli should automatically check for updates.
+should_check_for_updates: true
+# If Nebuli should allow external download URLs for commands like 'forceinstall'.
+allow_external_download_u_r_l_s: false

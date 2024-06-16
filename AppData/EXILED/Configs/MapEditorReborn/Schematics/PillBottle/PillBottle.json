@@ -1,0 +1,130 @@
+{
+  "RootObjectId": 622636,
+  "Blocks": [
+    {
+      "Name": "Cylinder (2)",
+      "ObjectId": 567526,
+      "ParentId": 622636,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0509,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.099,
+        "y": 0.025,
+        "z": 0.101
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FF9934FF"
+      }
+    },
+    {
+      "Name": "Cylinder (3)",
+      "ObjectId": 597236,
+      "ParentId": 622636,
+      "Position": {
+        "x": 0.0,
+        "y": 0.1261,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0550000034,
+        "y": 0.00500000035,
+        "z": 0.0550000034
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder (1)",
+      "ObjectId": 586132,
+      "ParentId": 622636,
+      "Position": {
+        "x": 0.0,
+        "y": 0.1377,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0600000024,
+        "y": 0.0100000007,
+        "z": 0.0600000024
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "242323FF"
+      }
+    },
+    {
+      "Name": "Sphere",
+      "ObjectId": 609804,
+      "ParentId": 622636,
+      "Position": {
+        "x": 0.0,
+        "y": 0.1009,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1,
+        "y": 0.05,
+        "z": 0.1
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cylinder",
+      "ObjectId": 600466,
+      "ParentId": 622636,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0509,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1,
+        "y": 0.05,
+        "z": 0.1
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    }
+  ]
+}

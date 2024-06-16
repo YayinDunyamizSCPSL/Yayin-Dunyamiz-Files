@@ -1,0 +1,84 @@
+# Determines the C.A.S.S.I.E string to use when there is one breached SCP.
+scp_announce_string_singular:
+  cassie_text: '{LIST} HAS BREACHED CONTAINMENT'
+  caption_text: '{LIST} has breached containment.'
+# Determines the C.A.S.S.I.E string to use when there is more than one breached SCP.
+scp_announce_string_multiple:
+  cassie_text: '{LIST} HAVE BREACHED CONTAINMENT'
+  caption_text: '{LIST} have breached containment.'
+# Determines the C.A.S.S.I.E string to use when the scan is started.
+scan_start_message:
+  cassie_text: 'FACILITY SCAN BEGUN . ESTIMATED TIME {LENGTH} SECONDS'
+  caption_text: 'Facility scan begun. Estimated time: {LENGTH} seconds.'
+# Determines the C.A.S.S.I.E string to use when the scan is completed.
+scan_finish_message:
+  cassie_text: 'FACILITY SCAN COMPLETE . {HUMANCOUNT} HUMANS DETECTED . {SCPCOUNT} SCPS DETECTED . FOUND {LIST}'
+  caption_text: 'Facility scan complete. {HUMANCOUNT} humans detected. {SCPCOUNT} SCPs detected. Found {LIST}.'
+# Determines the C.A.S.S.I.E string to use when the scan is completed and nobody is alive.
+scan_nobody_message:
+  cassie_text: 'FACILITY SCAN COMPLETE . NO HUMANS OR SCPS DETECTED'
+  caption_text: 'Facility scan complete. No humans or SCPs detected.'
+# Determines how cassie will pronounce single classes (eg. '1 SCIENTIST').
+team_pronounciation_singular:
+  ClassD:
+    cassie_text: 'CLASS D PERSONNEL'
+    caption_text: 'Class-D Personnel'
+  Scientists:
+    cassie_text: 'SCIENTIST'
+    caption_text: 'Scientist'
+  SCPs:
+    cassie_text: 'SCPSUBJECT'
+    caption_text: 'SCP Subject'
+  FoundationForces:
+    cassie_text: 'MTFUNIT'
+    caption_text: 'Mobile Task Force Unit'
+  ChaosInsurgency:
+    cassie_text: 'CHAOS INSURGENT'
+    caption_text: 'Chaos Insurgent'
+# Determines how cassie will pronounce plural classes (eg. '4 SCIENTISTS').
+team_pronounciation_multiple:
+  ClassD:
+    cassie_text: 'CLASS D PERSONNEL'
+    caption_text: 'Class-D Personnel'
+  Scientists:
+    cassie_text: 'SCIENTIST'
+    caption_text: 'Scientists'
+  SCPs:
+    cassie_text: 'SCPSUBJECT'
+    caption_text: 'SCP Subjects'
+  FoundationForces:
+    cassie_text: 'MTFUNIT'
+    caption_text: 'Mobile Task Force Units'
+  ChaosInsurgency:
+    cassie_text: 'CHAOS INSURGENT'
+    caption_text: 'Chaos Insurgency'
+# Determines how cassie will pronounce SCPs.
+scp_pronounciation:
+  Scp049:
+    cassie_text: 'SCP 0 4 9'
+    caption_text: 'SCP-049'
+  Scp0492:
+    cassie_text: 'SCP 0 4 9 2'
+    caption_text: 'SCP-049-2'
+  Scp079:
+    cassie_text: 'SCP 0 7 9'
+    caption_text: 'SCP-079'
+  Scp096:
+    cassie_text: 'SCP 0 9 6'
+    caption_text: 'SCP-096'
+  Scp106:
+    cassie_text: 'SCP 1 0 6'
+    caption_text: 'SCP-106'
+  Scp173:
+    cassie_text: 'SCP 1 7 3'
+    caption_text: 'SCP-173'
+  Scp939:
+    cassie_text: 'SCP 9 3 9'
+    caption_text: 'SCP-939'
+  Scp3114:
+    cassie_text: 'SCP 3 1 1 4'
+    caption_text: 'SCP-3114'
+# Determines how cassie will pronounce Serpent's Hand, only if the plugin is installed.
+serpents_hand_pronounce:
+  cassie_text: 'SERPENTS HAND'
+  caption_text: 'Serpent''s Hand'

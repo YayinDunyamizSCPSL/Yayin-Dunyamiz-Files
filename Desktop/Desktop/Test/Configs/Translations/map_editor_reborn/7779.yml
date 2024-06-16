@@ -1,0 +1,4 @@
+mode_creating: '<color=yellow>Mode:</color> <color=green>Creating</color>'
+mode_deleting: '<color=yellow>Mode:</color> <color=red>Deleting</color>'
+mode_selecting: '<color=yellow>Mode:</color> <color=yellow>Selecting</color>'
+mode_copying: '<color=yellow>Mode:</color> <color=#34B4EB>Copying to the ToolGun</color>'

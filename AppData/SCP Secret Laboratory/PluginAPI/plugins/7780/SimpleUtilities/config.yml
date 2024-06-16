@@ -1,0 +1,30 @@
+# Whether or not the plugin is enabled.
+ıs_enabled: true
+# Whether or not to show debug messages.
+debug: false
+# Welcome message which is displayed for the player. (Leave it empty to disable.)
+welcome_message: <color=blue>Yayin Dunyamiz</color> <color=#C6E2FF>Event</color><color=white>-</color><color=#eecbad>Sunucusuna</color> <color=white>Hos Geldin!</color> <color=blue>discord.gg/YayinDunyamiz</color>
+# Welcome message duration.
+welcome_message_time: 7
+# CASSIE announcement when Chaos Insurgency spawns. Leave it empty to disable. (Please note that you can only use CASSIE approved words.)
+cassie_message: Warning Chaos Insurgency has been spotted
+# Whether or not to play the announcement's sound effect.
+cassie_noise: true
+# Whether or not CASSIE should display the text of the announcement.
+cassie_text: true
+# Chance (1-100) for Chaos Insurgency to spawn at round start instead of Facility Guards.
+chaos_chance: 0
+# Whether or not to enable friendly fire when the round ends. (You can change the friendly_fire_multiplier in your config_gameplay.txt)
+ff_on_end: true
+# Whether or not disarmed NTF / CI should change teams when escaping.
+cuffed_change_teams: true
+# Message sent for the player who looked at / shot SCP-096. (Leave it empty to disable.)
+target_message: SCP-096'nin hedefi oldunuz!
+# Message sent when coin lands on tails. (Leave it empty to disable.)
+coin_tails: Yazi Geldi
+# Message sent when coin lands on heads. (Leave it empty to disable.)
+coin_heads: Tura Geldi
+# Whether or not to show players' HP when looking at them.
+show_hp: true
+# Format of displayed HP. Keep everything between ' '.
+hp_display_format: ' '

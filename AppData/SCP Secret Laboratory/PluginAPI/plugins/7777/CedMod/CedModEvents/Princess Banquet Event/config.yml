@@ -1,0 +1,6 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+dog_count: 5
+description: >+
+  {count} players spawn as the dog the rest as children. Last one alive wins!
+

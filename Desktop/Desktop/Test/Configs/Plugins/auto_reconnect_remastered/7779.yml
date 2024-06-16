@@ -1,0 +1,27 @@
+# Whether or not this plugin is enabled.
+s_enabled: true
+# Whether or not to display debug messages in the server console.
+debug: false
+# Whether or not to restore player's active effect. Player will respawn with same effect strengh and remain time.
+recovery_effect: true
+# Whether or not to restore player's inventory. Player will respawn with same inventory.
+recovery_nventory: true
+# Whether or not to restore player's ammo. Player will respawn with same ammo.
+recovery_ammo: true
+# Whether or not to spawn disconnected player's ragdoll.
+spawn_ragdoll: false
+# Text that will be shown to the player at reconnect.
+reconnect_text: 'You have been reconnected. You will be respawn to stored status.'
+# Text that will be shown to the player who enabled DNT.
+joined_broadcast:
+# The broadcast content
+  content: |-
+    Plugin requires your auth for storing data. Do you want to accept that ?
+    If accepted you''re able to enjoy reconnect respawn features.
+    Type .accept in console for accept .deny for deny.
+  # The broadcast duration
+  duration: 15
+  # The broadcast type
+  type: Normal
+  # Indicates whether the broadcast should be shown or not
+  show: true

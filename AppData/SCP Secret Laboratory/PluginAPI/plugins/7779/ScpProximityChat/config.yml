@@ -1,0 +1,15 @@
+is_enabled: true
+toggle_chat: true
+proximity_chat_enabled_message: <i><b>proximity chat <color=#42f57b>enabled</color></b></i>
+proximity_chat_disabled_message: <i><b>proximity chat <color=red>disabled</color></b></i>
+max_proximity_distance: 13
+allowed_roles:
+- Scp049
+- Scp096
+- Scp106
+- Scp173
+- Scp0492
+- Scp939
+send_broadcast_on_role_change: false
+broadcast_duration: 5
+broadcast_message: <b>Proximity Chat can be toggled with the <color=#42f57b>[ALT]</color> key</b>.

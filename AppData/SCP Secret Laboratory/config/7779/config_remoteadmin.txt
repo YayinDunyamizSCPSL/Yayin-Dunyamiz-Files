@@ -1,0 +1,187 @@
+#Let's assign roles (you can modify them and create custom roles below)
+#UserID format is SteamId64Here@steam, DiscordUserIDHere@discord, etc...
+Members:
+#madamkokkoda
+ - 76561199224936223@steam: owner
+#aet
+ - 76561199084602889@steam: dev
+#rasul
+ - 76561199443081186@steam: moderator
+#testenecmi
+ - 76561199072394298@steam: moderator
+#softcrown
+ - 76561198847364647@steam: msorumlu
+#bayf
+ - 76561199125858547@steam: admin
+#zenciberk
+ - 76561199427223812@steam: moderator
+#ink
+ - 76561198219232193@steam: admin
+#efsanevi
+ - 76561199185106041@steam: moderator
+#sighvius
+ - 76561199130303369@steam: moderator
+#tunwya
+ - 76561198112158882@steam: admin
+#buglir
+ - 76561199217418760@steam: moderator
+#miracoffical
+ - 76561199016761544@steam: moderator
+#mythstorake
+ - 76561199236329927@steam: moderator
+#ananmet
+ - 76561199187888505@steam: moderator
+#flopa
+ - 76561198286945061@steam: moderator
+#Should Secret Lab development staff be able to use the Remote Admin?
+enable_staff_access: false
+
+#Should Secret Lab CEO and managers be able to use Remote Admin? (We do not abuse our powers) 
+enable_manager_access: true
+
+#Allow remote admin access for the banning team, to allow them searching and fightung cheaters globally
+enable_banteam_access: true
+
+#Enable reserved slots for the banning team (they are restricted by reserved slots limit set in the gameplay config)
+enable_banteam_reserved_slots: true
+
+#Allow the banning team to bypass georestrictions on the server
+enable_banteam_bypass_geoblocking: true
+
+#Let's define roles
+#use color "none" to disable badge
+#you can add own roles too
+#cover means that this local badge is more important than a global badge and will cover it
+#hidden means that this local badge is hiddeny by default (always you can use "hidetag" and "showtag" commands in game console or text-based remote admin)
+#kick_power is the power for kicking and banning that the member of this group has (can be from 0 to 255)
+#required_kick_power is the required kick power to kick or ban a member of this group (can be from 0 to 255)
+
+owner_badge: owner
+owner_color: red
+owner_cover: true
+owner_hidden: false
+owner_kick_power: 255
+owner_required_kick_power: 255
+
+dev_badge: dev
+dev_color: red
+dev_cover: true
+dev_hidden: false
+dev_kick_power: 255
+dev_required_kick_power: 255
+
+msorumlu_badge: msorumlu
+msorumlu_color: red
+msorumlu_cover: true
+msorumlu_hidden: false
+msorumlu_kick_power: 255
+msorumlu_required_kick_power: 255
+
+rpbas_badge: moderator
+rpbas_color: silver
+rpbas_cover: true
+rpbas_hidden: false
+rpbas_kick_power: 0
+rpbas_required_kick_power: 1
+
+rpmod_badge: moderator
+rpmod_color: silver
+rpmod_cover: true
+rpmod_hidden: false
+rpmod_kick_power: 0
+rpmod_required_kick_power: 1
+
+lcky_badge: moderator
+lcky_color: silver
+lcky_cover: true
+lcky_hidden: false
+lcky_kick_power: 0
+lcky_required_kick_power: 1
+
+vp_badge: moderator
+vp_color: silver
+vp_cover: true
+vp_hidden: false
+vp_kick_power: 0
+vp_required_kick_power: 1
+
+abon_badge: moderator
+abon_color: silver
+abon_cover: true
+abon_hidden: false
+abon_kick_power: 0
+abon_required_kick_power: 1
+
+moderator_badge: moderator
+moderator_color: silver
+moderator_cover: true
+moderator_hidden: false
+moderator_kick_power: 0
+moderator_required_kick_power: 1
+
+#And add them to the roles list
+Roles:
+ - owner
+ - rpbas
+ - rpmod
+ - msorumlu
+ - vp
+ - lcky
+ - abon
+ - dev
+
+#Let's setup permissions for roles
+#More info can be found on our wiki: https://en.scpslgame.com/index.php/Docs:Permissions
+Permissions:
+ - KickingAndShortTermBanning: [owner, dev, admin, moderator]
+ - BanningUpToDay: [owner, dev, admin, moderator]
+ - LongTermBanning: [owner, dev, admin]
+ - ForceclassSelf: [owner, dev, admin, moderator]
+ - ForceclassToSpectator: [owner, dev, admin, moderator]
+ - ForceclassWithoutRestrictions: [owner, dev, admin]
+ - GivingItems: [owner, dev, admin]
+ - WarheadEvents: [owner, dev, admin, moderator]
+ - RespawnEvents: [owner, dev, admin]
+ - RoundEvents: [owner, dev, admin, moderator]
+ - SetGroup: [owner, dev]
+ - GameplayData: [owner, dev, admin]
+ - Overwatch: [owner, dev, admin, moderator]
+ - FacilityManagement: [owner, dev, admin, moderator]
+ - PlayersManagement: [owner, dev, admin]
+ - PermissionsManagement: [owner, dev]
+ - ServerConsoleCommands: [owner, dev]
+ - ViewHiddenBadges: [owner, dev, admin, moderator]
+ - ServerConfigs: [owner, dev]
+ - Broadcasting: [owner, dev, admin, moderator]
+ - PlayerSensitiveDataAccess: [owner, dev, admin, moderator]
+ - Noclip: [owner, dev, admin]
+ - AFKImmunity: [owner, dev, admin]
+ - AdminChat: [owner, dev, admin, moderator]
+ - ViewHiddenGlobalBadges: [owner, dev, admin, moderator]
+ - Announcer: [owner, dev, admin]
+ - Effects: [owner, dev, admin]
+ - FriendlyFireDetectorImmunity: [owner, dev, admin, moderator]
+ - FriendlyFireDetectorTempDisable: [owner, dev, admin]
+
+#Set to "none" in order to disable password.
+#WE DON'T RECOMMEND USING PASSWORD!!!
+#SETUP STEAMID AUTHENTICATION INSTEAD (of the top of this config file)!
+override_password: none
+override_password_role: owner
+
+#Allows running central server commands (they are prefixed with "!") using "sudo"/"cron" command in RA (requires ServerConsoleCommands permission).
+#Don't turn on unless you fully trust all people with this permission, they needs to run that commands from RA and you know what are you doing
+allow_central_server_commands_as_ServerConsoleCommands: false
+
+# Should the GUI-Based RA use the predefined ban templates below?
+enable_predefined_ban_templates: true
+
+# Here you can define ban templates for your staff members to use in-game. This can always be overriden by choosing the "Custom" ban tab
+# FORMAT: - [Duration in seconds, Reason]
+# **Note** The reason cannot contain any commas or it will break the parsing!
+PredefinedBanTemplates:
+ - [0, Consider this a warning!]
+ - [3600, Mic Spamming]
+ - [86400, Team Killing (Minor Offence)]
+ - [604800, Team Killing (Major Offence)]
+ - [1577000000, Abusing Exploits]

@@ -1,0 +1,165 @@
+# A list of loadouts for non-boss players.
+loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 33
+  # A list of roles, and the chance of getting the role.
+  roles:
+    NtfSergeant: 100
+  # The health that this class has. 0 is default role health. -1 is godmode.
+  health: 200
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The items that this class spawns with.
+  tems:
+  - GunE11SR
+  - Medkit
+  - ArmorCombat
+  - SCP1853
+  - Adrenaline
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 33
+  # A list of roles, and the chance of getting the role.
+  roles:
+    NtfSpecialist: 100
+  # The health that this class has. 0 is default role health. -1 is godmode.
+  health: 200
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The items that this class spawns with.
+  tems:
+  - GunShotgun
+  - Medkit
+  - Medkit
+  - Medkit
+  - Medkit
+  - Medkit
+  - Medkit
+  - ArmorCombat
+  - SCP500
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 33
+  # A list of roles, and the chance of getting the role.
+  roles:
+    NtfCaptain: 100
+  # The health that this class has. 0 is default role health. -1 is godmode.
+  health: 200
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 100
+    # The max amount the player will be able to get.
+    max_amount: 100
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 1
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 10
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The items that this class spawns with.
+  tems:
+  - GunLogicer
+  - ArmorHeavy
+  - SCP500
+  - SCP500
+  - SCP1853
+  - Medkit
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+# A list of loadouts for boss players.
+boss_loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    Scp3114: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The size of this class. One is normal.
+  size:
+    x: 0.5
+    y: 0.5
+    z: 0.5
+# How many players should be on the boss team. [Default: 1 Player]
+boss_count:
+  # The minimum number of players on a team. 0 to ignore.
+  minimum_players: 1
+  # The maximum number of players on a team. -1 to ignore.
+  maximum_players: 1
+  # The percentage of players that will be on the team. -1 to ignore.
+  player_percentage: -1
+# How long the event should last in seconds. [Default: 120]
+duration_n_seconds: 120
+boss_screams:
+- 'zombi_hurt_01.ogg'
+- 'zombi_hurt_02.ogg'
+# A list of maps that can be used for this event.
+available_maps: []
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.0'

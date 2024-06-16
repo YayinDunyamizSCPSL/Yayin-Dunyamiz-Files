@@ -1,0 +1,79 @@
+# Is the plugin enabled?
+is_enabled: false
+# Is the Debug on?
+debug: false
+# Should people lose nick when they turn into a tutorial?
+tutorial_nick: true
+# Should Class-D be D-#### (true) or should it follow the other names with Title + Name (false)?
+dbois_setting: true
+# Should SCPs have their SCP as a name (true) or should they be hidden as a D-Class (false)?
+s_c_p_setting: false
+# Should Zombies NOT have names? (THIS OVERRIDES SCPSETTINGS)
+zombie_names: false
+# Should nicknames reset on death?
+death_reset: true
+# Should a player be told their nickname?
+show_nick: true
+# Should a player have there real name after their nickname?
+show_real_name: false
+# A dictionary with classes and their title
+class_titles:
+  ClassD: D-
+  Scientist: Dr.
+  FacilityGuard: Security Officer
+  NtfCaptain: Commander
+  NtfPrivate: Cadet
+  NtfSergeant: Lieutenant
+  NtfSpecialist: Field Agent
+  ChaosConscript: Agent of Chaos
+  ChaosMarauder: Agent of Chaos
+  ChaosRepressor: Agent of Chaos
+  ChaosRifleman: Agent of Chaos
+  Scp049: SCP-049
+  Scp0492: SCP-049-2
+  Scp079: SCP-079
+  Scp096: SCP-096
+  Scp106: SCP-106
+  Scp173: SCP-173
+  Scp939: SCP-939
+# The list of names to be given. (Leave empty for default, if you want to make your own list, look at readme) 
+human_names:
+- 'Woodson'
+- 'Winthrop'
+- 'Wall'
+- 'Wight'
+- 'Webb'
+- 'Woodard'
+- 'Wixx'
+- 'Wong'
+- 'Whesker'
+- 'Wolfenstein'
+- 'Rooney'
+- 'Russo'
+- 'Rude'
+- 'Roland'
+- 'Reader'
+- 'Renshaw'
+- 'Rossi'
+- 'Riddle'
+- 'Ripa'
+- 'Richter'
+- 'Rosenberg'
+- 'Romo'
+- 'Ramirez'
+- 'Reagan'
+- 'Rainwater'
+- 'Romirez'
+- 'Riker'
+- 'Abbington'
+- 'Axworthy'
+- 'Arora'
+- 'Tray'
+- 'R.Tey'
+- 'A.Clef'
+- 'Amathor'
+- 'Jesus'
+- 'Joker'
+- 'Lemon'
+- 'Boucher'
+- 'Enes'

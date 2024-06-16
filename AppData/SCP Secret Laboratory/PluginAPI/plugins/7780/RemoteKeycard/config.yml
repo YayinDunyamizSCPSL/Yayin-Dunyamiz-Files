@@ -1,0 +1,27 @@
+ıs_enabled: true
+# Enabled all log.debug in the code
+ıs_debug: false
+# RemoteKeycard works with Doors ?
+affect_doors: true
+# RemoteKeycard works with Generators ?
+affect_generators: true
+# RemoteKeycard works with Lockers ?
+affect_lockers: true
+# If a player has amnesia, should I disable RemoteKeycard for that player?
+affect_amnesia: true
+# RolesType that are in this list cannot use RemoteKeycard
+black_list_role:
+- None
+# RemoteKeycard will not work with doors that are in this list
+blacklisted_doors:
+- HCZ
+- LCZ
+- EZ
+- Prison BreakableDoor
+- Unsecured Pryable GateDoor
+- Pryable 173 GateDoor
+# RemoteKeycard will not work with lockers that are on this list
+blacklisted_lockers:
+- MiscLocker
+- Adrenaline
+- Medkit

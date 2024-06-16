@@ -1,0 +1,281 @@
+﻿
+############# SCPDiscord plugin configuration file #############
+
+
+# Connection settings, the port cannot be the same as the SCPSL server port.
+bot:
+    ip: "127.0.0.1"
+    port: 8888
+
+    # Set which Discord activity should be used.
+    # The options are one of the following:
+    # Playing, Streaming, ListeningTo, Watching, Custom, Competing
+    activity:
+        empty:  "Custom"
+        active: "Custom"
+        full:   "Custom"
+
+    # Set which Discord activity should be used.
+    # The options are one of the following:
+    # Offline, Online, Idle, DoNotDisturb, Invisible
+    status:
+        empty:  "Idle"
+        active: "Online"
+        full:   "DoNotDisturb"
+
+settings:
+    # The language is the same as the name of the language file you want to use.
+
+    # Included languages:
+    # english (default)
+    # ukrainian
+    # russian
+    # simplified-chinese
+    # italian
+
+    # If you want to override specific messages you can copy them to overrides.yml
+    # and they will automatically replace the corresponding messages from the language selected below
+    language: "english"
+
+    # Add an emote as a prefix to messages
+    emotes: true
+
+    # The message timestamp, see syntax guide here: https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
+    # You can set it to "HH:mm:ss" for a simple timestamp.
+    timestamp: "HH:mm:ss"
+
+    # Whether the plugin should send debug information in the console
+    debug: false
+
+    # Turns on the config validation which shows the values after they have been read by the plugin so you can see they are correct
+    configvalidation: false
+
+    # Whether or not to use the rolesync system
+    rolesync: false
+
+    # Whether or not to track players play time on the server, which can then be checked using the /playerinfo command
+    playtime: true
+
+    # Whether files should be read from the global config directory or the local one (aka the server specific one).
+    useglobaldirectory:
+        language: true
+        rolesync: false
+        mutes: true
+        playtime: true
+
+    # Always replace language and emote files when the plugin starts (does not affect overrides.yml and emote-overrides.yml).
+    # Turn this off if you will be directly editing the language files.
+    # If you are only making small edits to the language files it is highly
+    # recommended to use overrides.yml instead of editing the language file.
+    regeneratelanguagefiles: true
+
+    # EXPERIMENTAL:
+    # Whether SCPDiscord should automatically cause the game to reload certain files when they are changed by other servers
+    autoreload:
+        reservedslots: false
+        whitelist: false
+
+# Sets commands which are run whenever someone with a synced Discord rank joins the server,
+# only the highest one in the list that matches the player is executed
+# Turn on debug above to see console feedback when the commands are used
+# Valid variables:
+# player-userid
+# player-id
+# player-name
+# player-ipaddress
+# player-role
+# player-team
+# discorddisplayname
+# discordusername
+# discordusernamewithdiscriminator
+# discordid
+# There are some more player variables you can use here but they are mostly irrelevant, check the list in APIExtensions.cs on github for the full list.
+rolesync:
+    - "add-role-id-here":
+        - "scpd grantvanillarank <var:player-userid> moderator"
+        - "scpd grantreservedslot <var:player-userid> @<var:discordusername> (<var:discordid>)"
+        - "/pbc <var:player-id> 3 Moderator role synced from Discord."
+
+    - "add-another-role-id-here":
+        - "scpd grantvanillarank <var:player-userid> donator"
+        - "scpd grantreservedslot <var:player-userid> @<var:discordusername> (<var:discordid>)"
+        - "/pbc <var:player-id> 3 Donator role synced from Discord."
+
+    - "add-everyone-role-id-here":
+        - "scpd removereservedslot <var:player-userid>"
+
+# Name your channels here, this name is used in the channels section below.
+# The left value is a name of your choice and the right is a channel id you want it to represent in the lists below.
+channels:
+    - "ServerEvents": "1168547139660566549"
+    - "EnviromentEvents": "1168547212859551795"
+    - "SCPEvents": "1168547270652858439"
+    - "PlayerEvents": "1168547319118049351"
+
+channelsettings:
+    # Removes online players' IPs/SteamIDs from discord messages in specific channels, use the channel aliases from above.
+    # Warning: This only works on online players, so may fail on player disconnect related events
+    filterips: [ "ServerEvents", "EnviromentEvents", "SCPEvents", "PlayerEvents" ]
+    filtersteamids: []
+
+    # If true only the messages in the channels above are filtered,
+    # if false all messages except the ones in the above channels are filtered.
+    invertipfilter: true
+    invertsteamidfilter: false
+
+# Using the channel aliases above you can direct events to different channels here
+# Set to [] to disable an event.
+messages:
+    # Server events
+    connectedtobot: [ "ServerEvents" ]
+    onroundstart: [ "ServerEvents" ]
+    onconnect: [ "ServerEvents" ]
+    onplayerleave: [ "ServerEvents" ]
+    onroundend: [ "ServerEvents" ]
+    onwaitingforplayers: [ "ServerEvents" ]
+    onroundrestart: [ "ServerEvents" ]
+    onsetservername: []
+    onban:
+        player: [ "ServerEvents" ]
+        server: [ "ServerEvents" ]
+    onbanissued:
+        ip: []
+        userid: [ "ServerEvents" ]
+    onbanupdated:
+        ip: []
+        userid: []
+    onbanrevoked:
+        ip: []
+        userid: [ "ServerEvents" ]
+    onkick:
+        player: [ "ServerEvents" ]
+        server: [ "ServerEvents" ]
+    onplayermuted:
+        player:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+        server:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+    onplayerunmuted:
+        player:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+        server:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+    oncallcommand:
+        remoteadmin:
+            player: []
+            server: []
+        game:
+            player: []
+            server: []
+        console:
+            player: []
+            server: []
+    onexecutedcommand:
+        remoteadmin:
+            player: [ "ServerEvents" ]
+            server: [ "ServerEvents" ]
+        game:
+            player: []
+            server: []
+        console:
+            player: []
+            server: []
+
+    # Environment events
+    onscp914activate: []
+    onstartcountdown:
+        player:
+            initiated: [ "EnviromentEvents" ]
+            resumed: [ "EnviromentEvents" ]
+        server:
+            initiated: [ "EnviromentEvents" ]
+            resumed: [ "EnviromentEvents" ]
+    onstopcountdown:
+        default: [ "EnviromentEvents" ]
+        noplayer: [ "EnviromentEvents" ]
+    ondetonate: [ "EnviromentEvents" ]
+    ondecontaminate: [ "EnviromentEvents" ]
+    onsummonvehicle:
+        chaos: [ "EnviromentEvents" ]
+        mtf: [ "EnviromentEvents" ]
+    ongeneratorfinish: [ "EnviromentEvents" ]
+    onelevatoruse: [ "EnviromentEvents" ]
+
+    ongeneratorunlock: [ "EnviromentEvents" ]
+    ongeneratoropen: [ "EnviromentEvents" ]
+    ongeneratorclose: [ "EnviromentEvents" ]
+    ongeneratoractivated: [ "EnviromentEvents" ]
+    ongeneratordeactivated: [ "EnviromentEvents" ]
+    onscp914changeknob: []
+    onplayertriggertesla:
+        default: []
+        ignored: []
+    onpocketdimensionexit: [ "EnviromentEvents" ]
+    onpocketdimensionenter: [ "EnviromentEvents" ]
+    ondooraccess:
+        allowed: [ "EnviromentEvents" ]
+        denied: [ "EnviromentEvents" ]
+
+    # SCP Events
+    on079lockdoor: [ "SCPEvents" ]
+    on079elevator:
+        up: [ "SCPEvents" ]
+        down: [ "SCPEvents" ]
+    on079teslagate: [ "SCPEvents" ]
+    on079addexp: [ "SCPEvents" ]
+    on079levelup: [ "SCPEvents" ]
+    on079unlockdoor: [ "SCPEvents" ]
+    on079lockdown: [ "SCPEvents" ]
+    on079cancellockdown: [ "SCPEvents" ]
+    onrecallzombie: [ "SCPEvents" ]
+    onplayerinfected: [ "SCPEvents" ]
+
+    # Player events
+    onplayerhurt:
+        default: []
+        friendlyfire: []
+        noattacker: []
+    onplayerdie:
+        default: [ "PlayerEvents" ]
+        friendlyfire: [ "PlayerEvents" ]
+        nokiller: [ "PlayerEvents" ]
+    onplayerpickupitem: []
+    onplayerpickupammo: []
+    onplayerpickuparmor: []
+    onplayerpickupscp330: []
+    onplayerdropitem: []
+    onplayerdropammo: []
+    onplayerjoin: [ "PlayerEvents" ]
+    onnicknameset: [ "PlayerEvents" ]
+    onsetrole:
+        roundstart: [ "PlayerEvents" ]
+        latejoin: [ "PlayerEvents" ]
+        respawn: [ "PlayerEvents" ]
+        died: []
+        escaped: []
+        revived: [ "PlayerEvents" ]
+        remoteadmin: [ "PlayerEvents" ]
+        left: []
+        other: []
+    onspawn: []
+    onthrowprojectile: [ "PlayerEvents" ]
+    onspawnragdoll: []
+    onitemuse: [ "PlayerEvents" ]
+    onhandcuff:
+        default: [ "PlayerEvents" ]
+        nootherplayer: [ "PlayerEvents" ]
+    onhandcuffremoved:
+        default: [ "PlayerEvents" ]
+        nootherplayer: [ "PlayerEvents" ]
+    onplayerradioswitch: []
+    onreload: []
+    ongrenadeexplosion: [ "PlayerEvents" ]
+    ongrenadehitplayer: [ "PlayerEvents" ]
+    onteamrespawn:
+        mtf: [ "PlayerEvents" ]
+        ci: [ "PlayerEvents" ]
+    onplayerescape: [ "PlayerEvents" ]

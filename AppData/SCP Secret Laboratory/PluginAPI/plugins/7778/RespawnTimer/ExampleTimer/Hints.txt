@@ -1,0 +1,36 @@
+﻿<b>Kurallar</b>
+<b>1-Takım</b>
+<b>Kaos ve SCP'ler birbirine tarafsızdır ister takım ister düşman olurlar.</b>
+<b>MTF Bilim Adamlarını Tesisten Güvenli Çıkışını Sağlamalıdır.</b>
+<b>Bilim insanları sadece MTF ile takım olabilir.</b>
+<b>Herhangi bir sınıf SCP ile odada kitli  kalırsa takım olabilirler SCP-079 varsa takım olamazsınız.</b>
+<b>Dboyların Olduğu Gibi Bilim Adamlarını Gereksiz Vurmak Yasaktır</b>
+<b>2-Fiziki-Troll</b>
+<b>Takım arkadaşının yüzüne kapı asansör kapamak yasaktır SCP'den kaçarken serbesttir.</b>
+<b>Oyunu bilerek uzatmak yasaktır.</b>
+<b>Duvarlara mermi izi ile +18 şeyler yapmak,çizmek yasaktır.</b>
+<b>SCP-079 SCP'leri teslaya çarpamaz veya onları odaya kilitleyemez.</b>
+<b>SCP-914 Troll yasaktır karşı takım ise trolleyebiliriniz.</b>
+<b>Tutuklu herhangi bir personeli vurmak,kelepçesini çözmek yasaktır bunları sadece tutuklayan kişi yapabilir.</b>
+<b>Alfa savaş başlığını aç kapa yapmak yasaktır.</b>
+<b>3-Mikrofon</b>
+<b>İzleyici iken earrape ve soundpad açmak yasaktır.</b>
+<b>Telsizden,interkomdan earrape ve soundpad açmak yasaktır(soundpad kısık sesle açabilirsiniz)</b>
+<b>Dini,siyasi,ailevi,şahsi küfürler yasaktır.</b>
+<b>Aşırıya veya abartıya kaçan argo,küfürler yasaktır.</b>
+<b>Irkçılık yapmak yasaktır.</b>
+<b>Siyaset yapmak yasaktır.</b>
+<b>+18 şeyler konuşmak yapmak,konuşmak yasak(ah sesi çıkarmak gibi)</b>
+<b>Bir kişi size küfür ederse karşılık vermeyin onu bir yetkiliye şikayet edin.</b>
+<b>basssslı Soundpad Yasaktır!</b>
+<b>5-Diğer</b>
+<b>Oyun içi tartışmaları discord'a taşımayın.</b>
+<b>Spawn kill yasaktır(oyun başında spawnlanan birliklere yapılan herhangi bir toplu katliamda sayılır).</b>
+<b>Takımınıza ihanet edemezsiniz.</b>
+<b>Admin abuse yapan bir yetkili gördüğünüzde hemen şikayet edin.</b>
+<b>Oyun içi buglardan yararlanmak veya exploit kullanmak yasaktır.</b>
+<b>Scp Lerin Bir Bölgede Camplemesi Yasaktır!</b>
+<b>Zombilerin İntihar Etmesi Yasak</b>
+<b>Banlanan Kişiler Farklı Hesaplarla Gelmesin Yoksa Kalıcı Yer</b>
+<b>Küfürlü kullanıcı adı yasaktır</b>
+<b>Tutuklu birini vurmak yasaktır</b>

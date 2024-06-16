@@ -1,0 +1,263 @@
+# Can players drop guns.
+players_can_drop_guns: true
+# A list of available loadouts that players can get.
+loadouts:
+- # The chance of a user getting this class. Chance cannot be <= 0, it will be set to 1.
+  chance: 1
+  # A list of roles, and the chance of getting the role.
+  roles:
+    ClassD: 100
+  # How much artificial health the class has. 0 is default artificial health.
+  artificial_health:
+    # How much AHP the player will get at first.
+    nitial_amount: 0
+    # The max amount the player will be able to get.
+    max_amount: 0
+    # The amount of artificial hp the player will get each cycle. 1 is slow, 5 is fast, and 10+ is really fast
+    regeneration_amount: 0
+    # The percent of damage that the artificial health will take before effecting the player. (70% = when the player takes 10 damage, 7 of it will be absorbed by ahp, 3 will hurt them directly.)
+    absorption_percent: 100
+    # If set to false, the player will lose this after they take enough damage, or it wears out.
+    permanent: true
+    # How long to wait before regenerating.
+    duration: 30
+    # Should other instances of AHP, be removed from the player.
+    clear_other_nstances: true
+  # The size of this class. One is normal.
+  size:
+    x: 1
+    y: 1
+    z: 1
+# A list of weapons / items that will spawn around the map, as well as the chance of that object spawning. If you leave this blank, the default map spawns will be used.
+tems_and_weapons_to_spawn:
+  GunCOM15: 25
+  GunCOM18: 25
+  GunRevolver: 20
+  GunFSP9: 13
+  GunShotgun: 7
+  GunCrossvec: 7
+  GunAK: 3
+# A list of damage / effects that each gun will give.
+gun_effects:
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunA7
+  # The damage that guns do.
+  damage: 5
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunAK
+  # The damage that guns do.
+  damage: 5
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.15
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunE11SR
+  # The damage that guns do.
+  damage: 3
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunShotgun
+  # The damage that guns do.
+  damage: 4
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 3
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunCom45
+  # The damage that guns do.
+  damage: 10
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunCrossvec
+  # The damage that guns do.
+  damage: 3
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunCOM15
+  # The damage that guns do.
+  damage: 8
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunCOM18
+  # The damage that guns do.
+  damage: 8
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunLogicer
+  # The damage that guns do.
+  damage: 3
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunRevolver
+  # The damage that guns do.
+  damage: 12
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 2
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunFRMG0
+  # The damage that guns do.
+  damage: 2
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.03
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+- # The weapon that must be used for this to apply. If set to none, all weapons will have this applied.
+  weapon_type: GunFSP9
+  # The damage that guns do.
+  damage: 3
+  # The effects that guns give.
+  effects:
+  - # The type of effect the player can have.
+    effect_type: Concussed
+    # The intensity of the effect.
+    ntensity: 1
+    # The duration of the effect. 0 is infinite.
+    duration: 0.1
+    # Should the effect add duration if the effect already is applied.
+    add_duration: true
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Lava'
+    # The position to spawn the map.
+    position:
+      x: 120
+      y: 1020
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'Lava_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 120
+      y: 1020
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.1'

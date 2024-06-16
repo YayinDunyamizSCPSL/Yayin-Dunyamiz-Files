@@ -1,0 +1,163 @@
+# Enable plugin?
+is_enabled: true
+# Show debug messages?
+debug: false
+# Available modes: Hint, Broadcast, Console, None.
+hint_mode: Hint
+# Hint shown to the players if they have DNT enabled.
+d_n_t_hint: We can't track your stats while you have DNT enabled in your game options!
+# Badge for players with DNT enabled.
+d_n_t_badge:
+  name: (DNT)
+  color: nickel
+# (You may add your own entries) Role1: Role2: XP player with Role1 gets for killing a person with Role2. RoleTypeId.None is used as default for both killer and viction roletype
+kill_x_p:
+  None:
+    None: 0
+  ClassD:
+    Scientist: 200
+    FacilityGuard: 150
+    NtfPrivate: 200
+    NtfSergeant: 250
+    NtfCaptain: 300
+    Scp049: 500
+    Scp0492: 100
+    Scp106: 500
+    Scp173: 500
+    Scp096: 500
+    Scp939: 500
+  Scientist:
+    ClassD: 50
+    ChaosConscript: 200
+    ChaosRifleman: 200
+    ChaosRepressor: 250
+    ChaosMarauder: 300
+    Scp049: 500
+    Scp0492: 100
+    Scp106: 500
+    Scp173: 500
+    Scp096: 500
+    Scp939: 500
+# How many XP should a player get if their team wins.
+team_win_x_p: 250
+# How many XP is required to advance a level.
+x_p_per_level: 1000
+# Required xp = xpperlevel + xpperlevelincrease for level * level.
+x_p_per_level_increases:
+  0: 0
+  100: 250
+# Show a message if a player gets XP
+show_added_x_p: true
+# Show a message to the player if he advances a level.
+show_added_l_v_l: true
+# What message to show if player advances a level. (if ShowAddedLVL = false, this is irrelevant)
+added_l_v_l_hint: 'NEW LEVEL: <color=red>%level%</color>'
+# (You may add your own entries) How many XP a player gets for escaping
+escape_x_p:
+  ClassD: 500
+  Scientist: 300
+# (You may add your own entries) How much xp a player gets for upgrading a item category
+upgrade_x_p:
+  Ammo: 10
+  Armor: 10
+  Firearm: 10
+  Grenade: 10
+  Keycard: 10
+  Medical: 10
+  Radio: 10
+  MicroHID: 10
+  SCPItem: 10
+# Whether or not the xp for upgrading can only be gotten once per round
+upgrade_x_p_one_time: false
+# Use a timer to limit xp gain from an item. Will work with one time configs.
+use_timer: true
+# Whether the timer should count item itself or item types
+timer_use_item_type: true
+# How long the timer should be
+timer_duration: 60
+# (You may add your own entries) How much xp a player gets for picking up an item, itemtype none for default
+pickup_x_p:
+  None: 0
+# Whether or not the xp for picking up items can only be gotten once per round, per item.
+pickup_x_p_one_time: true
+# (You may add your own entries) How much xp a player gets for spawning, roletypeid none for default
+spawn_x_p:
+  Scientist: 0
+# (You may add your own entries) How much xp a player gets for dropping something, itemtype none for default
+drop_x_p:
+  None: 0
+# Whether or not the xp for dropping items can only be gotten once per round, per item.
+drop_x_p_one_time: true
+# (You may add your own entries) How much xp a player gets for using something, itemtype none for default
+use_x_p:
+  None: 0
+# Whether or not the xp for using items can only be gotten once per round, per item.
+use_x_p_one_time: true
+# If true, the level for the badge is the starting level where you will recieve it. If false, the level for the badge is what you will recieve as long as your level is below it
+badge_key_is_required_level: false
+# (You may add your own entries) Level threshold and a badge. %color%. if you get a TAG FAIL in your console, either change your color, or remove special characters like brackets.
+levels_badge:
+  0:
+    name: Ziyaretci
+    color: pumpkin
+  1:
+    name: Askerler
+    color: orange
+  5:
+    name: Baslangic Oyuncusu
+    color: yellow
+  10:
+    name: Orta Seviye Oyuncu
+    color: tomato
+  50:
+    name: Yukselen Oyuncu
+    color: mint
+  75:
+    name: Durdurulamaz Oyuncu
+    color: army_green
+  100:
+    name: Usta Oyuncu
+    color: pumpkin
+  125:
+    name: Efsanevi Oyuncu
+    color: emerald
+  150:
+    name: Logitech Oyuncu
+    color: lime
+  175:
+    name: Mekanin Oyuncusu
+    color: carmine
+# Whether or not to enable nick changes. This will change the players nickname to the specified structure.
+enable_nick_mods: true
+# The structure of the player nick. Variables: %lvl% - the level. %name% - the players nickname/name
+nick_structure: LVL %lvl% | %name%
+# Whether or not to enable badges. This will change the players badge to the specified structure.
+enable_badges: true
+# The structure of the badge displayed in-game. Variables: %lvl% - the level. %badge% earned badge in specified in LevelsBadge. %oldbadge% - base-game badge, like ones specified in config-remoteadmin, or a global badge. can be null.
+badge_structure: '%badge% | %oldbadge%'
+# See above, just for people who dont have a badge. If empty, badgestructure will be used instead.
+badge_structure_no_badge: '%badge%'
+# Override colors for people who already have a rank
+override_color: false
+# Size of the message.
+hint_size: 100
+# Spacing of the message in (horizontal offset)
+hint_space: 0
+# Vertical offset of the message.
+v_offest: 0
+# Duration of the message.
+hint_duration: 3
+# Path the database gets saved to. May require change depending on OS.
+save_path: C:\Users\Administrator\AppData\Roaming/SCP Secret Laboratory\pluginAPI\plugins/7777/XPSystem\players.db
+# Path the text file for translations get saved to. May require change depending on OS.
+save_path_translations: C:\Users\Administrator\AppData\Roaming/SCP Secret Laboratory\pluginAPI\plugins/7777/XPSystem/xp-translations.yml
+# If disabled, will hide the global badge if set that way om the config
+v_s_r_complaint: true
+# Whether or not to enable the getxp (client console) command
+enable_get_x_p_command: true
+# Whether or not to change how badge hiding works
+edit_badge_hiding: true
+# Whether or not to use different badges depending whether or not the player has view hidden badges permission
+show_hidden_badges_to_admins: false
+# Will print used keys to console at end of round.
+log_x_p_gained_methods: false

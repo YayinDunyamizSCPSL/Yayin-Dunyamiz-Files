@@ -1,0 +1,348 @@
+AT:
+# Enable/Disable AdminTools.
+  s_enabled: true
+  debug: false
+  # Should the tutorial class be in God Mode? Default: true
+  god_tuts: true
+Roleplay Commands:
+  s_enabled: true
+  debug: false
+  # If .push is enabled
+  push_enabled: true
+  # Range at which the pusher can push someone
+  push_range: 1.25
+  # Cooldown in seconds between each push
+  push_cooldown: 4
+  # Push Force, how much they get pushed
+  push_force: 1.70000005
+  # More iterations = more smoother push at cost of performance
+  terations: 15
+  # Message showed to victim when pushed.
+  push_hint_victim: 'Su kisi tarafindan itildin <color={rolecolor}>{player}</color>!'
+  # Message showed to instigator when victim is pushed.
+  push_hint_nstigator: 'You pushed <color={rolecolor}>{player}</color>!'
+  # If .pat is enabled
+  pat_enabled: true
+  # Range at which the patter can pat someone
+  pat_range: 2.5
+  # Cooldown in seconds between each pat
+  pat_cooldown: 3
+  # Can SCPS use .pat
+  pat_can_s_c_p_s_pat: true
+  # Can you .pat any role
+  pat_anyone: true
+  # Allowed roles to be patted if the above is false
+  patable_roles:
+  - Scp939
+  # Amount of health given to patted player
+  pat_health_grant: 15
+  # Whether the health granted can bypass maxhealth
+  pat_health_exceed_max: false
+  # Message showed to victim when patted.
+  pat_hint_victim: |-
+    Tarafindan oksandin <color={rolecolor}>{player}</color>!
+    Kazanildi <color=green>{hp}</color> saglik!
+  # Message showed to instigator when victim is patted.
+  pat_hint_nstigator: 'You patted <color={rolecolor}>{player}</color> and gave them <color=green>{hp}</color> health!'
+  # Message shown when scps cannot use the pat command
+  pat_hint_s_c_p_cant_use: '<color=red>SCPler bu komutu kullanamaz</color>'
+  # Message shown when you can't pat that role
+  pat_hint_cant_pat_role: '<color=red>Bu rolu oksiyamassin</color>'
+  # If .punch is enabled
+  punch_enabled: false
+  # Range at which the attacker can punch someone
+  punch_range: 1.25
+  # Damage taken from the punch
+  punch_damage: 8
+  # Cooldown in seconds between each punch
+  punch_cooldown: 2
+  # Push Force, how much they get pushed
+  punch_force: 1.70000005
+  # More iterations = more smoother push at cost of performance
+  punch_terations: 15
+  # Message showed to victim when pushed.
+  punch_hint_victim: 'Seni yumrukladi. <color={rolecolor}>{player}</color>!'
+  # Message showed to instigator when victim is pushed.
+  punch_hint_nstigator: 'You punched <color={rolecolor}>{player}</color>!'
+  # Death message when death from punching occurs
+  punch_death_message: 'Tarafindan yumruklandin {attacker}'
+  # Steal enabled
+  steal_enabled: true
+  # Cooldown for stealing
+  steal_cooldown: 3
+  # Stealing chance
+  steal_chance: 0.25
+  # Stealing range
+  steal_range: 1.25
+  # Steal Hint duration
+  steal_hint_duration: 5
+  # Hint shown to instigator when there is nothing in the victim's inventory
+  steal_empty_nventory_hint: '<color={rolecolor}>{player}</color> has no items in their inventory!'
+  # Hint shown to victim when stealing fails
+  steal_fail_hint_victim: ' '
+  # Hint shown to Instigator when stealing fails
+  steal_fail_hint_nstigator: 'You failed to steal from <color={rolecolor}>{player}</color> they know. Run!'
+  # Hint shown to victim when stealing succeeds (LEAVE BLANK IF YOU DONT WANT THEM TO KNOW)
+  steal_success_hint_victim: ' '
+  # Hint shown to Instigator when stealing succeeds
+  steal_success_hint_nstigator: '<color=red>Stole</color>  <color=green>{item}</color> from <color={rolecolor}>{player}</color>!'
+  # Is Cuff enabled (Cuffing teammates)
+  cuff_enabled: true
+  # Cuffed hint duration
+  cuff_hint_duration: 5
+  # Can you only use .cuff on teammates
+  cuff_same_team_only: true
+  # Error hint shown when they are on different teams
+  cuff_same_team_only_hint: '<color=red>Sadece ayni takimda .cuff kullanabilirsiniz!</color>'
+  # Do you have to be holding a firearm in order to cuff
+  cuff_require_firearm: true
+  # Error hint shown when they need to be holding a firearm
+  cuff_require_firearm_hint: '<color=red>Bunu yapmak icin elinizde atesli bir silah olmasi gerekir!</color>'
+  # Cuffing cooldown
+  cuff_cooldown: 5
+  # Range at which you can cuff at
+  cuff_range: 1.25
+  # Hint shown to Instigator at instance of cuffing
+  cuff_hint_nstigator: 'You have cuffed <color={rolecolor}>{player}</color>!'
+  # Hint shown to Instigator when they are already cuffed
+  cuff_hint_already_cuffed: '<color={rolecolor}>{player}</color> Zaten Kelepceli'
+TrustedCaptain:
+  s_enabled: true
+  debug: false
+  trusted_captains:
+    1: userid@steam
+    2: userid@steam
+cm:
+# Indicates whether the plugin is enabled or not
+  s_enabled: true
+  debug: false
+  ced_mod:
+  # kick a player if they have a name someone else already has
+    kick_same_name: true
+    # API key for the plugin to use, find yours here https://admin.cedmod.nl/ On the Statistics page of your server (Create one if you didnt already)
+    ced_mod_api_key: 'AHZ8gh4jagIHKOEckqI3JRJWw7BxbVXDP6bL/d27Xxo='
+    # If true the CedMod FF Autoban will be used
+    autoban_enabled: false
+    # The amount of people a user has to kill before being autobanned
+    autoban_threshold: 3
+    # The duration of the autoban ban a user will get if the autoban is triggered in MINUTES
+    autoban_duration: 1
+    # The ban reason of the ban a user gets if the autoban is triggered
+    autoban_reason: 'You have been automatically banned for teamkilling'
+    # If the autoban will count pink candy teamkills
+    autoban_pink_candies: false
+    # If the autoban will count killing disarmed class D as teamkill
+    autoban_disarmed_class_d_tk: true
+    # If the autoban will count killing disarmed scientists as teamkill
+    autoban_disarmed_scientist_d_tk: true
+    # If the autoban will count class D vs class D as teamkill
+    autoban_class_dvs_class_d: true
+    # If set the FF Autoban will add this onto the message sent to the victim.
+    autoban_extra_message: ''
+    # Additional message when a banned member tries to join or gets banned.
+    additional_ban_message: ''
+    # Message sent to the user when they get muted or join while muted
+    mute_message: |-
+      You have been {type} muted on this server by an Admin.
+      Duration: {duration}
+      Reason: {reason}
+    # Message shown on the players 'CustomInfo' to indicate that they are muted
+    mute_custom_nfo: '{type} muted by an admin.'
+    # If mutes are required to set and use a Duration and Reason
+    use_mute_duration_and_reason: false
+    # If mutes will only be possible using the panel
+    only_allow_panel_mutes: false
+    # If Enabled mutes that dont have a duration specified will have this duration, Set to a low value if you wish for ingame mutes to only apply for a small amount of time, Mutes with a duration smaller or equal to 3 minutes (value of 3) will not be synced to the panel.
+    default_mute_duration: 10
+    # If debug logs are shown
+    show_debug: false
+    # If set to false, the plugin will not automatically check for updates (All updates are tested before pushed live)
+    auto_update: false
+    # If set to true, the plugin will softrestart the server at the end of the round if an update is pending (All updates are tested before pushed live)
+    auto_update_round_end: true
+    # If an update is pending and the server has been empty for the past X time, the plugin will start the autoupdate process (All updates are tested before pushed live)
+    auto_update_wait: 5
+    # If bullet holes should be spawned for a player that is globally muted.
+    prevent_bullet_holes_when_muted: true
+    # If true Ingame reports are enabled, if false the IngameReportDisabledMessage will be shown to the user.
+    enable_ngame_reports: true
+    # If EnableIngameReports is set to false this message will be shown to the user.
+    ngame_report_disabled_message: 'Ingame reporting is disabled on this server.'
+  query_system:
+  # Commands in this list will not be allowed to run via the web API (must be uppercase)
+    disallowed_web_commands:
+    - 'REQUEST_DATA AUTH'
+    - 'GBAN_KICK'
+    # If true, the plugin will reject any remote command from the panel WARNING: THIS WILL BREAK FEATURES SUCH AS, Remote Commands, Event Manager, AND POSSIBLY MORE
+    reject_remote_commands: false
+    # If true, the plugin will sync predefined reasons with the panel
+    enable_banreason_sync: true
+    # If true, the plugin will automatically enable and setup the External lookup function in remote admin
+    enable_external_lookup: true
+    # Server full text.
+    server_full_base: 'Server is full.'
+    # If true, the plugin will show a custom message when the server is full, promote your patreon reserved slots here :)
+    custom_server_full_message: ''
+    # Users that are not allowed to create reports.
+    report_blacklist: []
+    # If players are allowed to report staff members
+    staff_report_allowed: false
+    # The message that players recieve if they try to report a staff member
+    staff_report_message: 'You can not report a staff member'
+    # The message that players recieve when their report has been sent
+    report_success_message: 'Report has been sent, Server staff will assist you as soon as possible'
+    # If debug messages are shown
+    debug: false
+    # Experimental RemoteCommands Feature, if the executing player is not present, the server will spawn a dummy player, run the command, and despawn the dummy
+    dummy_experimental: false
+    # The message show to staff when a new report gets made
+    staff_report_notification: '<size=30><color=yellow>{reporterName} has reported {reportedName} check {checkType} for more info.</color></size>'
+    # The message show to staff if they do not have the ingame report in RA enabled
+    staff_report_notification_ngame_disabled: |-
+      <size=25>To be able to view ingame reports in RemoteAdmin, open the CedMod website (External Lookup or navigating directly)
+      Click on your user icon, and click Instance Preferences.
+      enable RemoteAdminReports</size>
+    # The message show to a player when a the state of their report updates
+    player_report_update_notification: '<size=30><color=yellow>Your report regarding {reportedName} is now {reportState} by {handlerName}</size>'
+    # The message show to staff if they do not have the ingame report in RA enabled
+    staff_report_watchlist_ngame_disabled: |-
+      <size=25>To be able to view Watchlisted players RemoteAdmin, open the CedMod website (External Lookup or navigating directly)
+      Click on your user icon, and click Instance Preferences.
+      enable ShowWatchListUsersInRemoteAdmin</size>
+    # The message show to staff when a player on the watchlist joins
+    player_watchlist_join: '<size=25><color=yellow>{playerId} - {playerName} ({userId}) is on the watchlist for: {reason}</size></color>'
+    # The message show to staff when a player on the Group Watchlist joins
+    player_group_watchlist_join: |-
+      <size=25><color=yellow>{playerId} - {playerName} ({userId}) is on the Group watchlist:
+      Groups: {groups}
+      Reason: {reason}</size></color>
+  event_manager:
+  # Indicates whether the plugin is enabled or not
+    s_enabled: true
+    # If debug messages are shown
+    debug: false
+exiled_credits:
+  s_enabled: true
+  debug: false
+  # Info side - Badge, CustomPlayerInfo, FirstAvailable
+  mode: FirstAvailable
+  # Overrides badge if exists
+  badge_override: false
+  # Overrides Custom Player Info if exists
+  custom_player_nfo_override: false
+  # Whether or not the plugin should ignore a player's DNT flag. By default (false), players with DNT flag will not be checked for credit tags.
+  gnore_dnt_flag: false
+exiled_custom_roles:
+# Whether or not the plugin is enabled.
+  s_enabled: true
+  # Whether or not debug messages should be shown.
+  debug: false
+  # The hint that is shown when someone gets a custom role.
+  got_role_hint:
+  # The broadcast content
+    content: |-
+      You have spawned as a {0}
+      {1}
+    # The broadcast duration
+    duration: 6
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  # The hint that is shown when someone used a custom ability.
+  used_ability_hint:
+  # The broadcast content
+    content: |-
+      Ability {0} has been activated.
+      {1}
+    # The broadcast duration
+    duration: 5
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  # Whether or not Keypress ability activations will work on the server.
+  use_keypress_activation: true
+  # Whether or not abilities that are not selected as the current keypress ability can still be activated.
+  activate_only_selected: true
+exiled_custom_tems:
+# Indicates whether this plugin is enabled or not.
+  s_enabled: true
+  debug: false
+  # The hint that is shown when someone pickups a custom item.
+  picked_up_hint:
+  # The broadcast content
+    content: |-
+      You have picked up a {0}
+      {1}
+    # The broadcast duration
+    duration: 10
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+  # The hint that is shown when someone selects a custom item.
+  selected_hint:
+  # The broadcast content
+    content: |-
+      You have selected a {0}
+      {1}
+    # The broadcast duration
+    duration: 5
+    # The broadcast type
+    type: Normal
+    # Indicates whether the broadcast should be shown or not
+    show: true
+exiled_events:
+  s_enabled: true
+  debug: false
+  # Indicates whether events are patched only if they have delegates subscribed to them
+  use_dynamic_patching: true
+  # Indicates whether SCP-173 can be blocked or not by the tutorial
+  can_tutorial_block_scp173: true
+  # Indicates whether SCP-096 can be triggered or not by the tutorial
+  can_tutorial_trigger_scp096: true
+  # Indicates whether SCP-049 can sense tutorial players or not
+  can_scp049_sense_tutorial: true
+  # Indicates whether tutorial is affected by SCP-079 scan.
+  tutorial_not_affected_by_scp079_scan: false
+  # Indicates whether flashbangs flash original thrower.
+  can_flashbangs_affect_thrower: true
+  # Indicates whether the name tracking (invisible EXILED version string added to the end of the server name) is enabled or not
+  s_name_tracking_enabled: true
+  # Indicates whether the inventory should be dropped before being set as spectator, through commands or plugins
+  should_drop_nventory: true
+  # Indicates whether the blood can be spawned or not
+  can_spawn_blood: true
+  # Indicates whether thrown keycards can affect doors that don't require any permissions
+  can_keycard_throw_affect_doors: false
+  # Indicates whether configs have to be reloaded every round restart
+  should_reload_configs_at_round_restart: false
+  # Indicates whether translations has to be reloaded every round restart
+  should_reload_translations_at_round_restart: false
+  # Indicates whether bans should be logged or not
+  should_log_bans: true
+  # Whether or not to log RA commands.
+  log_ra_commands: true
+exiled_permissions:
+# Indicates whether the debug should be shown or not
+  should_debug_be_shown: false
+  # The permissions folder path
+  folder: 'C:\Users\Administrator\AppData\Roaming\/EXILED\Configs'
+  # The permissions full path
+  full_path: 'C:\Users\Administrator\AppData\Roaming\/EXILED\Configs\permissions.yml'
+  s_enabled: true
+  debug: false
+respawn_timer:
+# Whether the plugin is enabled.
+  s_enabled: true
+  # Whether debug messages shoul be shown in a server console.
+  debug: false
+  timers:
+    default: RP
+  # Whether the timer should be reloaded each round. Useful if you have many different timers designed.
+  reload_timer_each_round: true
+  # Whether the timer should be hidden for players in overwatch.
+  hide_timer_for_overwatch: true
+  # The delay before the timer will be shown after player death.
+  timer_delay: -1

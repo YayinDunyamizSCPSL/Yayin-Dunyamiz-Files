@@ -1,0 +1,22 @@
+s_enabled: true
+debug: true
+# How many seconds between each hint
+display_refresh_rate: 2
+# Text size (PERCENTAGE NOT PIXEL)
+text_size: 65
+# Should display be shown on bottom of the screen
+bottom_display: false
+# Should the border be displayed
+show_border: false
+# Border for SCP stats (1 character only at this time) WARNING USING '{}' DOES NOT WORK AND WILL BUG THE SYSTEM!!!!
+border_characters: '[]'
+# Border color
+border_color:
+  r: 1
+  g: 1
+  b: 1
+  a: 1
+# Should NPCs be hidden on list
+hide_n_p_cs: true
+# Show the amount of zombies to all scps
+show_zombies: true

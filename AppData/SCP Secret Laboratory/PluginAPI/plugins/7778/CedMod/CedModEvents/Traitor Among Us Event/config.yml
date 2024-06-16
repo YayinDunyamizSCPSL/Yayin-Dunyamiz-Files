@@ -1,0 +1,86 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+round_count: 3
+# how many players per detective
+detective_ratio: 7.5
+# how many players per traitor (min 1 traitor)
+traitor_ratio: 5
+# how many players per jester (min 1 jester)
+jester_ratio: 15
+# chance the jesters will spawn for the round (0 = never, 1 = always)
+jester_chance_per_round: 0.300000012
+# amount of damage done to a player with grace to trigger auto slay
+rdm_damage_threshold: 90
+# amount of kills done to a players with grace or to players on the same team to trigger auto slay
+rdm_kill_threshold: 2
+# how much leeway is given once a player can see a body that is unided until they lose grace. higher values give more time for the player to id the body
+unided_body_leeway: 3
+description: >+
+  A few players are Traitors, Detectives and Jesters the rest are Innocents. Traitors must kill all Innocents to win while Innocents must figure out who the Traitors are and kill them. Innocents vastly outnumber Traitors, but dont know who they are. Detectives are proven innocent and must help the Innocents win. Jesters cannot kill and win when an innocent player kills them.
+
+detective_hint: '<b><size=128><color=#0000FF>Role: Dedektif</color></size></b>'
+ınnocent_hint: '<b><size=128><color=#00FF00>Role: Innocent</color></size></b>'
+traitor_hint: '<b><size=128><color=#FF0000>Role: Hain</color></size></b>'
+jester_hint: '<b><size=128><color=#FF80FF>Role: Soytarı</color></size></b>'
+detective_broadcast:
+- '<b><color=#0000FF><align=left>Dedektif</color> - Amaç: Masumların kazanmasına yardım etmek</b>'
+- Bir dedektif olarak masum olduğunuz varsayılan olarak kanıtlanmıştır.
+- Hainleri bulmanıza yardımcı olacak bir dükkana erişim elde edersiniz (Envanterdeki anahtar karta sağ tıklayın)
+- Kanıt toplayarak mağaza için puan kazanırsınız, örneğin cesetleri teşhis ederek
+ınnocent_broadcast:
+- '<b><color=#00FF00><align=left>Innocent</color> - Objective: Survive</b>'
+- You must not RDM(kill with an invalid reason) otherwise you will be slain and miss out the next round
+- You get an ID-Gun(the revolver) which when pointed at a body determines if they where a traitor or not(USE IT)
+- you can kill players that do not ID bodies right away e.g. a player walks over a body without ID-ing it
+traitor_broadcast:
+- '<b><color=#FF0000><align=left>Hain</color> - Amaç: Tüm masumları öldürmek</b>'
+- Hain takım arkadaşlarınızı D Sınıfı olarak göründükleri için görebilirsiniz
+- Tüm masumları öldürmenize yardımcı olacak bir dükkana erişim elde edersiniz (Envanterdeki anahtar karta sağ tıklayın)
+- Haritada hızlıca dolaşmak için havalandırma deliklerini kullanabilirsiniz (üzerlerinde E tuşuna basın)
+- Geminin etrafındaki belirli kolları çekerek sabotaj yapabilirsiniz, örneğin elektrik sistemindeki ışıkları kapatabilirsiniz.
+jester_broadcast:
+- '<b><color=#FF80FF><align=left>Soytarı</color> - Amaç: Ölmek</b>'
+- Kazanmak için sadece bir masumun ölmesi gerekir, hainler sayılmaz
+- Soytarı olarak kimseyi öldüremezsiniz
+- Havalandırma deliklerini kullanabilirsiniz ama hainler sizin soytarı olduğunuzu görebilir
+ready_up_broadcast: >-
+  <size=20><line-height=80%><color=#00FF00><b>Oyun Modu:</b></color> Traitor Among US (CSGO modunun uyarlaması [TTT] Trouble in Terrorist Town) - Birkaç oyuncu Hain, Dedektif ve Soytarıdır, geri kalanı Masumdur. Hainler kazanmak için tüm Masumları öldürmeli, Masumlar ise Hainlerin kim olduğunu bulmalı ve onları öldürmelidir. Masumların sayısı Hainlerden çok daha fazladır, ancak kim olduklarını bilmemektedirler. Dedektiflerin masumiyeti kanıtlanmıştır ve Masumların kazanmasına yardım etmelidirler. Soytarılar öldüremez ve masum bir oyuncu onları öldürdüğünde kazanır.<size=27><line-height=75%>
+
+  <color=#FF0000><b>Kurallar:</b> ATEŞ ETMEDEN ÖNCE BİR İNSANIN HAİN OLDUĞUNDAN EMİN OLMALISINIZ!!!</color> Tüm oyuncular, bir cesede doğrultulduğunda cesedin kimliğini belirleyen ve oyuncunun masum mu yoksa hain mi olduğunu sunucuya bildiren Kimlik Silahlarına sahiptir. Birinin başka bir kişiyi vurup öldürdüğünü görürseniz ve cesedin kimliğini belirlemezlerse veya kurban masumsa, saldırgan bir Haindir. Bunun gerçekleştiğini görmelisiniz ve "hislerinizden" ya da köşede ateş edildiğini duyduğunuz için gidemezsiniz. Bir oyuncunun havalandırma deliklerini kullandığını görmek onun Hain olduğunun kanıtı değildir çünkü Soytarılar da havalandırma deliklerini kullanabilir. Hazırlanmak için bu kuralları anlıyorsanız, masadaki cesedin kimliğini belirleyin (diğer insanlara kuralları okumalarını söylemek dışında nasıl hazırlanacaklarını söylemeyin)
+jesters_win_hint: >-
+  <b><size=92>Soytarıyı Öldüren {name}
+
+  <color=#FF0000>Ceza olarak bir sonraki tura katılmayacaklar.</color>
+
+  <color=#FF80FF>Soytarı kazandı!</color></size></b>
+ınnocents_win_hint: >-
+  <b><size=128>All Traitors Eliminated
+
+  <color=#00FF00>Innocents Win!</color></size></b>
+traitors_win_hint: >-
+  <b><size=128>All Masumlar Ortadan Kaldırıldı
+
+  <color=#FF0000>Hainler Kazandı!</color></size></b>
+traitors_out_of_time_announcement: <b><size=128>Hainlerin Zamanı Tükendi</size></b>
+rdm_slain_message: Bu turda çok fazla RDM yaptınız, bu yüzden seyirci olarak ayarlandınız!
+ready_up_not_ready_hint: >-
+  <b><size=92><color=#FF0000>HAZIRLANMAK IÇIN KURALLARI OKUYUN</color>
+
+  <color=#87ceeb>{ready}/{total} Oyuncular Hazır
+
+  Round starts in {time}</color></size></b>
+ready_up_ready_hint: >-
+  <b><size=92><color=#00FF00>HAZIRSIN</color>
+
+  <color=#87ceeb>{ready}/{total} Oyuncular Hazır
+
+  Round starts in {time}</color></size></b>
+ready_up_to_slow_hint: <b><size=92><color=#FF0000>ZAMANINDA HAZIRLANMADIN.</color></b>
+killed_jester_hint: >-
+  Geçen tur soytarıyı öldürdün!
+   Bunun tekrarlanmamasını sağlamak için kuralları okuyun
+rdmed_to_much_hint: >-
+  Geçen tur çok fazla RDM yaptın!
+   Bunun tekrarlanmamasını sağlamak için kuralları okuyun
+staff_did_not_select_map: '[ERROR] Yetkili bir harita seçmedi!'
+round_starting_hint: <b><size=64><color=#87ceeb>Round {round} of {total} Başlangıcı...</color></size></b>

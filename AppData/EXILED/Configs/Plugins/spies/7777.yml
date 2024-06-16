@@ -1,0 +1,25 @@
+# Enable or disable the plugin.
+s_enabled: true
+debug: true
+# Probability of spy spawning ON A CHAOS WAVE
+n_t_f_spy_spawn_probability_n_chaos_wave: 60
+# Probability of spy spawning ON A NTF WAVE
+chaos_spy_spawn_probability_n_n_t_f_wave: 60
+# Probability of spy spawning WHEN  CLASS-D ESCAPES
+spy_spawn_probability_after_class_d_escape: 60
+# Probability of spy spawning WHEN SCIENTIST ESCAPES
+spy_spawn_probability_after_scientist_escape: 60
+# Damage multiplier from a spy to REAL its team (1 = normal, <1 = less, >1 more)
+spy_t_k_factor: 0.200000003
+# Damage multiplier to a spy from its REAL team (1 = normal, <1 = less, >1 more)
+to_spy_t_k_factor: 0.200000003
+# Message shown when a spy shoots its REAL team
+spy_t_k_message: 'You are a spy!'
+# Message shown to a spy REAL team member when he shoots the spy, %player% is replaced with the spy name
+team_shoots_spy_message: 'You are shooting %player%, a spy from your team!'
+# Message shown when a spy shoots another spy from its REAL team
+spy_t_k_spy_message: 'You are shooting another spy!'
+# The spy cannot take damage from the team they are spying while being a spy
+spy_receive_damage_from_spied: true
+# Should the spy get discovered whe he damages the team he is spying?
+spy_reveal_when_damaging: true

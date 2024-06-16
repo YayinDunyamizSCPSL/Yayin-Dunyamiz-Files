@@ -1,0 +1,2630 @@
+{
+  "RootObjectId": 600784,
+  "Blocks": [
+    {
+      "Name": "Cube (1)",
+      "ObjectId": 569758,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 0.0370370448,
+        "z": 1.00000024
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (2)",
+      "ObjectId": 632448,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": -0.333333373,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.259259254,
+        "y": 0.0370370448,
+        "z": 0.2592593
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (3)",
+      "ObjectId": 611104,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": -0.333333373,
+        "z": 7.43866E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1851852,
+        "y": 0.0370370448,
+        "z": 0.185185224
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (4)",
+      "ObjectId": 638528,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": -0.333333373,
+        "z": 0.000110626221
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (5)",
+      "ObjectId": 621210,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": 0.333333373,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.259259254,
+        "y": 0.0370370448,
+        "z": 0.2592593
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (6)",
+      "ObjectId": 625694,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": 0.333333373,
+        "z": 7.43866E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1851852,
+        "y": 0.0370370448,
+        "z": 0.185185224
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (7)",
+      "ObjectId": 626798,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": 0.333333373,
+        "z": 0.000110626221
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (8)",
+      "ObjectId": 594420,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.333333015,
+        "y": -0.333333373,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.259259254,
+        "y": 0.0370370448,
+        "z": 0.2592593
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (9)",
+      "ObjectId": 633982,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.333333015,
+        "y": -0.333333373,
+        "z": 7.43866E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1851852,
+        "y": 0.0370370448,
+        "z": 0.185185224
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "Cube (10)",
+      "ObjectId": 579312,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.333333015,
+        "y": -0.333333373,
+        "z": 0.000110626221
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (11)",
+      "ObjectId": 624050,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.444444656,
+        "y": -0.129629642,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.07407409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (12)",
+      "ObjectId": 569182,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.4259262,
+        "y": 0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (13)",
+      "ObjectId": 597092,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.370370865,
+        "y": 0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (14)",
+      "ObjectId": 582432,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": 0.07407408,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (15)",
+      "ObjectId": 597624,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.29629612,
+        "y": 0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (16)",
+      "ObjectId": 596012,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.370370865,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (17)",
+      "ObjectId": 602618,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": -0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (18)",
+      "ObjectId": 618096,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (19)",
+      "ObjectId": 638032,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.29629612,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (20)",
+      "ObjectId": 567550,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.333333015,
+        "y": -0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (21)",
+      "ObjectId": 590332,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.29629612,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (22)",
+      "ObjectId": 602884,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.222222328,
+        "y": -0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (23)",
+      "ObjectId": 602080,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.222222328,
+        "y": -0.07407408,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (24)",
+      "ObjectId": 637884,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.185185432,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (25)",
+      "ObjectId": 631352,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.148148537,
+        "y": -0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (26)",
+      "ObjectId": 593706,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.111110687,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (27)",
+      "ObjectId": 616592,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.185185432,
+        "y": -0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (28)",
+      "ObjectId": 629100,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.148148537,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (29)",
+      "ObjectId": 627126,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.222222328,
+        "y": 0.07407408,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (30)",
+      "ObjectId": 637254,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.222222328,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (31)",
+      "ObjectId": 577986,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.259259224,
+        "y": 0.01851852,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.07407409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (32)",
+      "ObjectId": 588974,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.129630089,
+        "y": 0.07407408,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (33)",
+      "ObjectId": 581432,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.166666985,
+        "y": 0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.148148149,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (34)",
+      "ObjectId": 634298,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.148148537,
+        "y": 0.185185209,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (35)",
+      "ObjectId": 590014,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.07407379,
+        "y": -0.185185209,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (36)",
+      "ObjectId": 573662,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.07407379,
+        "y": -0.222222254,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (37)",
+      "ObjectId": 589420,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.148148537,
+        "y": -0.222222254,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (38)",
+      "ObjectId": 616996,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.148148537,
+        "y": -0.388888955,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.148148179
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (39)",
+      "ObjectId": 571922,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.07407379,
+        "y": -0.296296328,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (40)",
+      "ObjectId": 581034,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0555553436,
+        "y": -0.370370418,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (41)",
+      "ObjectId": 632224,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0,
+        "y": -0.370370418,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (42)",
+      "ObjectId": 569238,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.111110687,
+        "y": -0.370370418,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (43)",
+      "ObjectId": 626818,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.07407379,
+        "y": -0.407407463,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (44)",
+      "ObjectId": 584524,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.111110687,
+        "y": -0.4444445,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (45)",
+      "ObjectId": 567774,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.111110687,
+        "y": -0.296296328,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (46)",
+      "ObjectId": 589654,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.111110687,
+        "y": -0.333333373,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (47)",
+      "ObjectId": 588780,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.148148537,
+        "y": -0.259259284,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (48)",
+      "ObjectId": 599272,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.148148537,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (49)",
+      "ObjectId": 602236,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.111110687,
+        "y": -0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (50)",
+      "ObjectId": 594746,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.185185432,
+        "y": -0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (51)",
+      "ObjectId": 620718,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.07407379,
+        "y": -0.203703731,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.07407409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (52)",
+      "ObjectId": 571276,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.0370368958,
+        "y": -0.277777821,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.07407409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (53)",
+      "ObjectId": 584150,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0,
+        "y": -0.240740776,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.07407409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (54)",
+      "ObjectId": 582588,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.0370368958,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (55)",
+      "ObjectId": 595884,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (56)",
+      "ObjectId": 626920,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0370368958,
+        "y": -0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (57)",
+      "ObjectId": 583992,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.07407379,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (58)",
+      "ObjectId": 607302,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0370368958,
+        "y": 0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (59)",
+      "ObjectId": 565850,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.0185184479,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (60)",
+      "ObjectId": 616680,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.07407379,
+        "y": 0.0555555634,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.07407409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (61)",
+      "ObjectId": 570646,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.148148537,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (62)",
+      "ObjectId": 574746,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.185185432,
+        "y": 0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (63)",
+      "ObjectId": 584814,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.20370388,
+        "y": 0.07407408,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (64)",
+      "ObjectId": 629116,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.259259224,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (65)",
+      "ObjectId": 635584,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.277777672,
+        "y": -0.07407408,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (66)",
+      "ObjectId": 596366,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.314814568,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (67)",
+      "ObjectId": 568796,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.3888893,
+        "y": -0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.148148149,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (68)",
+      "ObjectId": 589820,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.444444656,
+        "y": -0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (69)",
+      "ObjectId": 580700,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.407407761,
+        "y": 0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.185185224
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (70)",
+      "ObjectId": 575564,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.370370865,
+        "y": -0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (71)",
+      "ObjectId": 602530,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.3888893,
+        "y": 0.07407408,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.148148149,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (73)",
+      "ObjectId": 598042,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.370370865,
+        "y": 0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (74)",
+      "ObjectId": 625942,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.370370865,
+        "y": -3.637979E-12,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (75)",
+      "ObjectId": 571246,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.333333015,
+        "y": 0.03703704,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (72)",
+      "ObjectId": 585634,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.148148537,
+        "y": 0.333333373,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (76)",
+      "ObjectId": 626678,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.111110687,
+        "y": 0.407407463,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (77)",
+      "ObjectId": 589268,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.148148537,
+        "y": 0.4444445,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (78)",
+      "ObjectId": 606134,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0370368958,
+        "y": 0.259259284,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1851852,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (79)",
+      "ObjectId": 570296,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0370368958,
+        "y": 0.222222254,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.3333334
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (80)",
+      "ObjectId": 621160,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.07407379,
+        "y": 0.259259284,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (81)",
+      "ObjectId": 582930,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0,
+        "y": 0.407407463,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (82)",
+      "ObjectId": 580112,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.0370368958,
+        "y": 0.4444445,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (83)",
+      "ObjectId": 598666,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0,
+        "y": 0.240740776,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.148148179
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (84)",
+      "ObjectId": 600844,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.0370368958,
+        "y": 0.259259284,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (85)",
+      "ObjectId": 640038,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.259259224,
+        "y": 0.296296328,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.4074074,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (86)",
+      "ObjectId": 569956,
+      "ParentId": 600784,
+      "Position": {
+        "x": 0.0,
+        "y": 0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (87)",
+      "ObjectId": 571422,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.166666985,
+        "y": 0.148148164,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2962963,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (88)",
+      "ObjectId": 631108,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.111110687,
+        "y": 0.185185209,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (89)",
+      "ObjectId": 567796,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.129630089,
+        "y": 0.222222254,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (90)",
+      "ObjectId": 610822,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.148148537,
+        "y": 0.111111127,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (91)",
+      "ObjectId": 565750,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.222222328,
+        "y": 0.222222254,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (92)",
+      "ObjectId": 566706,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.29629612,
+        "y": 0.222222254,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (93)",
+      "ObjectId": 586214,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.333333015,
+        "y": 0.222222254,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (94)",
+      "ObjectId": 599834,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.333333015,
+        "y": 0.185185209,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (95)",
+      "ObjectId": 580858,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.407407761,
+        "y": 0.185185209,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (96)",
+      "ObjectId": 566614,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.444444656,
+        "y": 0.333333373,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.2592593
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (97)",
+      "ObjectId": 639522,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.314814568,
+        "y": 0.333333373,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (98)",
+      "ObjectId": 593490,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.370370865,
+        "y": 0.370370418,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (99)",
+      "ObjectId": 610462,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.29629612,
+        "y": 0.407407463,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1851852,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (100)",
+      "ObjectId": 614324,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.314814568,
+        "y": 0.4444445,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0740740746,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (101)",
+      "ObjectId": 583648,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.222222328,
+        "y": 0.407407463,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.111111142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (102)",
+      "ObjectId": 588830,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.148148537,
+        "y": 0.370370418,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.185185224
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (103)",
+      "ObjectId": 579164,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.185185432,
+        "y": 0.370370418,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (104)",
+      "ObjectId": 584682,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.148148537,
+        "y": 0.4444445,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.111111112,
+        "y": 0.0370370448,
+        "z": 0.0370370448
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    },
+    {
+      "Name": "Cube (105)",
+      "ObjectId": 572014,
+      "ParentId": 600784,
+      "Position": {
+        "x": -0.07407379,
+        "y": 0.388888955,
+        "z": 3.6239624E-05
+      },
+      "Rotation": {
+        "x": 90.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0370370373,
+        "y": 0.0370370448,
+        "z": 0.07407409
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "000000FF"
+      }
+    }
+  ]
+}

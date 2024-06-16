@@ -1,0 +1,4 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >
+  İnsanlar SCP'lere Karşı. Tüm insan takımları SCP'leri yenmek için müttefiktir. SCP'ler bir kolaya eşit hız artışı, +1000 sağlık ve +1000 kılıf (%20 sağlıkta) kazanır.

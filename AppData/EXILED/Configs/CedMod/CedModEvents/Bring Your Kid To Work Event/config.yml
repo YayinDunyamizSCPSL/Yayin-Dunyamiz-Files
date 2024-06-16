@@ -1,0 +1,6 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+child_size: 0.649999976
+description: >+
+  Half the players will be small. Small players have 75% max health but get a speed boost equivalent to a cola without the negative effect
+

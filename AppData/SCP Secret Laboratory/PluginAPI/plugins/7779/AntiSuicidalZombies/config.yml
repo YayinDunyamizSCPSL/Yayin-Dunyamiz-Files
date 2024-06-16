@@ -1,0 +1,6 @@
+# Is plugin enabled?
+ıs_enabled: true
+# Should Debug be enabled?
+debug: false
+# Should zombies be blinded after walking into tesla and for how long? Set to 0 or below to disable.
+blind_effect: 5

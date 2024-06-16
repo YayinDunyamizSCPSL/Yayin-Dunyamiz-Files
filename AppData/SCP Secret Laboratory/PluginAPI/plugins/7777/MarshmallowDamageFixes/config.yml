@@ -1,0 +1,8 @@
+# Should this plugin be enabled. This will not stop plugins from using the included api, as long as they initialize it.
+ıs_enabled: true
+# Should debug logs be shown.
+debug: false
+# Should the marshmallow effect, follow the server friendlyfire settings.
+make_marshmallow_respect_friendly_fire: true
+# Should killing a cuffed teammate count as tk.
+count_cuffed: true

@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  Normal round but the SCPs have random sizes
+

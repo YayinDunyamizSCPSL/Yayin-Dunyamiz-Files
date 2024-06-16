@@ -1,0 +1,96 @@
+[
+  {
+    "RoomType": 48,
+    "TargetTeleporters": [
+      {
+        "Id": 634100,
+        "Chance": 100.0
+      }
+    ],
+    "AllowedRoles": [
+      "Scp0492",
+      "Scp049",
+      "Scp096",
+      "Scp106",
+      "Scp173",
+      "Scp93953",
+      "Scp93989",
+      "ClassD",
+      "Tutorial"
+    ],
+    "Cooldown": 0.5,
+    "TeleportFlags": 1,
+    "LockOnEvent": 0,
+    "TeleportSoundId": -1,
+    "Name": "Armory(inside)",
+    "ObjectId": 633676,
+    "ParentId": 612636,
+    "Position": {
+      "x": 0.0153612616,
+      "y": 1.27969,
+      "z": 9.91851
+    },
+    "Rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Scale": {
+      "x": 1.1680001,
+      "y": 1.825,
+      "z": 0.365
+    }
+  },
+  {
+    "RoomType": 48,
+    "TargetTeleporters": [
+      {
+        "Id": 633676,
+        "Chance": 100.0
+      }
+    ],
+    "AllowedRoles": [
+      "Scp0492",
+      "Scp049",
+      "Scp096",
+      "Scp106",
+      "Scp173",
+      "Scp93953",
+      "Scp93989",
+      "ClassD",
+      "Scientist",
+      "FacilityGuard",
+      "NtfPrivate",
+      "NtfSergeant",
+      "NtfSpecialist",
+      "NtfCaptain",
+      "ChaosConscript",
+      "ChaosRifleman",
+      "ChaosRepressor",
+      "ChaosMarauder",
+      "Tutorial"
+    ],
+    "Cooldown": 1.0,
+    "TeleportFlags": 1,
+    "LockOnEvent": 0,
+    "TeleportSoundId": -1,
+    "Name": "Armory(outside)",
+    "ObjectId": 634100,
+    "ParentId": 612636,
+    "Position": {
+      "x": 0.0153612616,
+      "y": 1.27969,
+      "z": 7.01676035
+    },
+    "Rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Scale": {
+      "x": 1.1680001,
+      "y": 1.825,
+      "z": 0.365
+    }
+  }
+]

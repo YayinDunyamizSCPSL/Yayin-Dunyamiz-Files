@@ -1,0 +1,6 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+lock_surface: true
+description: >+
+  Girişte bir Utangaç Adam ortaya çıkar ve herkes tarafından tetiklenir. Diğer tüm oyuncular D Sınıfıdır ve hücrelerinde ortaya çıkarlar. Sınıf-D'ler 6x SCP330, 4x SCP207, medkit, ağrı kesiciler ve bir tesis yöneticisi kartı alır. Yüzey kilitlendi. Son hayatta kalan kazanır!
+

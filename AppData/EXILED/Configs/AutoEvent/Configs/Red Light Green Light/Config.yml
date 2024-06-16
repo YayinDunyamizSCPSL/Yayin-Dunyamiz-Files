@@ -1,0 +1,93 @@
+# After how many seconds the round will end. [Default: 70]
+total_time_in_seconds: 70
+# The players will push each other for fun. Default: true.
+is_enable_push: true
+# How much time should I give the player in seconds to cool down to use the push?
+push_player_cooldown: 5
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'RedLight'
+    # The position to spawn the map.
+    position:
+      x: 0
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: false
+  # Style of this map.
+  season_flag: None
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'RedLight_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 0
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: false
+  # Style of this map.
+  season_flag: Christmas
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'RedLight_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 0
+      y: 1030
+      z: -43.5
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+    # Whether the object needs to be optimized.
+    is_static: false
+  # Style of this map.
+  season_flag: NewYear
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.4'

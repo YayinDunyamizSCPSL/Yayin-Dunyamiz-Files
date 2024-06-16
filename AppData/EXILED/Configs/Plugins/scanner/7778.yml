@@ -1,0 +1,24 @@
+# Determines whether or not the plugin is enabled.
+is_enabled: true
+# Whether or not to show debug logs.
+debug: true
+# Determines whether or not the SCPs that have breached will be announced at the start.
+announce_scps_at_start: false
+# Determines the amount of seconds that will pass before SCPs are announced at the start.
+announce_scps_delay: 3
+# Determines whether or not to regularly scan and announce who is alive.
+regular_scanning: true
+# Determines the length of time between each scan (and before the 1st scan) each round.
+length_between_scans: 300
+# Determines the length of time a scan takes to complete.
+scan_length: 30
+# Determines if a list of SCPs will be included at the end of the scan.
+include_scp_list_in_scan: true
+# If set to false, scanning will be disabled after the nuke has been detonated.
+scan_after_nuke: true
+# Determines which zones will be scanned.
+scan_zones:
+- LightContainment
+- HeavyContainment
+- Entrance
+- Surface

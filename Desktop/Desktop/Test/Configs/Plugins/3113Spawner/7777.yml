@@ -1,0 +1,10 @@
+is_enabled: true
+debug: false
+# The minimum amount of players on the Server to allow SCP3114 to spawn. Default 1
+min_players: 1
+# Set to true to make the Plugin change a Class D to SCP3114 instead of an SCP. Default false
+spawn_on_top: false
+# The minimum amount of players on the Server to allow SCP3114 to spawn on top (only applies when SpawnOnTop is set to true, does not overwrite MinPlayers). Default 0
+min_players_for_on_top: 0
+# The chance for SCP3114 to spawn in %. Valid values are 0-100. Default 30
+spawn_chance: 100

@@ -1,0 +1,27 @@
+s_enabled: true
+debug: false
+# The affected SCPs, their shown text when unlocked and the time of their lockdown. (RoleType, string, int => RoleType, text, time in seconds)
+affected_scps:
+- role_type: Scp079
+  text: 'tes123'
+  time_to_unlock: 1
+# Doors that you want to open/unlock/destroy/unlock after x seconds, this doors are locked at the round start. (DoorType, int, bool, bool, bool => DoorType, delay in seconds, unlock?, open?, destroy?)
+affected_doors:
+- door_type: CheckpointLczA
+  delay: 1
+  unlock: true
+  destroy: false
+  open: false
+- door_type: CheckpointLczB
+  delay: 1
+  unlock: true
+  destroy: false
+  open: false
+# Use this if you want send cassies with a specified timing. (string, int => cassie text, delay in seconds)
+cassies:
+- content: 'tes132'
+  delay: 1
+# Can the Scp-079 use/switch cameras while is in lockdown?
+scp079_camera: true
+# the plugin should use hints or broadcasts?.
+use_hints: true

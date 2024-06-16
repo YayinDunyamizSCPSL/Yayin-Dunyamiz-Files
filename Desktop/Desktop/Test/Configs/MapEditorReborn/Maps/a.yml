@@ -1,0 +1,37 @@
+# Whether the default player spawnpoints should be removed. Keep in mind, that given role spawnpoint will be removed only if there is at least one custom spawn point of that type.
+remove_default_spawn_points: false
+# List of possible names for ragdolls spawned by RagdollSpawnPoints.
+ragdoll_role_names:
+  ClassD:
+  - 'D-9341'
+vanilla_doors: {}
+vanilla_tesla_properties:
+  ignored_roles: []
+  ignored_items: []
+  inventory_item: true
+  damage_multiplier: 1
+doors: []
+work_stations: []
+item_spawn_points: []
+player_spawn_points: []
+ragdoll_spawn_points: []
+shooting_targets: []
+primitives: []
+lockers: []
+schematics:
+- schematic_name: 'scp294'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 1.75
+    y: 0
+    z: 1.5
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: HczArmory

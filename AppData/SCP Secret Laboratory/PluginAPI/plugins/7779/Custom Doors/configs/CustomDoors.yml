@@ -1,0 +1,8 @@
+# Inform of position command's response ? (sends a debug message to the server console when using position command) :
+info_position_command: true
+# Inform of attachments command's response ? (sends a debug message to the server console when using attachments command) :
+info_attachments_command: true
+# List of doors and their caracteristics
+doors: []
+# List of items and their caracteristics
+items: []

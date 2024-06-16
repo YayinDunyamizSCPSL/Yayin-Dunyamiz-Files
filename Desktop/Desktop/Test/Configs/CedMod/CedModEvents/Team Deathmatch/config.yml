@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  Scientists vs Class-D in a random zone with a random loadout, last team alive wins!
+

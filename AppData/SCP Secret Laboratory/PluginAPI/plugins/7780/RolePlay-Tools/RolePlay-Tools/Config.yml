@@ -1,0 +1,19 @@
+ıs_enabled: true
+debug: false
+ıs_title_enabled: true
+# Players who can see the .me command in radius
+me_command_radius: 40
+# Players who can see the .try command in radius
+try_command_radius: 40
+# Players who can see the .do command in radius
+do_command_radius: 40
+# Players who can see the .ooc command in radius
+ooc_command_radius: 40
+# Duration time of hints in seconds
+hint_duration_time: 8
+# Voffset for hints. Default: -500
+voffset: -500
+title_cmd_desc: Your description of Title cmd
+do_cmd_desc: Your description of Do cmd
+me_cmd_desc: Your description of Me cmd
+try_cmd_desc: Your description of Try cmd

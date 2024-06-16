@@ -1,0 +1,8 @@
+duration: 20
+start_tag: <b><size=32>
+most_kills_as_scp: <color=#00b57f>{name}</color> had the most kills as <color=#d11919>{role}</color> with <color=#d11919>{kills}</color> kills
+first_to_kill_scp: <color=#00b57f>{name}</color> was the first to kill a <color=#d11919>SCP</color>
+most_scps_killed: <color=#00b57f>{name}</color> killed {scps}
+most_scps_killed_list_item: <color=#d11919>{scp}</color>
+most_kills_as_human: <color=#00b57f>{name}</color> had the most kills as a human with <color=#d11919>{kills}</color> kills
+first_to_escape: <color=#00b57f>{name}</color> was the first to escape in <color=#d11919>{time}</color> as a {role}

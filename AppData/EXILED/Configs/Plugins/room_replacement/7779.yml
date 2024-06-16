@@ -1,0 +1,23 @@
+# Indicates plugin enabled or not
+is_enabled: true
+# Indicates debug mode enabled or not
+debug: false
+# Options for replacement
+replacement_options:
+-
+# Indicates replacement is enabled or not
+  is_enabled: false
+  # Room for replacement
+  target_room_type: HczTestRoom
+  # Schematic that will be used
+  schematic_name: 'HczTestroomOld'
+  # Chance for replace room with described schematic
+  spawn_chance: 100
+  position_offset:
+    x: 0
+    y: 0
+    z: 0
+  rotation_offset:
+    x: 0
+    y: 0
+    z: 0

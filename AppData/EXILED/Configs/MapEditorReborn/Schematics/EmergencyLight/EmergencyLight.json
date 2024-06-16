@@ -1,0 +1,72 @@
+{
+  "RootObjectId": 590310,
+  "Blocks": [
+    {
+      "Name": "Cylinder",
+      "ObjectId": 575104,
+      "ParentId": 590310,
+      "Position": {
+        "x": 0.0,
+        "y": 0.075,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.3,
+        "y": 0.1,
+        "z": 0.3
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "808080FF"
+      }
+    },
+    {
+      "Name": "Capsule",
+      "ObjectId": 617058,
+      "ParentId": 590310,
+      "Position": {
+        "x": 0.0,
+        "y": -0.0358,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.25,
+        "y": 0.2,
+        "z": 0.25
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "FF00009F"
+      }
+    },
+    {
+      "Name": "LightSource",
+      "ObjectId": 570116,
+      "ParentId": 590310,
+      "Position": {
+        "x": 0.0,
+        "y": -0.252,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FF0000FF",
+        "Intensity": 1.0,
+        "Range": 10.0,
+        "Shadows": false
+      }
+    }
+  ]
+}

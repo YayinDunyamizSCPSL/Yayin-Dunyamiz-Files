@@ -1,0 +1,122 @@
+{
+  "41218": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "56964": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "84628": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "24262": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "45160": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "41940": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "32038": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "31758": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "68790": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "36196": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "58818": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "85106": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "41126": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "47252": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "20786": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-43190": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-39440": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-76546": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-18466": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  },
+  "-94166": {
+    "IsKinematic": true,
+    "UseGravity": false,
+    "Constraints": 0,
+    "Mass": 1.0
+  }
+}

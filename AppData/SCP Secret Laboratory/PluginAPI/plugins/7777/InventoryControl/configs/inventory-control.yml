@@ -1,0 +1,99 @@
+# List of roles, their items, and chance (Do not add a role if you want its inventory to be normal)
+inventory:
+  ClassD:
+    keep_items: false
+    items:
+      Flashlight: 100
+      KeycardJanitor: 35
+      Painkillers: 80
+      Coin: 100
+  Scientist:
+    keep_items: true
+    items:
+      Flashlight: 100
+      Coin: 90
+# List of ranks and their roles items and chances
+inventory_rank:
+  abon:
+    ClassD:
+      keep_items: false
+      items:
+        Flashlight: 100
+        KeycardScientist: 13
+        GunCOM18: 4
+        Painkillers: 100
+        Coin: 100
+    Scientist:
+      keep_items: true
+      items:
+        GunCOM18: 4
+        SCP500: 10
+        Flashlight: 100
+        Coin: 90
+  abonsmod:
+    ClassD:
+      keep_items: false
+      items:
+        Flashlight: 100
+        KeycardScientist: 13
+        GunCOM18: 4
+        Painkillers: 100
+        Coin: 100
+    Scientist:
+      keep_items: true
+      items:
+        GunCOM18: 4
+        SCP500: 10
+        Flashlight: 100
+        Coin: 90
+  abonacmod:
+    ClassD:
+      keep_items: false
+      items:
+        KeycardMTFOperative: 100
+        Flashlight: 100
+        GunCOM18: 50
+        Painkillers: 100
+        Coin: 100
+    Scientist:
+      keep_items: true
+      items:
+        KeycardMTFOperative: 100
+        GunCOM18: 35
+        SCP500: 75
+        Flashlight: 100
+        Coin: 90
+  dev:
+    ClassD:
+      keep_items: false
+      items:
+        KeycardMTFOperative: 100
+        Flashlight: 100
+        GunCOM18: 50
+        Painkillers: 100
+        Coin: 100
+    Scientist:
+      keep_items: true
+      items:
+        KeycardMTFOperative: 100
+        GunCOM18: 35
+        SCP500: 75
+        Flashlight: 100
+        Coin: 90
+  mekans:
+    ClassD:
+      keep_items: false
+      items:
+        KeycardMTFOperative: 100
+        Flashlight: 100
+        GunCOM18: 50
+        Painkillers: 100
+        Coin: 100
+    Scientist:
+      keep_items: true
+      items:
+        KeycardMTFOperative: 100
+        GunCOM18: 35
+        SCP500: 75
+        Flashlight: 100
+        Coin: 90

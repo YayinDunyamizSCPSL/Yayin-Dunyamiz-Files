@@ -1,0 +1,112 @@
+# Duration of broadcast, might need to be increased if round end time set in config is longer
+duration: 11
+# Set text format shared between stats with tags and display text you want to appear at the top
+start: <size=31><line-height=0.9em>[<color=#0096FF><b>⚚</b></color>]<color=#70C3FF><b> Yayin Dünyamız MVP Listesi </color></b>[<color=#0096FF><b>⚚</b></color>]\n
+# Format used for each stat, if set to no text/empty the stat will not be displayed
+most_kills_as_scp: <color=#0096FF>{name}</color>, <color=#70C3FF>{kills}</color> öldürmeleriyle <color=#70C3FF>{role}</color> olarak en çok öldürmeye sahipti
+first_to_kill_scp: <color=#0096FF>{name}</color> bir <color=#70C3FF>SCP</color>'yi ilk öldüren oldu
+# Replaces first_to_kill_scp if player has more than one kill
+most_scps_killed: <color=#0096FF>{name}</color> {scps} öldürmüştü
+most_scps_killed_list_item: <color=#0096FF>{scp}</color>
+most_kills_as_human: <color=#0096FF>{name}</color>, <color=#70C3FF>{kills}</color> öldürmeleriyle bir insan olarak en çok öldürmeye sahipti
+first_to_escape: <color=#0096FF>{name}</color>, <color=#70C3FF>{time}</color>'da {role} olarak kaçan ilk kişiydi
+best_achievement: <color=#0096FF><b>{name}</b></color> <color=#70C3FF><b>{achievement}</b></color> başarımını aldı - {description}
+# Close out tags from the Start and display text you want to appear at the bottom
+end: </line-height></size>
+# Achievements to be tracked during the round. Order of achievements determine priority, ones closer to the top override lower ones. contains all valid achievements by default(christmas, halloween and They Are Just Resources... are missing due to techinal reasons)
+achievements:
+- BePoliteBeEfficient
+- ChangeInCommand
+- Overcurrent
+- Escape207
+- TurnThemAll
+- AccessGranted
+- CrisisAverted
+- DidntEvenFeelThat
+- MicrowaveMeal
+- EscapeArtist
+- Pacified
+- IllPassThanks
+- ForScience
+- FireInTheHole
+- ItsAlwaysLeft
+- SecureContainProtect
+- IsThisThingOn
+- WalkItOff
+- Friendship
+- HeWillBeBack
+- ExecutiveAccess
+- AnomalouslyEfficient
+- MelancholyOfDecay
+- ThatCanBeUseful
+- TMinus
+- ProceedWithCaution
+- DontBlink
+- DeltaCommand
+- LightsOut
+achievement_descriptions:
+  LightsOut: Dokuz Kuyruklu Tilki olarak yeniden doğdu
+  DeltaCommand: Kaos Ayaklanması olarak yeniden doğdu
+  DontBlink: <color=#ff0000>SCP-173</color>'ten başarıyla kaçtı
+  ProceedWithCaution: <color=#ff0000>SCP-079</color>'un izlediği bir Tesla kapısından başarıyla geçti
+  TMinus: Başarılı bir Alfa Savaş Başlığı Patlaması'ndan sağ kurtuldu
+  ThatCanBeUseful: <color=#FF8000>D Sınıfı</color> personel olarak herhangi bir silah bul
+  MelancholyOfDecay: <color=#ff0000>SCP-106</color> olarak yerden çıktıktan sonraki beş saniye içinde bir oyuncuyu yakaladı
+  AnomalouslyEfficient: Oyunun ilk dakikasında bir oyuncuyu <color=#ff0000>SCP</color> olarak öldürdü
+  ExecutiveAccess: Maksimum seviye kimlik kartı edindi
+  HeWillBeBack: Cep Boyutundan başarıyla kaçtı
+  Friendship: Bir <color=#FFFF7C>Bilim İnsanı</color> olarak, kimlik kartlarını <color=#FF8000>D Sınıfı</color> personeli ile birlikte başarıyla yükseltti
+  WalkItOff: Sağlığının yarısından azı kalmışken düşmekten sağ kurtuldu
+  IsThisThingOn: Intercom üzerinden 'faydalı' bir mesaj yayınladı
+  SecureContainProtect: MTF olarak turun son <color=#ff0000>SCP</color>'sini öldürdü
+  ItsAlwaysLeft: <color=#FF8000>D Sınıfı</color> personel olarak kaçtı
+  FireInTheHole: Bir düşmanı el bombasıyla öldürdü
+  ForScience: <color=#FFFF7C>Bilim İnsanı</color> olarak kaçtı
+  IllPassThanks: Micro H.I.D'yi aktif olarak kullanan birini <color=#ff0000>SCP</color> olarak öldürdü
+  Pacified: <color=#ff0000>SCP-096</color>'yı öfkeye girerken öldürdü
+  EscapeArtist: Tesisten ilk kaçan oldu
+  MicrowaveMeal: <color=#ff0000>SCP</color>'yi Micro H.I.D ile öldürdü
+  DidntEvenFeelThat: Onları normalde öldürecek bir vuruştan sağ kalmak için adrenalin kullandı
+  CrisisAverted: Ölecekleri sırada SCP-500 kullandı
+  AccessGranted: Kimlik kartı taşıyan bir <color=#FFFF7C>Bilim İnsanı</color>'nı <color=#FF8000>D Sınıfı</color> personel olarak öldürdü
+  TurnThemAll: <color=#ff0000>SCP-049</color> olarak on kişiyi iyileştir
+  Escape207: SCP-207'nin etkisi altındayken kaçtı
+  SomethingDoneRight: <color=#FFFF7C>Bilim İnsanı</color> olarak bir SCP'yi öldürdü
+  PropertyOfChaos: <color=#FF8000>D Sınıfı</color> personel olarak iki den fazla SCP nesnesi ile kaçtı
+  ThatWasClose: Alfa Savaş Başlığı patlamasını son 15 saniye içinde iptal etti
+  Overcurrent: Micro H.I.D'yi şarj etmeye çalıştı
+  ChangeInCommand: Bir MTF operasyonunu silahsızlandırdı
+  BePoliteBeEfficient: 30 saniyenin altında beş düşmanı öldür
+achievement_names:
+  LightsOut: Işıklar Sönük
+  DeltaCommand: Delta Komutanlığı Biz...
+  DontBlink: Gözünü Kırpma
+  ProceedWithCaution: Dikkatle İlerle
+  TMinus: T-Minus 90 saniye...
+  ThatCanBeUseful: '... Ne Düşünüyorsun Ben de Aynı Şeyi Düşünüyorum mu?'
+  MelancholyOfDecay: Çürümenin Melankolisi
+  AnomalouslyEfficient: Anormal Derecede Verimli
+  ExecutiveAccess: Yönetici Erişimi
+  HeWillBeBack: Geri Gelecek...
+  Friendship: Dostluk
+  WalkItOff: Yürü
+  IsThisThingOn: Bu Şey Çalışıyor Mu?
+  SecureContainProtect: Güdüm İçerme Koruma
+  ItsAlwaysLeft: Her Zaman Solda, Kardeşler!
+  FireInTheHole: Delikte Ateş!
+  ForScience: Bilim Uğruna!
+  IllPassThanks: Teşekkürler Geçerim
+  Pacified: Pasifleştirildi
+  EscapeArtist: Kaçış Sanatçısı
+  MicrowaveMeal: Mikrodalga Yemek
+  DidntEvenFeelThat: Ha! Hiç Hissetmedim Bile!
+  CrisisAverted: Kriz Averted
+  AccessGranted: Erişim İzin Verildi
+  TurnThemAll: On Kişiyi İyileştir (SCP-049 olarak)
+  Escape207: Kafein Kanatlarıyla Kaçış
+  SomethingDoneRight: Doğru Yapılan Bir Şey
+  PropertyOfChaos: Kaosun Mülkü
+  ThatWasClose: Neyse Ki...
+  Overcurrent: Aşırı Yüklenme
+  ChangeInCommand: Komuta Değişikliği
+  BePoliteBeEfficient: Nazik Ol Verimli Ol

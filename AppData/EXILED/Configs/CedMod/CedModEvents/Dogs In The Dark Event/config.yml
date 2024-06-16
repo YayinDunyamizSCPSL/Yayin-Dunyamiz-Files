@@ -1,0 +1,11 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+# min time between random cassie noises
+cassie_min_time: 0
+# max time between random cassie noises
+cassie_max_time: 150
+# how many rooms in the facility every second will have their lights flicker on
+room_light_flickers_per_second: 2.0
+description: >+
+  All facility lights disabled. All SCPs will be SCP939. Everyone will spawn with a Flashlight
+

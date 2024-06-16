@@ -1,0 +1,128 @@
+# Note: Many of these messages will only be shown when the relevant config is applied.
+
+
+# ====================== [Failed Strangle Messages] ======================
+# [Innocent Player]
+# The message showed when a player tries to strangle an innocent player with an empty hand.
+cannot_strangle_innocent_player: Cannot strangle innocent players. They must have a weapon or candy.
+# 
+
+# [Empty Hand]
+# The message showed when a player tries to strangle an innocent player with an empty hand.
+cannot_strangle_innocent_player_empty_hand: Innocent players must have an empty hand to be strangled.
+# The message showed when a player tries to strangle another player with an empty hand.
+cannot_strangle_player_empty_hand: Players must have an empty hand to be strangled.
+# 
+
+# [Tutorial Strangling]
+# The message showed when a player tries to strangle a tutorial, and tutorial strangling is disabled.
+cannot_strangle_tutorials: Cannot strangle tutorials.
+# 
+
+
+# ====================== [Fake Item Usage] ======================
+# [Fake Firing]
+# The message to show a player when they select a weapon that can be faked.
+fake_firing_inform: You can fake shoot weapons by pressing [T].
+# 
+
+# [Fake Usables]
+# The message to show a player when they select a usable item that can be faked.
+fake_usable_inform: You can fake use items by right clicking with your mouse
+# 
+
+
+# ====================== [Infinite Disguises] ======================
+# The message to show a player when they equip a disguise, and infinite disguises are enabled.
+# '{role}' will be replaces with the role the selected.
+ınfinite_disguises_enabled: >-
+  Infinite disguises are enabled. A cooldown will not be shown.
+
+  Current Disguise: {role}
+# 
+
+
+# ====================== [Player Preference Command] ======================
+# This message will be added on to the response whenever a player incorrectly uses the player preference command.
+player_preference_usage: >2-
+
+  Command Usage: 
+
+  .3114preference [Scp 3114 Preference (0 - 10)]. Ie: .3114preference 8
+# 
+
+# [DNT Opt In]
+# The message showed when a player tries to use the preference command, but has DNT enabled.
+# If AllowExplicitDNTOptIn is not enabled it will show the PlayerPreferenceDNTDisabled translation instead.
+# '{pref}' will be replaced with the default player preference, or the player's current preference (if already opted in)
+player_preference_cmd_dnt_opt_in_message: >-
+  You have Do-Not-Track On! You can still opt into this feature! If not, the default preference is {pref}.
+
+  - When opting in, your userid will be secured in a unreversible manner (hashing).
+
+  - This means server staff and administration won't be able to track your user id.
+
+
+  - It is still possible to find your preference, if they already know your user id.
+
+
+  - The ONLY DATA STORED includes:
+
+  - UserId
+
+  - Scp 3114 Preference
+
+
+  Type ".3114preference [Scp 3114 Preference(0-10)] DNTCONFIRM" to confirm this message and opt in.
+# 
+
+# [Success Messages]
+# The result for the preference command when the player doesnt specify a new preference. 
+# '{pref}' will be replaced with their prior preference.
+player_preference_current_preference: >-
+  Current preference level: {pref}. 
+
+  To set a new preference, please specify the new preference level.
+# The result for the preference command when the new preference was successfully set. 
+# '{newPref}' will be replaced with the new preference.
+player_preference_success: Successfully set your 3114 preference to {newPref}
+# 
+
+# [Error Messages] 
+# This message will be shown when an error occurs while using the player preference command.
+player_preference_error_message: An error has occured and we could not set your player preference. (You must be a player to use this command).
+# The result for the preference command when the new preference cannot be determined. 
+# '{arg}' will be replaced with the failed input they tried to select.
+player_preference_couldnt_determine_new_preference: Could not determine the desired preference from "{arg}". Ensure it is a number with no decimals.
+# The message showed when a player with DNT tries to use the preference command but AllowExplicitDNTOptIn is disabled.
+player_preference_dnt_disabled: You have DNT on! Players with DNT cannot use this feature! Consider turning off DNT to use this feature.
+# 
+
+
+# ====================== [Lists] ======================
+# [Roles Names / Colors]
+# A list of roles, and their color / names. This is used to show a player what role they are disguised at, if infinite disguise is enabled
+role_names:
+  Scp079: <color=#ff0000>Scp 079</color>
+  Scp049: <color=#ff0000>Scp 049</color>
+  Scp0492: <color=#ff0000>Scp 049-2</color>
+  Scp096: <color=#ff0000>Scp 096</color>
+  Scp173: <color=#ff0000>Scp 173</color>
+  Scp106: <color=#ff0000>Scp 106</color>
+  Scp939: <color=#ff0000>Scp 939</color>
+  Scp3114: <color=#ff0000>Scp 3114</color>
+  ChaosMarauder: <color=#008f1c>Chaos Marauder</color>
+  ChaosRepressor: <color=#008f1c>Chaos Repressor</color>
+  ChaosConscript: <color=#008f1c>Chaos Conscript</color>
+  ChaosRifleman: <color=#008f1c>Chaos Rifleman</color>
+  NtfCaptain: <color=#003dca>Ntf Captain</color>
+  NtfSpecialist: <color=#0096ff>Ntf Specialist</color>
+  NtfSergeant: <color=#0096ff>Ntf Sergeant</color>
+  NtfPrivate: <color=#70c3ff>Ntf Private</color>
+  FacilityGuard: <color=#556278>Facility Guard</color>
+  Scientist: <color=#ffff7c>Scientist</color>
+  ClassD: <color=#ff8000>ClassD</color>
+  Spectator: <color=#ffffff>Spectator</color>
+  Overwatch: <color=#00ffff>Overwatch</color>
+  Filmmaker: <color=#010101>Filmmaker</color>
+  Tutorial: <color=#ff00b0>Tutorial</color>

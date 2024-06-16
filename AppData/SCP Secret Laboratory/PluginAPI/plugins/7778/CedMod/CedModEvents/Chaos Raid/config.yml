@@ -1,0 +1,4 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >
+  Oyuncuların yarısı CHAOS, geri kalanı NTF olarak ortaya çıkar. CHAOS tesisteki tüm eşyaları çalmalı, NTF ise onları durdurmalıdır. CHAOS, SCP'lerin ve Class-D'nin dışarı çıkmasına izin verebilir. CHAOS başarılı bir şekilde eşya çaldığında ödül eşyaları alır. CHAOS tüm eşyaları çalarsa kazanırken, NTF tüm ortaya çıkma dalgalarından kurtulur ve tüm CHAOS, SCP ve Class-D'leri öldürürse kazanır. Eğer Nuke patlarsa, kazanan kimin çalınan/korunan eşyada önde olduğuna göre belirlenir.

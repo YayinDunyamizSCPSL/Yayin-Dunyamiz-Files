@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  Half the players spawn as CHAOS the rest as NTF. CHAOS must steal all the items in the facility while NTF must stop them. The CHAOS can let SCPs and Class-D out. CHAOS receive reward items on successfully stealing items. CHAOS win if they steal all the items while NTF win if they survive all the spawn waves and kill all the CHAOS, SCPs and Class-Ds. If the Nuke goes off the winner is decided by who was in the lead stolen/protected
+

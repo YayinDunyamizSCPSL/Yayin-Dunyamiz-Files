@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+description: >+
+  Humans Vs SCPs. All human teams are allied to defeat the SCPs. SCPs gain a speed boost equivilant to a cola, +1000 health and +1000 sheild (at 20% health)
+

@@ -1,0 +1,31 @@
+# Enable/Disable AutoEvent.
+is_enabled: true
+# Enable/Disable Debug.
+debug: false
+# Enables / Disables Auto-Logging to a debug output file. Enabled by default on debug releases.
+auto_log_debug: false
+# The global volume of plugins (0 - 200, 100 is normal)
+volume: 500
+# Roles that should be ignored during events.
+ignored_roles:
+- Tutorial
+- Overwatch
+- Filmmaker
+# The players will be set once an event is done. **DO NOT USE A ROLE THAT IS ALSO IN IgnoredRoles**
+lobby_role: ClassD
+# If set to true, the server will do a restart 10 seconds after an event is done. The `ev norestart` will disable this.
+restart_after_round_finish: false
+# The message that will be displayed when the server restarts.
+server_restart_message: 'The server is restarting!'
+# Where the configs directory is located. By default it is located in the AutoEvent folder.
+event_configs_directory_path: 'C:\Users\Administrator\AppData\Roaming\/EXILED\Configs/AutoEvent/Configs'
+# Where the external events directory is located. By default it is located in the AutoEvent folder.
+external_events_directory_path: 'C:\Users\Administrator\AppData\Roaming\/EXILED\Configs/AutoEvent/Events'
+# Where the schematics directory is located. By default it is located in the AutoEvent folder.
+schematics_directory_path: 'C:\Users\Administrator\AppData\Roaming\/EXILED\Configs/AutoEvent/Schematics'
+# Where the music directory is located. By default it is located in the AutoEvent folder.
+music_directory_path: 'C:\Users\Administrator\AppData\Roaming\/EXILED\Configs/AutoEvent/Music'
+# Is it necessary to leave a stupid text when starting the server?
+is_startup_text: true
+# It is used for automatic downloading of translations. [Default: EN]
+language: 'EN'

@@ -1,0 +1,50 @@
+{
+  "628352": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  },
+  "578560": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  },
+  "585528": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  },
+  "598300": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  },
+  "607120": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  },
+  "568270": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  },
+  "614550": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  },
+  "623292": {
+    "IsKinematic": false,
+    "UseGravity": true,
+    "Constraints": 126,
+    "Mass": 1.0
+  }
+}

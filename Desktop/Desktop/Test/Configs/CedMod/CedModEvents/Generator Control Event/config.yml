@@ -1,0 +1,217 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+wave_count: 5
+wave_period: 2
+enable_scp_team: true
+stagger_waves: true
+description: >+
+  CHAOS, NTF and SCPs must each turn on the genrators around the facility and defend them from opposing factions. The Room will glow the color of which ever faction holds the current generator. CHAOS teaming with the SCPs is not allowed. All zones except heavy are locked down. NTF and CHAOS get to respawn. After all respawns the team with the most generators on wins!
+
+min_generators: 5
+max_generators: 5
+one_per_room: true
+no_end_rooms: false
+activation_time: 60
+cooldown_time: 20
+mtf_color:
+  red: 0.25
+  green: 0.5
+  blue: 1.25
+chaos_color:
+  red: 0.300000012
+  green: 0.75
+  blue: 0.300000012
+scp_color:
+  red: 1
+  green: 0.25
+  blue: 0.25
+max_pickups: 200
+max_ragdolls: 30
+use_custom_roles: false
+# used in the weights calculations. higher values smooth out fluctuations in the currect score more
+moving_average_score_window_size: 4
+custom_roles:
+- name: Scavenger
+  description: ''
+  mtf_weight: 10
+  chaos_weight: 0
+  scp_weight: 0
+  faction: FoundationStaff
+  inventory: []
+- name: Guard
+  description: ''
+  mtf_weight: 6
+  chaos_weight: 2
+  scp_weight: 1
+  faction: FoundationStaff
+  inventory: []
+- name: Private
+  description: ''
+  mtf_weight: 2
+  chaos_weight: 6
+  scp_weight: 2
+  faction: FoundationStaff
+  inventory: []
+- name: Sergeant
+  description: ''
+  mtf_weight: 2
+  chaos_weight: 10
+  scp_weight: 2
+  faction: FoundationStaff
+  inventory: []
+- name: Cleanup Crew
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 0
+  scp_weight: 3
+  faction: FoundationStaff
+  inventory: []
+- name: Security
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 0
+  scp_weight: 3
+  faction: FoundationStaff
+  inventory: []
+- name: Exterminator
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 0
+  scp_weight: 3
+  faction: FoundationStaff
+  inventory: []
+- name: Recontainer
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 1
+  scp_weight: 3
+  faction: FoundationStaff
+  inventory: []
+- name: Obliterator
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 2
+  scp_weight: 5
+  faction: FoundationStaff
+  inventory: []
+- name: Scavenger
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 10
+  scp_weight: 0
+  faction: FoundationEnemy
+  inventory: []
+- name: Guard
+  description: ''
+  mtf_weight: 2
+  chaos_weight: 6
+  scp_weight: 1
+  faction: FoundationEnemy
+  inventory: []
+- name: Private
+  description: ''
+  mtf_weight: 6
+  chaos_weight: 2
+  scp_weight: 2
+  faction: FoundationEnemy
+  inventory: []
+- name: Sergeant
+  description: ''
+  mtf_weight: 10
+  chaos_weight: 2
+  scp_weight: 2
+  faction: FoundationEnemy
+  inventory: []
+- name: Cleanup Crew
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 0
+  scp_weight: 3
+  faction: FoundationEnemy
+  inventory: []
+- name: Security
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 0
+  scp_weight: 4
+  faction: FoundationEnemy
+  inventory: []
+- name: Exterminator
+  description: ''
+  mtf_weight: 0
+  chaos_weight: 0
+  scp_weight: 4
+  faction: FoundationEnemy
+  inventory: []
+- name: Recontainer
+  description: ''
+  mtf_weight: 1
+  chaos_weight: 0
+  scp_weight: 4
+  faction: FoundationEnemy
+  inventory: []
+- name: Obliterator
+  description: ''
+  mtf_weight: 2
+  chaos_weight: 0
+  scp_weight: 5
+  faction: FoundationEnemy
+  inventory: []
+# [AUTO GENERATED] all item types to use for their inventory
+all_item_types:
+- KeycardJanitor
+- KeycardScientist
+- KeycardResearchCoordinator
+- KeycardZoneManager
+- KeycardGuard
+- KeycardMTFPrivate
+- KeycardContainmentEngineer
+- KeycardMTFOperative
+- KeycardMTFCaptain
+- KeycardFacilityManager
+- KeycardChaosInsurgency
+- KeycardO5
+- Radio
+- GunCOM15
+- Medkit
+- Flashlight
+- MicroHID
+- SCP500
+- SCP207
+- Ammo12gauge
+- GunE11SR
+- GunCrossvec
+- Ammo556x45
+- GunFSP9
+- GunLogicer
+- GrenadeHE
+- GrenadeFlash
+- Ammo44cal
+- Ammo762x39
+- Ammo9x19
+- GunCOM18
+- SCP018
+- SCP268
+- Adrenaline
+- Painkillers
+- Coin
+- ArmorLight
+- ArmorCombat
+- ArmorHeavy
+- GunRevolver
+- GunAK
+- GunShotgun
+- SCP330
+- SCP2176
+- SCP244a
+- SCP244b
+- SCP1853
+- ParticleDisruptor
+- GunCom45
+- SCP1576
+- Jailbird
+- AntiSCP207
+- GunFRMG0
+- GunA7
+- Lantern
+- None

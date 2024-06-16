@@ -1,0 +1,7 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+description: >
+  Rastgele bir oyuncu tesis yöneticisidir. Bir tabanca, savaş zırhı, bir tesis yöneticisi kartı ve SCP 268 ile bir Bilim İnsanı olarak ortaya çıkacaklar. Belirli sayıda NTF özel korumaları olacaktır (Yönetici ve korumalara %75 hasar azaltma verilecektir). Tesis yöneticisinin hedefi, bombayı çalıştırmak için ışık muhafazasından yüzeye kadar çıkmaktır. Nükleer bombayı çalıştırmak için jeneratörlerin tamamlanması gerekir. Site yöneticisi ölmeden önce nükleer bomba patlarsa, Site yöneticisi ve muhafızlar kazanır. Kaos ortaya çıkacaktır ve amaçları nükleer bomba patlamadan önce Site yöneticisini öldürmektir.
+# Damage reduction as a percentage
+damage_reduction: 70
+player_to_guard_ratio: 3.5

@@ -1,0 +1,80 @@
+{
+  "RootObjectId": 580136,
+  "Blocks": [
+    {
+      "Name": "Sphere",
+      "ObjectId": 615266,
+      "ParentId": 580136,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": -0.2,
+        "y": -0.15,
+        "z": -0.15
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "E2FF00FF"
+      }
+    },
+    {
+      "Name": "Sphere (1)",
+      "ObjectId": 626364,
+      "ParentId": 580136,
+      "Position": {
+        "x": 0.0765,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": -0.07,
+        "y": -0.07,
+        "z": -0.07
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "E2FF00FF"
+      }
+    },
+    {
+      "Name": "Sphere (2)",
+      "ObjectId": 590236,
+      "ParentId": 580136,
+      "Position": {
+        "x": -0.0653,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": -0.1,
+        "y": -0.07,
+        "z": -0.07
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "E2FF00FF"
+      }
+    }
+  ]
+}

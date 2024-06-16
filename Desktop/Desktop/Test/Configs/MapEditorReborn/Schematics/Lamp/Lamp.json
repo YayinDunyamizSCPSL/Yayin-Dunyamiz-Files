@@ -1,0 +1,1742 @@
+{
+  "RootObjectId": -236044,
+  "Blocks": [
+    {
+      "Name": "do not touch",
+      "ObjectId": -236050,
+      "ParentId": -236044,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "BlockType": 0
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236054,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": -0.08442998,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 45.0000038,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2464542,
+        "y": 0.0250000022,
+        "z": 0.0249999985
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236066,
+      "ParentId": -236050,
+      "Position": {
+        "x": 8.742278E-12,
+        "y": -0.0878000259,
+        "z": 0.0001
+      },
+      "Rotation": {
+        "x": 30.0000076,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.246454254,
+        "y": 0.025,
+        "z": 0.0142
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236078,
+      "ParentId": -236050,
+      "Position": {
+        "x": -8.742278E-12,
+        "y": -0.0878000259,
+        "z": -0.0001
+      },
+      "Rotation": {
+        "x": 330.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2464542,
+        "y": 0.025000006,
+        "z": 0.0141999992
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236090,
+      "ParentId": -236050,
+      "Position": {
+        "x": -6.906399E-10,
+        "y": -0.07789993,
+        "z": -0.0079
+      },
+      "Rotation": {
+        "x": 59.67001,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.246454254,
+        "y": 0.025000006,
+        "z": 0.0251000039
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236102,
+      "ParentId": -236050,
+      "Position": {
+        "x": 6.906399E-10,
+        "y": -0.07789993,
+        "z": 0.0079
+      },
+      "Rotation": {
+        "x": 300.329956,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.2464542,
+        "y": 0.0249999948,
+        "z": 0.0250999983
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236114,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.31,
+        "y": 0.013,
+        "z": 0.18
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236126,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": -0.0334999561,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.29,
+        "y": 0.085,
+        "z": 0.16
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236138,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": -0.08739996,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.0199999865,
+        "y": 0.95,
+        "z": 0.019999994
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236150,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.961662,
+        "y": -0.08739996,
+        "z": 8.407116E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.0325,
+        "y": 0.0257000122,
+        "z": 0.03249999
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236162,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.961662,
+        "y": -0.08739996,
+        "z": -8.407116E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.0325,
+        "y": 0.0257000122,
+        "z": 0.03249999
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236174,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.9655,
+        "y": -0.112100005,
+        "z": -8.440669E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 30.0000076
+      },
+      "Scale": {
+        "x": 0.015,
+        "y": 0.05,
+        "z": 0.0094
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236186,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.9666,
+        "y": -0.112100005,
+        "z": -0.0007800845
+      },
+      "Rotation": {
+        "x": 5.00000334,
+        "y": 0.0,
+        "z": 27.5
+      },
+      "Scale": {
+        "x": 0.019999994,
+        "y": 0.05499999,
+        "z": 0.009400002
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236198,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.9666,
+        "y": -0.112100005,
+        "z": 0.0007799155
+      },
+      "Rotation": {
+        "x": 354.999969,
+        "y": 0.0,
+        "z": 27.5
+      },
+      "Scale": {
+        "x": 0.0199999977,
+        "y": 0.05500001,
+        "z": 0.009399998
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236210,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.9669,
+        "y": -0.112100005,
+        "z": -8.45290842E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 27.4999981
+      },
+      "Scale": {
+        "x": 0.0199999921,
+        "y": 0.055,
+        "z": 0.009499998
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236222,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.9655,
+        "y": -0.112100005,
+        "z": 8.440669E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 30.0000076
+      },
+      "Scale": {
+        "x": 0.015,
+        "y": 0.05,
+        "z": 0.0094
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236234,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.9666,
+        "y": -0.112100005,
+        "z": 0.0007800845
+      },
+      "Rotation": {
+        "x": 5.000003,
+        "y": 180.0,
+        "z": 27.5
+      },
+      "Scale": {
+        "x": 0.0200000014,
+        "y": 0.0549999848,
+        "z": 0.009400004
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236246,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.9666,
+        "y": -0.112100005,
+        "z": -0.0007799155
+      },
+      "Rotation": {
+        "x": 354.999969,
+        "y": 180.0,
+        "z": 27.5
+      },
+      "Scale": {
+        "x": 0.0200000051,
+        "y": 0.05500001,
+        "z": 0.0094
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236258,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.9669,
+        "y": -0.112100005,
+        "z": 8.45290842E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 27.4999981
+      },
+      "Scale": {
+        "x": 0.0200000033,
+        "y": 0.055,
+        "z": 0.0095
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236270,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": -0.175400019,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.0635,
+        "y": 1.0,
+        "z": 0.06349999
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236282,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.97858,
+        "y": -0.175400019,
+        "z": 8.55501838E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.09400007,
+        "y": 0.0280000083,
+        "z": 0.0939999744
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236294,
+      "ParentId": -236050,
+      "Position": {
+        "x": -1.0037,
+        "y": -0.175400019,
+        "z": 8.7746244E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.09400008,
+        "y": 0.0150000034,
+        "z": 0.0939999744
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236306,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.97858,
+        "y": -0.175400019,
+        "z": -8.55501838E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.09400008,
+        "y": 0.0280000083,
+        "z": 0.09400008
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236318,
+      "ParentId": -236050,
+      "Position": {
+        "x": 1.0037,
+        "y": -0.175400019,
+        "z": -8.7746244E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.0940000862,
+        "y": 0.0150000034,
+        "z": 0.09400008
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 1,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236330,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.964,
+        "y": -0.227299929,
+        "z": 8.42755554E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.011344,
+        "y": 0.02563,
+        "z": 0.01865
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236342,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.964,
+        "y": -0.22296,
+        "z": 0.008920084
+      },
+      "Rotation": {
+        "x": 31.6549969,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.011343997,
+        "y": 0.0287599955,
+        "z": 0.0186999943
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236354,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.964,
+        "y": -0.22296,
+        "z": -0.008919916
+      },
+      "Rotation": {
+        "x": 328.345,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.011343997,
+        "y": 0.0287599955,
+        "z": 0.0186999943
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236366,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.923999965,
+        "y": -0.230799913,
+        "z": 8.077864E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0217,
+        "y": 0.0065,
+        "z": 0.267
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "484848FF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236378,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.923999965,
+        "y": -0.221549988,
+        "z": 0.131370068
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0217,
+        "y": 0.025,
+        "z": 0.0065
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "484848FF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236390,
+      "ParentId": -236050,
+      "Position": {
+        "x": -0.923999965,
+        "y": -0.221549988,
+        "z": -0.131369919
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0217,
+        "y": 0.025,
+        "z": 0.0065
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "484848FF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236402,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": -0.232159972,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 90.0
+      },
+      "Scale": {
+        "x": 0.0109999981,
+        "y": 0.96,
+        "z": 0.0109999971
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236414,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.964,
+        "y": -0.227299929,
+        "z": -8.42755554E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.011344,
+        "y": 0.02563,
+        "z": 0.01865
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236426,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.964,
+        "y": -0.22296,
+        "z": -0.008920084
+      },
+      "Rotation": {
+        "x": 31.6549969,
+        "y": 180.0,
+        "z": 1.19566425E-13
+      },
+      "Scale": {
+        "x": 0.0113440026,
+        "y": 0.0287599936,
+        "z": 0.0187000055
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236438,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.964,
+        "y": -0.22296,
+        "z": 0.008919916
+      },
+      "Rotation": {
+        "x": 328.345,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0113440026,
+        "y": 0.0287599936,
+        "z": 0.0187000055
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236450,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.923999965,
+        "y": -0.230799913,
+        "z": -8.077864E-08
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0217,
+        "y": 0.0065,
+        "z": 0.267
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "484848FF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236462,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.923999965,
+        "y": -0.221549988,
+        "z": -0.131370068
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0217,
+        "y": 0.025,
+        "z": 0.0065
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "484848FF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236474,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.923999965,
+        "y": -0.221549988,
+        "z": 0.131369919
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 180.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.0217,
+        "y": 0.025,
+        "z": 0.0065
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "484848FF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236486,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": -0.114186049,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.90103,
+        "y": 0.009,
+        "z": 0.133
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236498,
+      "ParentId": -236050,
+      "Position": {
+        "x": 8.160916E-09,
+        "y": -0.1652,
+        "z": 0.09335
+      },
+      "Rotation": {
+        "x": 60.0000038,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.90103,
+        "y": 0.009,
+        "z": 0.123
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "5-1",
+      "ObjectId": -236510,
+      "ParentId": -236050,
+      "Position": {
+        "x": -8.160916E-09,
+        "y": -0.1652,
+        "z": -0.09335
+      },
+      "Rotation": {
+        "x": 300.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 1.90103,
+        "y": 0.009,
+        "z": 0.123
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 3,
+        "Color": "6A6A6AFF"
+      }
+    },
+    {
+      "Name": "DecorativeLight",
+      "ObjectId": -236522,
+      "ParentId": -236050,
+      "Position": {
+        "x": 0.0,
+        "y": -0.25,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "BlockType": 0
+    },
+    {
+      "Name": "DecorativeLight",
+      "ObjectId": -236526,
+      "ParentId": -236522,
+      "Position": {
+        "x": -0.15,
+        "y": 0.024,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 10.0,
+        "Range": 0.5,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "DecorativeLight",
+      "ObjectId": -236532,
+      "ParentId": -236522,
+      "Position": {
+        "x": -0.45,
+        "y": 0.024,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 10.0,
+        "Range": 0.5,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "DecorativeLight",
+      "ObjectId": -236538,
+      "ParentId": -236522,
+      "Position": {
+        "x": -0.75,
+        "y": 0.024,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 10.0,
+        "Range": 0.5,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "DecorativeLight",
+      "ObjectId": -236544,
+      "ParentId": -236522,
+      "Position": {
+        "x": 0.15,
+        "y": 0.024,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 10.0,
+        "Range": 0.5,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "DecorativeLight",
+      "ObjectId": -236550,
+      "ParentId": -236522,
+      "Position": {
+        "x": 0.45,
+        "y": 0.024,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 10.0,
+        "Range": 0.5,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "DecorativeLight",
+      "ObjectId": -236556,
+      "ParentId": -236522,
+      "Position": {
+        "x": 0.75,
+        "y": 0.024,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 10.0,
+        "Range": 0.5,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "can change",
+      "ObjectId": -236562,
+      "ParentId": -236044,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "BlockType": 0
+    },
+    {
+      "Name": "main light ",
+      "ObjectId": -236566,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.0,
+        "y": -1.13,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (1)",
+      "ObjectId": -236628,
+      "ParentId": -236562,
+      "Position": {
+        "x": -1.521,
+        "y": -2.709,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (2)",
+      "ObjectId": -236642,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.706,
+        "y": -2.667,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (3)",
+      "ObjectId": -236728,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.0,
+        "y": -1.13,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (4)",
+      "ObjectId": -236722,
+      "ParentId": -236562,
+      "Position": {
+        "x": -1.521,
+        "y": -2.709,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (5)",
+      "ObjectId": -236718,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.706,
+        "y": -2.667,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (6)",
+      "ObjectId": -236802,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.0,
+        "y": -1.13,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (7)",
+      "ObjectId": -236796,
+      "ParentId": -236562,
+      "Position": {
+        "x": -1.521,
+        "y": -2.709,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (8)",
+      "ObjectId": -236792,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.706,
+        "y": -2.667,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (9)",
+      "ObjectId": -236780,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.0,
+        "y": -1.13,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (10)",
+      "ObjectId": -236786,
+      "ParentId": -236562,
+      "Position": {
+        "x": -1.521,
+        "y": -2.709,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (11)",
+      "ObjectId": -236790,
+      "ParentId": -236562,
+      "Position": {
+        "x": 0.706,
+        "y": -2.667,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (12)",
+      "ObjectId": -236942,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.261,
+        "y": -1.13,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (13)",
+      "ObjectId": -236936,
+      "ParentId": -236562,
+      "Position": {
+        "x": 3.74,
+        "y": -2.709,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (14)",
+      "ObjectId": -236932,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.967,
+        "y": -2.667,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (15)",
+      "ObjectId": -236920,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.261,
+        "y": -1.13,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (16)",
+      "ObjectId": -236926,
+      "ParentId": -236562,
+      "Position": {
+        "x": 3.74000025,
+        "y": -2.709,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (17)",
+      "ObjectId": -236930,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.967,
+        "y": -2.667,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (18)",
+      "ObjectId": -236896,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.261,
+        "y": -1.13,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (19)",
+      "ObjectId": -236902,
+      "ParentId": -236562,
+      "Position": {
+        "x": 3.74000025,
+        "y": -2.709,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (20)",
+      "ObjectId": -236906,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.967,
+        "y": -2.667,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (21)",
+      "ObjectId": -236918,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.261,
+        "y": -1.13,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (22)",
+      "ObjectId": -236912,
+      "ParentId": -236562,
+      "Position": {
+        "x": 3.74000025,
+        "y": -2.709,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (23)",
+      "ObjectId": -236908,
+      "ParentId": -236562,
+      "Position": {
+        "x": 5.967,
+        "y": -2.667,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (24)",
+      "ObjectId": -237022,
+      "ParentId": -236562,
+      "Position": {
+        "x": -4.38,
+        "y": -1.13,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (25)",
+      "ObjectId": -237016,
+      "ParentId": -236562,
+      "Position": {
+        "x": -5.901,
+        "y": -2.709,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (26)",
+      "ObjectId": -237012,
+      "ParentId": -236562,
+      "Position": {
+        "x": -3.67400026,
+        "y": -2.667,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (27)",
+      "ObjectId": -237000,
+      "ParentId": -236562,
+      "Position": {
+        "x": -4.38,
+        "y": -1.13,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (28)",
+      "ObjectId": -237006,
+      "ParentId": -236562,
+      "Position": {
+        "x": -5.901,
+        "y": -2.709,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (29)",
+      "ObjectId": -237010,
+      "ParentId": -236562,
+      "Position": {
+        "x": -3.67400026,
+        "y": -2.667,
+        "z": 2.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (30)",
+      "ObjectId": -236976,
+      "ParentId": -236562,
+      "Position": {
+        "x": -4.38,
+        "y": -1.13,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (31)",
+      "ObjectId": -236982,
+      "ParentId": -236562,
+      "Position": {
+        "x": -5.901,
+        "y": -2.709,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (32)",
+      "ObjectId": -236986,
+      "ParentId": -236562,
+      "Position": {
+        "x": -3.67400026,
+        "y": -2.667,
+        "z": -4.49
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (33)",
+      "ObjectId": -236998,
+      "ParentId": -236562,
+      "Position": {
+        "x": -4.38,
+        "y": -1.13,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (34)",
+      "ObjectId": -236992,
+      "ParentId": -236562,
+      "Position": {
+        "x": -5.901,
+        "y": -2.709,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "main light  (35)",
+      "ObjectId": -236988,
+      "ParentId": -236562,
+      "Position": {
+        "x": -3.67400026,
+        "y": -2.667,
+        "z": -1.99999976
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFE3FF",
+        "Intensity": 2.0,
+        "Range": 25.0,
+        "Shadows": false
+      }
+    }
+  ]
+}

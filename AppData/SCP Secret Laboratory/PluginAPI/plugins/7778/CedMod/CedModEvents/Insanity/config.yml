@@ -1,0 +1,5 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+allow_moving: true
+cooldown: 30
+ıtem_pd_delay: 60

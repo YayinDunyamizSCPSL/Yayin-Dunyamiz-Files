@@ -1,0 +1,7 @@
+# Is the plugin enabled?
+s_enabled: true
+# Show debug messages in the server console?
+debug: false
+# String displayed before the suggestions
+unknown_command_reply: |
+  Maybe you meant:

@@ -1,0 +1,207 @@
+# Whether the default player spawnpoints should be removed. Keep in mind, that given role spawnpoint will be removed only if there is at least one custom spawn point of that type.
+remove_default_spawn_points: false
+# List of possible names for ragdolls spawned by RagdollSpawnPoints.
+ragdoll_role_names:
+  ClassD:
+  - 'D-9341'
+vanilla_doors: {}
+vanilla_tesla_properties:
+  ignored_roles: []
+  ignored_items: []
+  inventory_item: true
+  damage_multiplier: 1
+doors:
+- door_type: HeavyContainmentDoor
+  is_open: false
+  is_locked: true
+  keycard_permissions: None
+  ignored_damage_sources: Weapon
+  door_health: 500000
+  lock_on_event: None
+  position:
+    x: 1.900002
+    y: 0
+    z: 1.674999
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: LczToilets
+work_stations: []
+item_spawn_points: []
+player_spawn_points: []
+ragdoll_spawn_points: []
+shooting_targets: []
+primitives:
+- primitive_type: Cube
+  color: '#FFFFFF55'
+  position:
+    x: -2.645027
+    y: 9.446946
+    z: 0.4674072
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 0.05
+    y: 0.7
+    z: 0.05
+  room_type: LczToilets
+light_sources: []
+room_lights: []
+teleports:
+- target_teleporters:
+  - id: 1
+    chance: 100
+  allowed_roles:
+  - 'Scp0492'
+  - 'Scp049'
+  - 'Scp096'
+  - 'Scp106'
+  - 'Scp173'
+  - 'Scp939'
+  - 'ClassD'
+  - 'Scientist'
+  - 'FacilityGuard'
+  - 'NtfPrivate'
+  - 'NtfSergeant'
+  - 'NtfSpecialist'
+  - 'NtfCaptain'
+  - 'ChaosConscript'
+  - 'ChaosRifleman'
+  - 'ChaosRepressor'
+  - 'ChaosMarauder'
+  - 'Tutorial'
+  cooldown: 2
+  teleport_flags: Player
+  lock_on_event: None
+  teleport_sound_id: -1
+  player_rotation_x: 
+  player_rotation_y: 
+  room_type: LczToilets
+  object_id: 0
+  position:
+    x: 1.941559
+    y: 1.000001
+    z: 1.359612
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+- target_teleporters:
+  - id: 0
+    chance: 100
+  allowed_roles:
+  - 'Scp0492'
+  - 'Scp049'
+  - 'Scp096'
+  - 'Scp106'
+  - 'Scp173'
+  - 'Scp939'
+  - 'ClassD'
+  - 'Scientist'
+  - 'FacilityGuard'
+  - 'NtfPrivate'
+  - 'NtfSergeant'
+  - 'NtfSpecialist'
+  - 'NtfCaptain'
+  - 'ChaosConscript'
+  - 'ChaosRifleman'
+  - 'ChaosRepressor'
+  - 'ChaosMarauder'
+  - 'Tutorial'
+  cooldown: 2
+  teleport_flags: Player
+  lock_on_event: None
+  teleport_sound_id: -1
+  player_rotation_x: 
+  player_rotation_y: 
+  room_type: LczToilets
+  object_id: 1
+  position:
+    x: 0.01828003
+    y: 14.21185
+    z: -10.1787
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+lockers: []
+schematics:
+- schematic_name: 'scp294'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 1.75
+    y: 0
+    z: 1.5
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: HczArmory
+- schematic_name: 'SurfaceDetailed'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 0
+    y: 1000
+    z: 0
+  rotation:
+    x: 0
+    y: 0
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: Surface
+- schematic_name: 'SCP012Room'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 0.05078125
+    y: 13.40859
+    z: -2.941406
+  rotation:
+    x: 0
+    y: 270
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: LczToilets
+- schematic_name: 'SCP012Containment'
+  culling_type: None
+  is_pickable: false
+  position:
+    x: 0.05000305
+    y: 13.3
+    z: -2.93
+  rotation:
+    x: 0
+    y: 270
+    z: 0
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  room_type: LczToilets

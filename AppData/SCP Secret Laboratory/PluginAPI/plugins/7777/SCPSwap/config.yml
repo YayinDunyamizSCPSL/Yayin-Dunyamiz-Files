@@ -1,0 +1,9 @@
+ıs_enabled: true
+debug: false
+# The duration, in seconds, before a swap request gets automatically deleted.
+request_timeout: 20
+# The duration, in seconds, after the round starts that swap requests can be sent.
+swap_timeout: 60
+# A collection of roles blacklisted from being swapped to, and cannot send swap requests.
+blacklisted_scps:
+- Scp0492

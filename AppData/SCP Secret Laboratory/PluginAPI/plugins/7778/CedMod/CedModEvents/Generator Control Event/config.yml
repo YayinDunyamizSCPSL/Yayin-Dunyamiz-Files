@@ -1,0 +1,6 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+wave_count: 5
+wave_period: 2
+description: >
+  CHAOS, NTF ve SCP'lerin her biri tesisin etrafındaki jeneratörleri açmalı ve onları karşıt gruplardan korumalıdır. Oda, mevcut jeneratör hangi fraksiyonun elindeyse o renkte parlayacaktır. CHAOS'un SCP'lerle takım oluşturmasına izin verilmez. Ağır hariç tüm bölgeler kilitlenmiştir. NTF ve CHAOS yeniden doğacak. Tüm yeniden doğuşlardan sonra en çok jeneratöre sahip olan takım kazanır!

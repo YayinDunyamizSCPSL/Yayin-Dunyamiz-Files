@@ -1,0 +1,97 @@
+{
+  "RootObjectId": 637748,
+  "Blocks": [
+    {
+      "Name": "Cylinder",
+      "ObjectId": 592894,
+      "ParentId": 637748,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.1,
+        "y": 0.3,
+        "z": 0.1
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "FF0000FF"
+      }
+    },
+    {
+      "Name": "Cylinder (1)",
+      "ObjectId": 598862,
+      "ParentId": 637748,
+      "Position": {
+        "x": 0.0,
+        "y": 0.394,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.11,
+        "y": 0.1,
+        "z": 0.11
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "70FFFBFF"
+      }
+    },
+    {
+      "Name": "LightSource",
+      "ObjectId": 595346,
+      "ParentId": 637748,
+      "Position": {
+        "x": 0.0,
+        "y": 0.571,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "E95050FF",
+        "Intensity": 1.25,
+        "Range": 10.0,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "Cylinder (2)",
+      "ObjectId": 571286,
+      "ParentId": 637748,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.09,
+        "y": 0.301,
+        "z": 0.09
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "A4A4A4FF"
+      }
+    }
+  ]
+}

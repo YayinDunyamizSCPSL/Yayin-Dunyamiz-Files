@@ -1,0 +1,71 @@
+is_enabled: true
+# Is stamina loss enabled?
+is_stamina_loss_enabled: true
+debug: false
+# Hud position of try command
+try_command_position: 300
+# Hud position of me,do,ooc commands
+other_commands_position: 450
+# Commands cooldown time
+command_cooldown: 5
+# Command Cooldown message. Placeholders: [%time%]
+command_cooldown_msg: 'You need to wait %time% to use command again'
+me_command:
+# Is command enabled?
+  is_enabled: true
+  # Command output name.
+  command_output_name: 'me'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: 'green'
+  # Max length (characters) of the command text
+  max_lenght: 256
+do_command:
+# Is command enabled?
+  is_enabled: true
+  # Command output name.
+  command_output_name: 'do'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: '#fd0000'
+  # Max length (characters) of the command text
+  max_lenght: 256
+ooc_command:
+# Is command enabled?
+  is_enabled: true
+  # Command output name.
+  command_output_name: 'ooc'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: 'purple'
+  # Max length (characters) of the command text
+  max_lenght: 256
+try_command:
+# Is command enabled?
+  is_enabled: true
+  # Command output name.
+  command_output_name: 'try'
+  # Radius in which players can see command.
+  command_radius: 50
+  # Hint duration of command.
+  hint_duration: 5
+  # You can use hex color also.
+  hint_color: 'yellow'
+  # Max length (characters) of the command text
+  max_lenght: 256
+title_command:
+# Is command enabled?
+  is_enabled: true
+  # Max length (characters) of the command text
+  max_lenght: 256
+# Stamina loss on jump
+stamina_jump_loss: 10

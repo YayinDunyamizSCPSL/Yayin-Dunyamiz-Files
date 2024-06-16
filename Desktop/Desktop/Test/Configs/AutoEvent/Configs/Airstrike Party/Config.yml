@@ -1,0 +1,110 @@
+# How many grenades will spawn in the round from 1 - 300. [Default: 20 - 110]
+difficulty_count:
+  # The value at the start of the game.
+  starting_value: 20
+  # The value at the end of the game.
+  ending_value: 110
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# How fast grenades will appear from 0 - 5. [Default: 1 - 0.25]
+difficulty_speed:
+  # The value at the start of the game.
+  starting_value: 3
+  # The value at the end of the game.
+  ending_value: 1
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# How high the grenades should spawn from 0 - 30. [Default: 20 - 5]
+difficulty_height:
+  # The value at the start of the game.
+  starting_value: 20
+  # The value at the end of the game.
+  ending_value: 5
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# How long the grenade fuse is, from when grenades spawn. from 2 - 10. [Default: 10 - 4]
+difficulty_fuse_time:
+  # The value at the start of the game.
+  starting_value: 10
+  # The value at the end of the game.
+  ending_value: 4
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# How large should grenades become from 0.1 to 75. [Default: 4 - 1]
+difficulty_scale:
+  # The value at the start of the game.
+  starting_value: 4
+  # The value at the end of the game.
+  ending_value: 1
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# How far from center should grenades spawn from 1 to 30. [Default: 4 - 25]
+difficulty_spawn_radius:
+  # The value at the start of the game.
+  starting_value: 4
+  # The value at the end of the game.
+  ending_value: 25
+  # The method that the value will be calculated.
+  calculation_method: Linear
+# Should grenades spawn on top of randomly chosen players. This will not apply on the last round.
+target_players: false
+# If true, players will respawn as chaos, and get to lob grenades at people who are still alive.
+respawn_players_with_grenades: false
+# The amount of rounds that this gamemode lasts. The last round is always a super big grenade.
+rounds: 5
+# If enabled the minigame will end when there is only one player left. Otherwise it will end when everyone dies, or the rounds (configurable) are over.
+last_player_alive_wins: true
+# A list of maps that can be used for this event.
+available_maps:
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'DeathParty'
+    # The position to spawn the map.
+    position:
+      x: 10
+      y: 1012
+      z: -40
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+- # The chance of getting this map.
+  chance: 50
+  # The map and information.
+  map:
+    # The name of the map schematic.
+    map_name: 'DeathParty_Xmas2024'
+    # The position to spawn the map.
+    position:
+      x: 10
+      y: 1012
+      z: -40
+    # The rotation of the map.
+    rotation:
+      x: 0
+      y: 0
+      z: 0
+    # The scale of the map.
+    scale:
+      x: 1
+      y: 1
+      z: 1
+# A list of sounds that can be used for this event.
+available_sounds: []
+# Some plugins may override this out of necessity.
+enable_friendly_fire_autoban: Default
+# Some plugins may override this out of necessity.
+enable_friendly_fire: Default
+# Should this plugin output debug logs.
+debug: false
+# DO NOT CHANGE THIS. IT WILL BREAK THINGS. AutoEvent will automatically manage this setting.
+config_version: '1.0.1'

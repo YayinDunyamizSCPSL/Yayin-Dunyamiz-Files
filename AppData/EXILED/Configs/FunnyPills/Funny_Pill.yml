@@ -1,0 +1,57 @@
+s_c_p500:
+- id: 1
+  name: 'Funny Pills'
+  description: 'Do Something Fun When Eaten'
+  weight: 0
+  spawn_properties:
+    limit: 50
+    dynamic_spawn_points:
+    - location: Inside914
+      chance: 50
+    static_spawn_points: []
+    role_spawn_points: []
+  affec_all500s: false
+  effect_chances:
+    StartTheFuckingNuke:
+      minimum_chance: 0
+      maximum_chance: 0
+    ReplaceInventory:
+      minimum_chance: 0
+      maximum_chance: 0
+    AddRandomGoodEffect:
+      minimum_chance: 0
+      maximum_chance: 0
+    AddRandomBadEffect:
+      minimum_chance: 0
+      maximum_chance: 0
+    Die:
+      minimum_chance: 0
+      maximum_chance: 0
+    Add5MoveBoost:
+      minimum_chance: 0
+      maximum_chance: 0
+    OneSpec:
+      minimum_chance: 0
+      maximum_chance: 0
+    AllSpec:
+      minimum_chance: 0
+      maximum_chance: 0
+    BetrayTeam:
+      minimum_chance: 0
+      maximum_chance: 0
+    SizeChange:
+      minimum_chance: 0
+      maximum_chance: 0
+    Kaboom:
+      minimum_chance: 0
+      maximum_chance: 0
+    Blackout:
+      minimum_chance: 0
+      maximum_chance: 0
+  max_player_scale: 10
+  min_player_scale: 5
+  scale:
+    x: 1
+    y: 1
+    z: 1
+  type: None

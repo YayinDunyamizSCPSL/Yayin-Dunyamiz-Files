@@ -1,0 +1,234 @@
+﻿
+############# SCPDiscord configuration file #############
+
+
+# Connection settings, the port cannot be the same as the SCPSL server port.
+bot:
+    ip: "127.0.0.1"
+    port: 8887
+
+settings:
+    # The language is the same as the name of the language file you want to use.
+
+    # Included languages:        Emote versions:
+    # english (default)          english-emote
+    # ukrainian                  ukrainian-emote
+    # russian                    russian-emote
+    # simplified-chinese
+
+    # If you want to override specific messages you can copy them to overrides.yml
+    # and they will automatically replace the corresponding messages from the language selected below
+    language: "english"
+    # Whether or not to show this server's player count in the bot's activity.
+    # Set to false to disable.
+    playercount: true
+    # The message timestamp, see syntax guide here: https://docs.microsoft.com/en-us\previous-versions/dotnet/netframework-3.0/8kb3ddd4(v=vs.85)
+    # Set to "" to disable.
+    timestamp: "HH:mm:ss"
+    # Whether or not the plugin should send more detailed console messages
+    # Set to true to turn on.
+    verbose: false
+    # Whether or not the plugin should send debug information in the console
+    # Set to true to turn on.
+    debug: false
+    # Turns on the config validation which shows the values after they have been read by the plugin so you can see they are correct
+    configvalidation: false
+    # Whether or not to use the rolesync system
+    rolesync: false
+    # Show that this server is using SCPDiscord using invisible text on Kigen's server list (https://kigen.co/scpsl/browser.php?table=y)
+    # This is just used to count how many servers are running the plugin, but you may hide your server by setting this to false:
+    metrics: true
+    # Whether files should be read from the global config directory or the local one (aka the server specific one).
+    useglobaldirectory:
+        language: false
+        rolesync: false
+    # Always replace language files when the plugin starts, use this if you do not edit the language files and want to keep them up to date automatically (does not affect overrides.yml)
+    regeneratelanguagefiles: true
+
+# Sets commands which are run whenever someone with a synced Discord rank joins the server, only the highest one in the list that matches the player is executed
+# Valid variables:
+# steamid
+# userid
+# playerid
+# name
+# ipaddress
+# discorddisplayname
+# discordusername
+# discordusernamewithdiscriminator
+# discordid
+# Turn on debug above to see console feedback when the commands are used
+rolesync:
+
+# Name your channels here, this name is used in the channels section below. The left value is a name of your choice and the right is a channel id you want it to represent.
+channels:
+    - "ServerEvents": "1168547126138126336"
+    - "EnviromentEvents": "1168547177501573150"
+    - "SCPEvents": "1168547245898084424"
+    - "PlayerEvents": "1168547301900439592"
+
+channelsettings:
+    # Removes online players' IPs from discord messages in the following channels
+    # Warning: This only works on online players, so may fail on player disconnect related events
+    # Set to [] to disable
+    filterips: [ "ServerEvents", "EnviromentEvents", "SCPEvents", "PlayerEvents" ]
+    # Replaces online players' SteamIDs with PlayerIDs in discord messages in the following channels
+    # Warning: This only works on online players, so may fail on player disconnect related events
+    # Set to [] to disable
+    filtersteamids: []
+
+# Using the channel aliases above you can direct events to different channels here
+# Set to [] to disable an event.
+messages:
+    # Server events
+    connectedtobot: [ "ServerEvents" ]
+    onroundstart: [ "ServerEvents" ]
+    onconnect: [ "ServerEvents" ]
+    onplayerleave: [ "ServerEvents" ]
+    onroundend: [ "ServerEvents" ]
+    onwaitingforplayers: [ "ServerEvents" ]
+    onroundrestart: [ "ServerEvents" ]
+    onsetservername: []
+    onban:
+        player: [ "ServerEvents" ]
+        server: [ "ServerEvents" ]
+    onbanissued:
+        ip: []
+        userid: [ "ServerEvents" ]
+    onbanupdated:
+        ip: []
+        userid: []
+    onbanrevoked:
+        ip: []
+        userid: [ "ServerEvents" ]
+    onkick:
+        player: [ "ServerEvents" ]
+        server: [ "ServerEvents" ]
+    onplayermuted:
+        player:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+        server:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+    onplayerunmuted:
+        player:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+        server:
+            intercom: [ "ServerEvents" ]
+            standard: [ "ServerEvents" ]
+    oncallcommand:
+        remoteadmin:
+            player: []
+            server: []
+        game:
+            player: []
+            server: []
+        console:
+            player: []
+            server: []
+    onexecutedcommand:
+        remoteadmin:
+            player: [ "ServerEvents" ]
+            server: [ "ServerEvents" ]
+        game:
+            player: []
+            server: []
+        console:
+            player: []
+            server: []
+
+    # Environment events
+    onscp914activate: []
+    onstartcountdown:
+        player:
+            initiated: [ "EnviromentEvents" ]
+            resumed: [ "EnviromentEvents" ]
+        server:
+            initiated: [ "EnviromentEvents" ]
+            resumed: [ "EnviromentEvents" ]
+    onstopcountdown:
+        default: [ "EnviromentEvents" ]
+        noplayer: [ "EnviromentEvents" ]
+    ondetonate: [ "EnviromentEvents" ]
+    ondecontaminate: [ "EnviromentEvents" ]
+    onsummonvehicle:
+        chaos: [ "EnviromentEvents" ]
+        mtf: [ "EnviromentEvents" ]
+    ongeneratorfinish: [ "EnviromentEvents" ]
+    onelevatoruse: [ "EnviromentEvents" ]
+
+    ongeneratorunlock: [ "EnviromentEvents" ]
+    ongeneratoropen: [ "EnviromentEvents" ]
+    ongeneratorclose: [ "EnviromentEvents" ]
+    ongeneratoractivated: [ "EnviromentEvents" ]
+    ongeneratordeactivated: [ "EnviromentEvents" ]
+    onscp914changeknob: []
+    onplayertriggertesla:
+        default: []
+        ignored: []
+    onpocketdimensionexit: [ "EnviromentEvents" ]
+    onpocketdimensionenter: [ "EnviromentEvents" ]
+    ondooraccess:
+        allowed: [ "EnviromentEvents" ]
+        denied: [ "EnviromentEvents" ]
+
+    # SCP Events
+    on079lockdoor: [ "SCPEvents" ]
+    on079elevator:
+        up: [ "SCPEvents" ]
+        down: [ "SCPEvents" ]
+    on079teslagate: [ "SCPEvents" ]
+    on079addexp: [ "SCPEvents" ]
+    on079levelup: [ "SCPEvents" ]
+    on079unlockdoor: [ "SCPEvents" ]
+    on079lockdown: [ "SCPEvents" ]
+    on079cancellockdown: [ "SCPEvents" ]
+    onrecallzombie: [ "SCPEvents" ]
+    onplayerinfected: [ "SCPEvents" ]
+
+    # Player events
+    onplayerhurt:
+        default: []
+        friendlyfire: []
+        noattacker: []
+    onplayerdie:
+        default: [ "PlayerEvents" ]
+        friendlyfire: [ "PlayerEvents" ]
+        nokiller: [ "PlayerEvents" ]
+    onplayerpickupitem: []
+    onplayerpickupammo: []
+    onplayerpickuparmor: []
+    onplayerpickupscp330: []
+    onplayerdropitem: []
+    onplayerdropammo: []
+    onplayerjoin: [ "PlayerEvents" ]
+    onnicknameset: [ "PlayerEvents" ]
+    onsetrole:
+        roundstart: [ "PlayerEvents" ]
+        latejoin: [ "PlayerEvents" ]
+        respawn: [ "PlayerEvents" ]
+        died: []
+        escaped: []
+        revived: [ "PlayerEvents" ]
+        remoteadmin: [ "PlayerEvents" ]
+        left: []
+        other: []
+    onspawn: []
+    onthrowprojectile: [ "PlayerEvents" ]
+    onspawnragdoll: []
+    onitemuse: [ "PlayerEvents" ]
+    onhandcuff:
+        default: [ "PlayerEvents" ]
+        nootherplayer: [ "PlayerEvents" ]
+    onhandcuffremoved:
+        default: [ "PlayerEvents" ]
+        nootherplayer: [ "PlayerEvents" ]
+    onplayerradioswitch: []
+    onreload: []
+    ongrenadeexplosion: [ "PlayerEvents" ]
+    ongrenadehitplayer: [ "PlayerEvents" ]
+    onteamrespawn:
+        mtf: [ "PlayerEvents" ]
+        ci: [ "PlayerEvents" ]
+    onplayerescape: [ "PlayerEvents" ]

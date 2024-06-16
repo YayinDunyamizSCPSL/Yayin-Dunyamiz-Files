@@ -1,0 +1,6 @@
+# Indicates whether the event is enabled or not
+is_enabled: true
+lock_surface: true
+description: >+
+  A Shy Guy spawns in entrance and is triggered by everyone. All other players are Class-D and spawn in their cells. Class-Ds get 6x SCP330, 4x SCP207, medkit, painkillers and a facility manager card. Surface is locked down. The last one alive wins!
+

@@ -1,0 +1,89 @@
+{
+  "RootObjectId": 620870,
+  "Blocks": [
+    {
+      "Name": "Cylinder",
+      "ObjectId": 577208,
+      "ParentId": 620870,
+      "Position": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.4,
+        "y": 0.04,
+        "z": 0.4
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 2,
+        "Color": "898989FF"
+      }
+    },
+    {
+      "Name": "Sphere",
+      "ObjectId": 617424,
+      "ParentId": 620870,
+      "Position": {
+        "x": 0.0,
+        "y": -0.03999996,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Scale": {
+        "x": 0.32,
+        "y": 0.15,
+        "z": 0.32
+      },
+      "BlockType": 1,
+      "Properties": {
+        "PrimitiveType": 0,
+        "Color": "FFFFFFFF"
+      }
+    },
+    {
+      "Name": "LightSource",
+      "ObjectId": 616366,
+      "ParentId": 620870,
+      "Position": {
+        "x": 0.0,
+        "y": -0.425,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFFFFF",
+        "Intensity": 2.0,
+        "Range": 0.5,
+        "Shadows": false
+      }
+    },
+    {
+      "Name": "LightSource (1)",
+      "ObjectId": 586208,
+      "ParentId": 620870,
+      "Position": {
+        "x": 0.0,
+        "y": -2.712,
+        "z": 0.0
+      },
+      "BlockType": 2,
+      "Properties": {
+        "Color": "FFFFFFFF",
+        "Intensity": 2.0,
+        "Range": 8.0,
+        "Shadows": false
+      }
+    }
+  ]
+}

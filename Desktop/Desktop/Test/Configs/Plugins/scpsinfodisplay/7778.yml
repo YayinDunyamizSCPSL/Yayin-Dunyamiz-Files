@@ -1,0 +1,20 @@
+# Is the plugin enabled?
+s_enabled: true
+# Display strings. Format: Role, display string.
+display_strings:
+  Scp049: '<color=#D51D1D>SCP-049 [%healthpercent%% Zombies: %zombies%] %distance%</color>'
+  Scp079: '<color=#D51D1D>SCP-079 [%generators%%engaging%/3] Lvl: %079level% Exp: %079experience% Energy: %079energy%</color>'
+  Scp096: <color=#D51D1D>SCP-096 [%healthpercent%%] %distance%</color>
+  Scp106: '<color=#D51D1D>SCP-106 [%healthpercent%%] Vigor: %106vigor%% %distance%</color>'
+  Scp173: <color=#D51D1D>SCP-173 [%healthpercent%%] %distance%</color>
+  Scp939: <color=#D51D1D>SCP-939 [%healthpercent%%] %distance%</color>
+# Custom roles integrations. Format: SessionVariable that marks that the player belongs to that role, display string.
+custom_roles_ntegrations: {}
+# Display string alignment. Possible values: Left, Center, Right.
+text_alignment: Right
+# Display text position offset.
+text_position_offset: 30
+# The player seeing the list will be highlighted with the special marker to the left. Leave it empty if disabled.
+players_marker: '<color=#D51D1D>You --></color>'
+# Display debug messages in server console?
+debug: false

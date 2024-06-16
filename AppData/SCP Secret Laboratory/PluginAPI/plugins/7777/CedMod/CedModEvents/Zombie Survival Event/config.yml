@@ -1,0 +1,12 @@
+# Indicates whether the event is enabled or not
+ıs_enabled: true
+# scales with the ratio of humans to zombies. this is the value for a 1:1 ratio
+zombie_health: 400
+knock_back_multiple: 2
+speed_ramping_delay: 3
+speed_ramping_rate: 10
+health_ramping_delay: 5
+health_ramping_rate: 100
+description: >+
+  Işık kilitlenir ve tüm oyuncular ışıkta bir zombi ile D Sınıfı olarak ortaya çıkar. Zombiler öldürüldüklerinde oyunculara bulaşır. Silahlar, zombilerin yaşayan insanlara oranına göre geri tepme yapar. Daha az insan daha fazla zombi = daha fazla geri tepme. Ne kadar çok zombi varsa, her birinin sağlığı o kadar az olur. Belirli bir süre sonra zombilerin hızı artmaya başlar (artar) ve daha fazla zaman sonra sağlıkları da artar. Son kalan kazanır!
+
